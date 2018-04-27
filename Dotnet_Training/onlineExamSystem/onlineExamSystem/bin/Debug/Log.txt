@@ -1,0 +1,4313 @@
+
+ 
+DateTime : 2016-12-07 14:29:20,873 
+Thread ID:[5812] 
+Lever : DEBUG 
+Class : Logging 
+Message : System.ServiceModel.FaultException	Entity User not found!	System.Collections.ListDictionaryInternal
+ 
+
+ 
+DateTime : 2016-12-08 09:37:39,255 
+Thread ID:[3400] 
+Lever : DEBUG 
+Class : Logging 
+Message : System.ServiceModel.EndpointNotFoundException	There was no endpoint listening at http://localhost:8888/ that could accept the message. This is often caused by an incorrect address or SOAP action. See InnerException, if present, for more details.	System.Collections.ListDictionaryInternal
+ 
+
+ 
+DateTime : 2016-12-08 11:06:13,171 
+Thread ID:[3684] 
+Lever : DEBUG 
+Class : Logging 
+Message : System.ServiceModel.FaultException	Error occurred when query paper list	System.Collections.ListDictionaryInternal
+ 
+
+ 
+DateTime : 2016-12-08 11:10:58,861 
+Thread ID:[3684] 
+Lever : DEBUG 
+Class : Logging 
+Message : System.ServiceModel.EndpointNotFoundException	There was no endpoint listening at http://localhost:8888/ that could accept the message. This is often caused by an incorrect address or SOAP action. See InnerException, if present, for more details.	System.Collections.ListDictionaryInternal
+ 
+
+ 
+DateTime : 2016-12-08 11:11:30,632 
+Thread ID:[4964] 
+Lever : DEBUG 
+Class : Logging 
+Message : System.ServiceModel.FaultException	No Record!	System.Collections.ListDictionaryInternal
+ 
+
+ 
+DateTime : 2016-12-08 11:11:43,519 
+Thread ID:[4964] 
+Lever : DEBUG 
+Class : Logging 
+Message : System.ServiceModel.FaultException	No Record!	System.Collections.ListDictionaryInternal
+ 
+
+ 
+DateTime : 2016-12-08 11:14:34,370 
+Thread ID:[380] 
+Lever : DEBUG 
+Class : Logging 
+Message : System.ServiceModel.FaultException	No Record On This Condition!	System.Collections.ListDictionaryInternal
+ 
+
+ 
+DateTime : 2016-12-08 11:15:07,578 
+Thread ID:[4356] 
+Lever : DEBUG 
+Class : Logging 
+Message : System.ServiceModel.FaultException	No Record On This Condition!	System.Collections.ListDictionaryInternal
+ 
+
+ 
+DateTime : 2016-12-08 12:14:41,669 
+Thread ID:[3188] 
+Lever : DEBUG 
+Class : Logging 
+Message : System.IndexOutOfRangeException	Index was outside the bounds of the array.	System.Collections.ListDictionaryInternal
+ 
+
+ 
+DateTime : 2016-12-08 12:15:10,691 
+Thread ID:[6080] 
+Lever : DEBUG 
+Class : Logging 
+Message : System.IndexOutOfRangeException	Index was outside the bounds of the array.	System.Collections.ListDictionaryInternal
+ 
+
+ 
+DateTime : 2016-12-08 13:52:10,140 
+Thread ID:[2540] 
+Lever : DEBUG 
+Class : Logging 
+Message : System.ServiceModel.CommunicationException	An error occurred while receiving the HTTP response to http://localhost:8888/. This could be due to the service endpoint binding not using the HTTP protocol. This could also be due to an HTTP request context being aborted by the server (possibly due to the service shutting down). See server logs for more details.	System.Collections.ListDictionaryInternal
+ 
+
+ 
+DateTime : 2016-12-08 13:52:35,413 
+Thread ID:[3996] 
+Lever : DEBUG 
+Class : Logging 
+Message : System.ServiceModel.EndpointNotFoundException	There was no endpoint listening at http://localhost:8888/ that could accept the message. This is often caused by an incorrect address or SOAP action. See InnerException, if present, for more details.	System.Collections.ListDictionaryInternal
+ 
+
+ 
+DateTime : 2016-12-08 13:53:22,351 
+Thread ID:[6092] 
+Lever : DEBUG 
+Class : Logging 
+Message : System.ServiceModel.CommunicationException	An error occurred while receiving the HTTP response to http://localhost:8888/. This could be due to the service endpoint binding not using the HTTP protocol. This could also be due to an HTTP request context being aborted by the server (possibly due to the service shutting down). See server logs for more details.	System.Collections.ListDictionaryInternal
+ 
+
+ 
+DateTime : 2016-12-08 15:11:53,094 
+Thread ID:[5600] 
+Lever : DEBUG 
+Class : Logging 
+Message : System.NullReferenceException	Object reference not set to an instance of an object.	System.Collections.ListDictionaryInternal
+ 
+
+ 
+DateTime : 2016-12-08 15:21:09,759 
+Thread ID:[3676] 
+Lever : DEBUG 
+Class : Logging 
+Message : System.ServiceModel.FaultException	No Record On This Condition!	System.Collections.ListDictionaryInternal
+ 
+
+ 
+DateTime : 2016-12-08 15:33:20,650 
+Thread ID:[5872] 
+Lever : DEBUG 
+Class : Logging 
+Message : System.ServiceModel.FaultException	Entity User not found!	System.Collections.ListDictionaryInternal
+ 
+
+ 
+DateTime : 2016-12-08 15:50:26,041 
+Thread ID:[5184] 
+Lever : DEBUG 
+Class : Logging 
+Message : System.ServiceModel.CommunicationException	An error occurred while receiving the HTTP response to http://localhost:8888/. This could be due to the service endpoint binding not using the HTTP protocol. This could also be due to an HTTP request context being aborted by the server (possibly due to the service shutting down). See server logs for more details.	System.Collections.ListDictionaryInternal
+ 
+
+ 
+DateTime : 2016-12-08 15:52:30,891 
+Thread ID:[4264] 
+Lever : DEBUG 
+Class : Logging 
+Message : System.TimeoutException	The request channel timed out while waiting for a reply after 00:00:59.9843800. Increase the timeout value passed to the call to Request or increase the SendTimeout value on the Binding. The time allotted to this operation may have been a portion of a longer timeout.	System.Collections.ListDictionaryInternal
+ 
+
+ 
+DateTime : 2016-12-08 15:54:44,552 
+Thread ID:[2304] 
+Lever : DEBUG 
+Class : Logging 
+Message : System.ServiceModel.CommunicationException	An error occurred while receiving the HTTP response to http://localhost:8888/. This could be due to the service endpoint binding not using the HTTP protocol. This could also be due to an HTTP request context being aborted by the server (possibly due to the service shutting down). See server logs for more details.	System.Collections.ListDictionaryInternal
+ 
+
+ 
+DateTime : 2016-12-08 15:55:14,433 
+Thread ID:[2932] 
+Lever : DEBUG 
+Class : Logging 
+Message : System.ServiceModel.Dispatcher.NetDispatcherFaultException	The formatter threw an exception while trying to deserialize the message: There was an error while trying to deserialize parameter http://tempuri.org/:FindExamListByConditionsResult. The InnerException message was 'There was an error deserializing the object of type System.Collections.Generic.List`1[[UI.WcfService.ExamList, onlineExamSystem, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]. The value '50/100' cannot be parsed as the type 'Int32'.'.  Please see InnerException for more details.	System.Collections.ListDictionaryInternal
+ 
+
+ 
+DateTime : 2016-12-08 15:57:17,518 
+Thread ID:[2696] 
+Lever : DEBUG 
+Class : Logging 
+Message : System.TimeoutException	The request channel timed out while waiting for a reply after 00:00:59.9843800. Increase the timeout value passed to the call to Request or increase the SendTimeout value on the Binding. The time allotted to this operation may have been a portion of a longer timeout.	System.Collections.ListDictionaryInternal
+ 
+
+ 
+DateTime : 2016-12-08 20:14:48,725 
+Thread ID:[5736] 
+Lever : DEBUG 
+Class : Logging 
+Message : System.TimeoutException	The request channel timed out while waiting for a reply after 00:01:00. Increase the timeout value passed to the call to Request or increase the SendTimeout value on the Binding. The time allotted to this operation may have been a portion of a longer timeout.	System.Collections.ListDictionaryInternal
+ 
+
+ 
+DateTime : 2016-12-08 20:15:31,914 
+Thread ID:[5768] 
+Lever : DEBUG 
+Class : Logging 
+Message : System.ServiceModel.CommunicationException	An error occurred while receiving the HTTP response to http://localhost:8888/. This could be due to the service endpoint binding not using the HTTP protocol. This could also be due to an HTTP request context being aborted by the server (possibly due to the service shutting down). See server logs for more details.	System.Collections.ListDictionaryInternal
+ 
+
+ 
+DateTime : 2016-12-09 15:42:38,741 
+Thread ID:[4596] 
+Lever : DEBUG 
+Class : Logging 
+Message : System.InvalidCastException	Unable to cast object of type 'Microsoft.VisualBasic.PowerPacks.RectangleShape' to type 'Microsoft.VisualBasic.PowerPacks.LineShape'.	System.Collections.ListDictionaryInternal
+ 
+
+ 
+DateTime : 2016-12-09 15:56:01,877 
+Thread ID:[4368] 
+Lever : DEBUG 
+Class : Logging 
+Message : System.ServiceModel.FaultException	No Record On This Condition!	System.Collections.ListDictionaryInternal
+ 
+
+ 
+DateTime : 2016-12-09 15:57:23,470 
+Thread ID:[5468] 
+Lever : DEBUG 
+Class : Logging 
+Message : System.ServiceModel.FaultException	No Record On This Condition!	System.Collections.ListDictionaryInternal
+ 
+
+ 
+DateTime : 2016-12-09 15:57:26,182 
+Thread ID:[5468] 
+Lever : DEBUG 
+Class : Logging 
+Message : System.ServiceModel.FaultException	No Record On This Condition!	System.Collections.ListDictionaryInternal
+ 
+
+ 
+DateTime : 2016-12-09 15:57:31,450 
+Thread ID:[5468] 
+Lever : DEBUG 
+Class : Logging 
+Message : System.ServiceModel.FaultException	No Record On This Condition!	System.Collections.ListDictionaryInternal
+ 
+
+ 
+DateTime : 2016-12-09 19:43:56,513 
+Thread ID:[6040] 
+Lever : DEBUG 
+Class : Logging 
+Message : System.ServiceModel.Security.MessageSecurityException	An unsecured or incorrectly secured fault was received from the other party. See the inner FaultException for the fault code and detail.	System.Collections.ListDictionaryInternal
+ 
+
+ 
+DateTime : 2016-12-09 19:44:02,249 
+Thread ID:[6040] 
+Lever : DEBUG 
+Class : Logging 
+Message : System.ServiceModel.CommunicationObjectFaultedException	The communication object, System.ServiceModel.Channels.ServiceChannel, cannot be used for communication because it is in the Faulted state.	System.Collections.ListDictionaryInternal
+ 
+
+ 
+DateTime : 2016-12-09 19:44:04,244 
+Thread ID:[6040] 
+Lever : DEBUG 
+Class : Logging 
+Message : System.ServiceModel.CommunicationObjectFaultedException	The communication object, System.ServiceModel.Channels.ServiceChannel, cannot be used for communication because it is in the Faulted state.	System.Collections.ListDictionaryInternal
+ 
+
+ 
+DateTime : 2016-12-09 19:44:06,005 
+Thread ID:[6040] 
+Lever : DEBUG 
+Class : Logging 
+Message : System.ServiceModel.CommunicationObjectFaultedException	The communication object, System.ServiceModel.Channels.ServiceChannel, cannot be used for communication because it is in the Faulted state.	System.Collections.ListDictionaryInternal
+ 
+
+ 
+DateTime : 2016-12-09 19:44:06,893 
+Thread ID:[6040] 
+Lever : DEBUG 
+Class : Logging 
+Message : System.ServiceModel.CommunicationObjectFaultedException	The communication object, System.ServiceModel.Channels.ServiceChannel, cannot be used for communication because it is in the Faulted state.	System.Collections.ListDictionaryInternal
+ 
+
+ 
+DateTime : 2016-12-09 19:44:07,735 
+Thread ID:[6040] 
+Lever : DEBUG 
+Class : Logging 
+Message : System.ServiceModel.CommunicationObjectFaultedException	The communication object, System.ServiceModel.Channels.ServiceChannel, cannot be used for communication because it is in the Faulted state.	System.Collections.ListDictionaryInternal
+ 
+
+ 
+DateTime : 2016-12-09 20:38:47,362 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue Logon system at 2016-12-9 20:38:47
+ 
+
+ 
+DateTime : 2016-12-09 20:44:54,945 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logon system at 2016-12-9 20:44:54
+ 
+
+ 
+DateTime : 2016-12-09 20:45:09,518 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logout system at 2016-12-9 20:45:09
+ 
+
+ 
+DateTime : 2016-12-09 20:45:14,599 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-9 20:45:14
+ 
+
+ 
+DateTime : 2016-12-09 20:45:20,397 
+Lever : ERROR 
+Class : Logging 
+Message : System.ServiceModel.FaultException	No Record On This Condition!	System.Collections.ListDictionaryInternal
+ 
+
+ 
+DateTime : 2016-12-09 20:53:02,649 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-9 20:53:02
+ 
+
+ 
+DateTime : 2016-12-09 21:06:24,133 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-9 21:06:24
+ 
+
+ 
+DateTime : 2016-12-09 21:06:29,355 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-9 21:06:29
+ 
+
+ 
+DateTime : 2016-12-09 21:06:37,023 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-9 21:06:37
+ 
+
+ 
+DateTime : 2016-12-09 21:09:51,101 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logon system at 2016-12-9 21:09:51
+ 
+
+ 
+DateTime : 2016-12-09 21:10:18,299 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logout system at 2016-12-9 21:10:18
+ 
+
+ 
+DateTime : 2016-12-09 21:16:29,435 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logon system at 2016-12-9 21:16:29
+ 
+
+ 
+DateTime : 2016-12-09 21:16:32,007 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logout system at 2016-12-9 21:16:32
+ 
+
+ 
+DateTime : 2016-12-09 21:16:40,501 
+Lever : ERROR 
+Class : Logging 
+Message : System.ServiceModel.FaultException	Entity User not found!	System.Collections.ListDictionaryInternal
+ 
+
+ 
+DateTime : 2016-12-09 21:16:44,367 
+Lever : ERROR 
+Class : Logging 
+Message : System.ServiceModel.FaultException	Entity User not found!	System.Collections.ListDictionaryInternal
+ 
+
+ 
+DateTime : 2016-12-09 21:16:56,960 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logon system at 2016-12-9 21:16:56
+ 
+
+ 
+DateTime : 2016-12-09 21:56:44,704 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logon system at 2016-12-9 21:56:44
+ 
+
+ 
+DateTime : 2016-12-09 21:57:05,215 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logout system at 2016-12-9 21:57:05
+ 
+
+ 
+DateTime : 2016-12-09 21:58:25,749 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logon system at 2016-12-9 21:58:25
+ 
+
+ 
+DateTime : 2016-12-09 22:25:11,070 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logon system at 2016-12-9 22:25:11
+ 
+
+ 
+DateTime : 2016-12-09 22:25:12,348 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logout system at 2016-12-9 22:25:12
+ 
+
+ 
+DateTime : 2016-12-09 22:25:23,337 
+Lever : ERROR 
+Class : Logging 
+Message : System.ServiceModel.FaultException	Entity User not found!	System.Collections.ListDictionaryInternal
+ 
+
+ 
+DateTime : 2016-12-09 22:26:25,057 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logon system at 2016-12-9 22:26:25
+ 
+
+ 
+DateTime : 2016-12-09 22:31:08,787 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logout system at 2016-12-9 22:31:08
+ 
+
+ 
+DateTime : 2016-12-09 22:31:09,629 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logon system at 2016-12-9 22:31:09
+ 
+
+ 
+DateTime : 2016-12-09 22:31:36,764 
+Lever : ERROR 
+Class : Logging 
+Message : System.ServiceModel.FaultException	No Record On This Condition!	System.Collections.ListDictionaryInternal
+ 
+
+ 
+DateTime : 2016-12-09 22:32:14,482 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logout system at 2016-12-9 22:32:14
+ 
+
+ 
+DateTime : 2016-12-09 22:32:20,343 
+Lever : ERROR 
+Class : Logging 
+Message : System.ServiceModel.FaultException	No Record On This Condition!	System.Collections.ListDictionaryInternal
+ 
+
+ 
+DateTime : 2016-12-09 22:32:21,512 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-9 22:32:21
+ 
+
+ 
+DateTime : 2016-12-09 22:32:36,147 
+Lever : ERROR 
+Class : Logging 
+Message : System.ServiceModel.FaultException	No Record On This Condition!	System.Collections.ListDictionaryInternal
+ 
+
+ 
+DateTime : 2016-12-09 22:32:39,685 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-9 22:32:39
+ 
+
+ 
+DateTime : 2016-12-09 22:32:56,393 
+Lever : ERROR 
+Class : Logging 
+Message : System.ServiceModel.FaultException	No Record On This Condition!	System.Collections.ListDictionaryInternal
+ 
+
+ 
+DateTime : 2016-12-09 22:32:57,406 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-9 22:32:57
+ 
+
+ 
+DateTime : 2016-12-09 22:36:01,603 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-9 22:36:01
+ 
+
+ 
+DateTime : 2016-12-09 23:26:54,780 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-9 23:26:54
+ 
+
+ 
+DateTime : 2016-12-09 23:26:57,086 
+Lever : ERROR 
+Class : Logging 
+Message : System.ServiceModel.FaultException	No Record On This Condition!	System.Collections.ListDictionaryInternal
+ 
+
+ 
+DateTime : 2016-12-09 23:31:54,641 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-9 23:31:54
+ 
+
+ 
+DateTime : 2016-12-10 09:43:12,909 
+Lever : ERROR 
+Class : Logging 
+Message : System.ServiceModel.FaultException	Entity User not found!	System.Collections.ListDictionaryInternal
+ 
+
+ 
+DateTime : 2016-12-10 09:43:43,592 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-10 9:43:43
+ 
+
+ 
+DateTime : 2016-12-10 09:43:47,681 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-10 9:43:47
+ 
+
+ 
+DateTime : 2016-12-10 09:43:58,824 
+Lever : ERROR 
+Class : Logging 
+Message : System.ServiceModel.FaultException	Entity User not found!	System.Collections.ListDictionaryInternal
+ 
+
+ 
+DateTime : 2016-12-10 09:44:06,378 
+Lever : ERROR 
+Class : Logging 
+Message : System.InvalidOperationException	Cross-thread operation not valid: Control 'lblMsg' accessed from a thread other than the thread it was created on.	System.Collections.ListDictionaryInternal
+ 
+
+ 
+DateTime : 2016-12-10 09:44:10,092 
+Lever : ERROR 
+Class : Logging 
+Message : System.InvalidOperationException	Cross-thread operation not valid: Control 'lblMsg' accessed from a thread other than the thread it was created on.	System.Collections.ListDictionaryInternal
+ 
+
+ 
+DateTime : 2016-12-10 09:46:32,161 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-10 9:46:32
+ 
+
+ 
+DateTime : 2016-12-10 09:46:37,498 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-10 9:46:37
+ 
+
+ 
+DateTime : 2016-12-10 09:46:48,408 
+Lever : ERROR 
+Class : Logging 
+Message : System.ServiceModel.FaultException	Entity User not found!	System.Collections.ListDictionaryInternal
+ 
+
+ 
+DateTime : 2016-12-10 09:47:16,110 
+Lever : ERROR 
+Class : Logging 
+Message : System.InvalidOperationException	Cross-thread operation not valid: Control 'lblMsg' accessed from a thread other than the thread it was created on.	System.Collections.ListDictionaryInternal
+ 
+
+ 
+DateTime : 2016-12-10 09:55:58,688 
+Lever : ERROR 
+Class : Logging 
+Message : System.InvalidOperationException	Invoke or BeginInvoke cannot be called on a control until the window handle has been created.	System.Collections.ListDictionaryInternal
+ 
+
+ 
+DateTime : 2016-12-10 09:59:07,842 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-10 9:59:07
+ 
+
+ 
+DateTime : 2016-12-10 09:59:10,480 
+Lever : ERROR 
+Class : Logging 
+Message : System.ServiceModel.FaultException	Entity User not found!	System.Collections.ListDictionaryInternal
+ 
+
+ 
+DateTime : 2016-12-10 09:59:13,476 
+Lever : ERROR 
+Class : Logging 
+Message : System.ServiceModel.FaultException	Entity User not found!	System.Collections.ListDictionaryInternal
+ 
+
+ 
+DateTime : 2016-12-10 09:59:15,006 
+Lever : ERROR 
+Class : Logging 
+Message : System.ServiceModel.FaultException	Entity User not found!	System.Collections.ListDictionaryInternal
+ 
+
+ 
+DateTime : 2016-12-10 09:59:21,498 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-10 9:59:21
+ 
+
+ 
+DateTime : 2016-12-10 10:03:48,187 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-10 10:03:48
+ 
+
+ 
+DateTime : 2016-12-10 10:03:57,114 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logon system at 2016-12-10 10:03:57
+ 
+
+ 
+DateTime : 2016-12-10 10:33:20,094 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logon system at 2016-12-10 10:33:20
+ 
+
+ 
+DateTime : 2016-12-10 10:33:48,964 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logon system at 2016-12-10 10:33:48
+ 
+
+ 
+DateTime : 2016-12-10 10:38:09,659 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logon system at 2016-12-10 10:38:09
+ 
+
+ 
+DateTime : 2016-12-10 10:38:11,658 
+Lever : ERROR 
+Class : Logging 
+Message : System.InvalidOperationException	Cross-thread operation not valid: Control 'dgvExamList' accessed from a thread other than the thread it was created on.	System.Collections.ListDictionaryInternal
+ 
+
+ 
+DateTime : 2016-12-10 10:39:17,510 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logon system at 2016-12-10 10:39:17
+ 
+
+ 
+DateTime : 2016-12-10 10:39:49,266 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logon system at 2016-12-10 10:39:49
+ 
+
+ 
+DateTime : 2016-12-10 12:34:40,581 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logon system at 2016-12-10 12:34:40
+ 
+
+ 
+DateTime : 2016-12-10 12:35:28,240 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logon system at 2016-12-10 12:35:28
+ 
+
+ 
+DateTime : 2016-12-10 14:25:42,737 
+Lever : ERROR 
+Class : Logging 
+Message : System.ServiceModel.FaultException	Login password is incorrect	System.Collections.ListDictionaryInternal
+ 
+
+ 
+DateTime : 2016-12-10 14:25:50,700 
+Lever : ERROR 
+Class : Logging 
+Message : System.ServiceModel.FaultException	Username does not exist	System.Collections.ListDictionaryInternal
+ 
+
+ 
+DateTime : 2016-12-10 14:26:02,896 
+Lever : ERROR 
+Class : Logging 
+Message : System.ServiceModel.FaultException	Login password is incorrect	System.Collections.ListDictionaryInternal
+ 
+
+ 
+DateTime : 2016-12-10 14:26:12,515 
+Lever : ERROR 
+Class : Logging 
+Message : System.ServiceModel.FaultException	Login password is incorrect	System.Collections.ListDictionaryInternal
+ 
+
+ 
+DateTime : 2016-12-10 14:28:46,028 
+Lever : ERROR 
+Class : Logging 
+Message : System.ServiceModel.FaultException	Login password is incorrect	System.Collections.ListDictionaryInternal
+ 
+
+ 
+DateTime : 2016-12-10 14:28:53,070 
+Lever : ERROR 
+Class : Logging 
+Message : System.ServiceModel.FaultException	Username does not exist	System.Collections.ListDictionaryInternal
+ 
+
+ 
+DateTime : 2016-12-10 14:29:35,918 
+Lever : ERROR 
+Class : Logging 
+Message : System.ServiceModel.CommunicationException	An error occurred while receiving the HTTP response to http://localhost:8888/. This could be due to the service endpoint binding not using the HTTP protocol. This could also be due to an HTTP request context being aborted by the server (possibly due to the service shutting down). See server logs for more details.	System.Collections.ListDictionaryInternal
+ 
+
+ 
+DateTime : 2016-12-10 14:30:29,244 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logon system at 2016-12-10 14:30:29
+ 
+
+ 
+DateTime : 2016-12-10 14:30:32,399 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logout system at 2016-12-10 14:30:32
+ 
+
+ 
+DateTime : 2016-12-10 14:35:33,194 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logon system at 2016-12-10 14:35:33
+ 
+
+ 
+DateTime : 2016-12-10 14:35:35,240 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logout system at 2016-12-10 14:35:35
+ 
+
+ 
+DateTime : 2016-12-10 14:37:54,840 
+Lever : ERROR 
+Class : Logging 
+Message : System.ServiceModel.FaultException	Login password is incorrect	System.Collections.ListDictionaryInternal
+ 
+
+ 
+DateTime : 2016-12-10 14:38:05,474 
+Lever : ERROR 
+Class : Logging 
+Message : System.ServiceModel.FaultException	Username does not exist	System.Collections.ListDictionaryInternal
+ 
+
+ 
+DateTime : 2016-12-10 14:38:07,441 
+Lever : ERROR 
+Class : Logging 
+Message : System.ServiceModel.FaultException	Login password is incorrect	System.Collections.ListDictionaryInternal
+ 
+
+ 
+DateTime : 2016-12-10 14:38:12,485 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logon system at 2016-12-10 14:38:12
+ 
+
+ 
+DateTime : 2016-12-10 14:38:16,076 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logout system at 2016-12-10 14:38:16
+ 
+
+ 
+DateTime : 2016-12-10 14:44:44,083 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logon system at 2016-12-10 14:44:44
+ 
+
+ 
+DateTime : 2016-12-10 14:55:57,239 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logon system at 2016-12-10 14:55:57
+ 
+
+ 
+DateTime : 2016-12-10 14:57:03,947 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logon system at 2016-12-10 14:57:03
+ 
+
+ 
+DateTime : 2016-12-10 14:59:35,258 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-10 14:59:35
+ 
+
+ 
+DateTime : 2016-12-10 15:07:45,482 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-10 15:07:45
+ 
+
+ 
+DateTime : 2016-12-10 15:08:06,625 
+Lever : ERROR 
+Class : Logging 
+Message : System.ServiceModel.FaultException	No Record On This Condition!	System.Collections.ListDictionaryInternal
+ 
+
+ 
+DateTime : 2016-12-10 15:08:16,337 
+Lever : ERROR 
+Class : Logging 
+Message : System.ServiceModel.FaultException	No Record On This Condition!	System.Collections.ListDictionaryInternal
+ 
+
+ 
+DateTime : 2016-12-10 15:11:19,394 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-10 15:11:19
+ 
+
+ 
+DateTime : 2016-12-10 15:11:21,081 
+Lever : ERROR 
+Class : Logging 
+Message : System.ServiceModel.FaultException	No Record On This Condition!	System.Collections.ListDictionaryInternal
+ 
+
+ 
+DateTime : 2016-12-10 15:15:45,711 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-10 15:15:45
+ 
+
+ 
+DateTime : 2016-12-10 15:15:49,849 
+Lever : ERROR 
+Class : Logging 
+Message : System.ServiceModel.FaultException	No Record On This Condition!	System.Collections.ListDictionaryInternal
+ 
+
+ 
+DateTime : 2016-12-10 15:16:08,869 
+Lever : ERROR 
+Class : Logging 
+Message : System.ServiceModel.FaultException	No Record On This Condition!	System.Collections.ListDictionaryInternal
+ 
+
+ 
+DateTime : 2016-12-10 15:16:18,566 
+Lever : ERROR 
+Class : Logging 
+Message : System.ServiceModel.FaultException	No Record On This Condition!	System.Collections.ListDictionaryInternal
+ 
+
+ 
+DateTime : 2016-12-10 15:25:54,236 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-10 15:25:54
+ 
+
+ 
+DateTime : 2016-12-10 15:26:00,170 
+Lever : ERROR 
+Class : Logging 
+Message : System.ServiceModel.FaultException	No Record On This Condition!	System.Collections.ListDictionaryInternal
+ 
+
+ 
+DateTime : 2016-12-10 21:49:16,988 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logon system at 2016-12-10 21:49:16
+ 
+
+ 
+DateTime : 2016-12-12 12:29:28,729 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-12 12:29:28
+ 
+
+ 
+DateTime : 2016-12-12 12:43:27,287 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-12 12:43:27
+ 
+
+ 
+DateTime : 2016-12-12 12:59:02,269 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-12 12:59:02
+ 
+
+ 
+DateTime : 2016-12-12 13:59:07,699 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-12 13:59:07
+ 
+
+ 
+DateTime : 2016-12-12 13:59:42,850 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-12 13:59:42
+ 
+
+ 
+DateTime : 2016-12-12 14:02:12,874 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-12 14:02:12
+ 
+
+ 
+DateTime : 2016-12-12 14:03:32,518 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-12 14:03:32
+ 
+
+ 
+DateTime : 2016-12-12 14:05:17,877 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-12 14:05:17
+ 
+
+ 
+DateTime : 2016-12-12 14:05:38,530 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-12 14:05:38
+ 
+
+ 
+DateTime : 2016-12-12 14:06:06,229 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-12 14:06:06
+ 
+
+ 
+DateTime : 2016-12-12 14:07:17,640 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-12 14:07:17
+ 
+
+ 
+DateTime : 2016-12-12 14:17:04,315 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-12 14:17:04
+ 
+
+ 
+DateTime : 2016-12-12 14:18:06,228 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-12 14:18:06
+ 
+
+ 
+DateTime : 2016-12-12 14:18:15,851 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-12 14:18:15
+ 
+
+ 
+DateTime : 2016-12-12 14:19:46,181 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-12 14:19:46
+ 
+
+ 
+DateTime : 2016-12-12 14:20:40,657 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-12 14:20:40
+ 
+
+ 
+DateTime : 2016-12-12 14:25:54,124 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-12 14:25:54
+ 
+
+ 
+DateTime : 2016-12-12 14:26:18,871 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-12 14:26:18
+ 
+
+ 
+DateTime : 2016-12-12 14:36:56,601 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-12 14:36:56
+ 
+
+ 
+DateTime : 2016-12-12 14:37:51,952 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-12 14:37:51
+ 
+
+ 
+DateTime : 2016-12-12 14:38:19,338 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-12 14:38:19
+ 
+
+ 
+DateTime : 2016-12-12 14:39:54,011 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-12 14:39:53
+ 
+
+ 
+DateTime : 2016-12-12 14:40:02,213 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-12 14:40:02
+ 
+
+ 
+DateTime : 2016-12-12 14:43:21,464 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-12 14:43:21
+ 
+
+ 
+DateTime : 2016-12-12 14:49:36,359 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-12 14:49:36
+ 
+
+ 
+DateTime : 2016-12-12 14:51:07,204 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-12 14:51:07
+ 
+
+ 
+DateTime : 2016-12-12 14:51:57,353 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-12 14:51:57
+ 
+
+ 
+DateTime : 2016-12-12 14:53:37,759 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-12 14:53:37
+ 
+
+ 
+DateTime : 2016-12-12 14:54:53,060 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-12 14:54:53
+ 
+
+ 
+DateTime : 2016-12-12 14:55:27,336 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-12 14:55:27
+ 
+
+ 
+DateTime : 2016-12-12 14:57:20,069 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-12 14:57:20
+ 
+
+ 
+DateTime : 2016-12-12 14:57:58,329 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-12 14:57:58
+ 
+
+ 
+DateTime : 2016-12-12 14:58:47,478 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-12 14:58:47
+ 
+
+ 
+DateTime : 2016-12-12 15:01:50,590 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-12 15:01:50
+ 
+
+ 
+DateTime : 2016-12-12 15:08:01,627 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-12 15:08:01
+ 
+
+ 
+DateTime : 2016-12-12 15:08:32,544 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-12 15:08:32
+ 
+
+ 
+DateTime : 2016-12-12 15:09:08,866 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-12 15:09:08
+ 
+
+ 
+DateTime : 2016-12-12 15:09:55,781 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-12 15:09:55
+ 
+
+ 
+DateTime : 2016-12-12 15:12:54,160 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-12 15:12:54
+ 
+
+ 
+DateTime : 2016-12-12 15:18:24,094 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-12 15:18:24
+ 
+
+ 
+DateTime : 2016-12-12 15:21:14,411 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-12 15:21:14
+ 
+
+ 
+DateTime : 2016-12-12 15:21:42,938 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-12 15:21:42
+ 
+
+ 
+DateTime : 2016-12-12 15:24:25,226 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-12 15:24:25
+ 
+
+ 
+DateTime : 2016-12-12 15:26:05,007 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logon system at 2016-12-12 15:26:04
+ 
+
+ 
+DateTime : 2016-12-12 15:28:56,840 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logon system at 2016-12-12 15:28:56
+ 
+
+ 
+DateTime : 2016-12-12 15:29:23,117 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logout system at 2016-12-12 15:29:23
+ 
+
+ 
+DateTime : 2016-12-12 15:29:30,069 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-12 15:29:30
+ 
+
+ 
+DateTime : 2016-12-12 15:56:26,852 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-12 15:56:26
+ 
+
+ 
+DateTime : 2016-12-12 15:57:10,611 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao1111111111[9] Logon system at 2016-12-12 15:57:10
+ 
+
+ 
+DateTime : 2016-12-12 15:58:00,775 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao1111111111[9] Logon system at 2016-12-12 15:58:00
+ 
+
+ 
+DateTime : 2016-12-12 15:58:25,365 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao1111111111[9] Logon system at 2016-12-12 15:58:25
+ 
+
+ 
+DateTime : 2016-12-12 15:59:44,931 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-12 15:59:44
+ 
+
+ 
+DateTime : 2016-12-12 16:02:39,623 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-12 16:02:39
+ 
+
+ 
+DateTime : 2016-12-12 16:03:02,604 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logon system at 2016-12-12 16:03:02
+ 
+
+ 
+DateTime : 2016-12-12 16:03:16,055 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logon system at 2016-12-12 16:03:16
+ 
+
+ 
+DateTime : 2016-12-12 16:05:53,062 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-12 16:05:53
+ 
+
+ 
+DateTime : 2016-12-12 16:06:57,271 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-12 16:06:57
+ 
+
+ 
+DateTime : 2016-12-12 16:16:29,011 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-12 16:16:28
+ 
+
+ 
+DateTime : 2016-12-12 16:22:06,725 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-12 16:22:06
+ 
+
+ 
+DateTime : 2016-12-12 16:27:39,237 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-12 16:27:39
+ 
+
+ 
+DateTime : 2016-12-12 16:38:57,007 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-12 16:38:56
+ 
+
+ 
+DateTime : 2016-12-12 16:41:12,487 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-12 16:41:12
+ 
+
+ 
+DateTime : 2016-12-12 16:42:54,627 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-12 16:42:54
+ 
+
+ 
+DateTime : 2016-12-12 16:43:31,231 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-12 16:43:31
+ 
+
+ 
+DateTime : 2016-12-12 16:44:37,377 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-12 16:44:37
+ 
+
+ 
+DateTime : 2016-12-12 16:47:24,937 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logon system at 2016-12-12 16:47:24
+ 
+
+ 
+DateTime : 2016-12-12 17:10:14,081 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logon system at 2016-12-12 17:10:14
+ 
+
+ 
+DateTime : 2016-12-12 17:11:04,683 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logon system at 2016-12-12 17:11:04
+ 
+
+ 
+DateTime : 2016-12-12 17:12:33,169 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logon system at 2016-12-12 17:12:33
+ 
+
+ 
+DateTime : 2016-12-12 17:16:21,948 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logon system at 2016-12-12 17:16:21
+ 
+
+ 
+DateTime : 2016-12-12 18:39:28,448 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-12 18:39:28
+ 
+
+ 
+DateTime : 2016-12-12 18:40:11,584 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-12 18:40:11
+ 
+
+ 
+DateTime : 2016-12-12 18:40:28,597 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-12 18:40:28
+ 
+
+ 
+DateTime : 2016-12-12 18:41:42,119 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-12 18:41:42
+ 
+
+ 
+DateTime : 2016-12-12 18:43:36,823 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-12 18:43:36
+ 
+
+ 
+DateTime : 2016-12-12 18:45:20,185 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-12 18:45:20
+ 
+
+ 
+DateTime : 2016-12-12 18:47:07,999 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-12 18:47:07
+ 
+
+ 
+DateTime : 2016-12-12 18:50:15,225 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-12 18:50:15
+ 
+
+ 
+DateTime : 2016-12-12 18:52:22,365 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-12 18:52:22
+ 
+
+ 
+DateTime : 2016-12-12 19:02:23,991 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-12 19:02:23
+ 
+
+ 
+DateTime : 2016-12-12 19:07:16,438 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-12 19:07:16
+ 
+
+ 
+DateTime : 2016-12-12 19:24:24,744 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-12 19:24:24
+ 
+
+ 
+DateTime : 2016-12-12 19:24:53,506 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-12 19:24:53
+ 
+
+ 
+DateTime : 2016-12-12 19:25:35,829 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-12 19:25:35
+ 
+
+ 
+DateTime : 2016-12-12 19:27:40,688 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-12 19:27:40
+ 
+
+ 
+DateTime : 2016-12-12 19:28:43,883 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-12 19:28:43
+ 
+
+ 
+DateTime : 2016-12-12 19:29:43,891 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-12 19:29:43
+ 
+
+ 
+DateTime : 2016-12-12 19:30:21,214 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-12 19:30:21
+ 
+
+ 
+DateTime : 2016-12-12 19:31:02,474 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-12 19:31:02
+ 
+
+ 
+DateTime : 2016-12-12 19:32:39,102 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-12 19:32:39
+ 
+
+ 
+DateTime : 2016-12-12 19:33:23,597 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-12 19:33:23
+ 
+
+ 
+DateTime : 2016-12-12 19:33:57,546 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-12 19:33:57
+ 
+
+ 
+DateTime : 2016-12-12 19:36:31,479 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-12 19:36:31
+ 
+
+ 
+DateTime : 2016-12-12 19:38:17,247 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-12 19:38:17
+ 
+
+ 
+DateTime : 2016-12-12 19:39:40,377 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-12 19:39:40
+ 
+
+ 
+DateTime : 2016-12-12 19:42:19,606 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-12 19:42:19
+ 
+
+ 
+DateTime : 2016-12-12 19:42:44,197 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logon system at 2016-12-12 19:42:44
+ 
+
+ 
+DateTime : 2016-12-12 19:43:04,897 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logout system at 2016-12-12 19:43:04
+ 
+
+ 
+DateTime : 2016-12-12 19:43:09,287 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-12 19:43:09
+ 
+
+ 
+DateTime : 2016-12-12 19:46:49,291 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-12 19:46:49
+ 
+
+ 
+DateTime : 2016-12-12 19:47:17,943 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-12 19:47:17
+ 
+
+ 
+DateTime : 2016-12-12 19:47:42,237 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-12 19:47:42
+ 
+
+ 
+DateTime : 2016-12-12 19:48:11,233 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-12 19:48:11
+ 
+
+ 
+DateTime : 2016-12-12 19:48:24,028 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-12 19:48:24
+ 
+
+ 
+DateTime : 2016-12-12 19:49:03,195 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-12 19:49:03
+ 
+
+ 
+DateTime : 2016-12-12 19:49:39,269 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logon system at 2016-12-12 19:49:39
+ 
+
+ 
+DateTime : 2016-12-12 19:51:11,398 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-12 19:51:11
+ 
+
+ 
+DateTime : 2016-12-13 10:56:54,069 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-13 10:56:54
+ 
+
+ 
+DateTime : 2016-12-13 11:02:20,290 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-13 11:02:20
+ 
+
+ 
+DateTime : 2016-12-13 11:03:09,245 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-13 11:03:09
+ 
+
+ 
+DateTime : 2016-12-13 11:04:01,058 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-13 11:04:01
+ 
+
+ 
+DateTime : 2016-12-13 11:05:36,063 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-13 11:05:36
+ 
+
+ 
+DateTime : 2016-12-13 11:08:07,473 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-13 11:08:07
+ 
+
+ 
+DateTime : 2016-12-13 11:08:35,090 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-13 11:08:35
+ 
+
+ 
+DateTime : 2016-12-13 11:10:12,719 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-13 11:10:12
+ 
+
+ 
+DateTime : 2016-12-13 11:10:45,803 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logon system at 2016-12-13 11:10:45
+ 
+
+ 
+DateTime : 2016-12-13 11:17:21,598 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logout system at 2016-12-13 11:17:21
+ 
+
+ 
+DateTime : 2016-12-13 11:17:24,144 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logon system at 2016-12-13 11:17:24
+ 
+
+ 
+DateTime : 2016-12-13 14:12:07,999 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logon system at 2016-12-13 14:12:07
+ 
+
+ 
+DateTime : 2016-12-13 14:15:29,880 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logon system at 2016-12-13 14:15:29
+ 
+
+ 
+DateTime : 2016-12-13 14:19:37,128 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logon system at 2016-12-13 14:19:37
+ 
+
+ 
+DateTime : 2016-12-13 14:21:43,548 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logon system at 2016-12-13 14:21:43
+ 
+
+ 
+DateTime : 2016-12-13 14:23:29,213 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logon system at 2016-12-13 14:23:29
+ 
+
+ 
+DateTime : 2016-12-13 14:24:50,124 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logon system at 2016-12-13 14:24:50
+ 
+
+ 
+DateTime : 2016-12-13 14:25:31,993 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logout system at 2016-12-13 14:25:31
+ 
+
+ 
+DateTime : 2016-12-13 14:25:36,741 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-13 14:25:36
+ 
+
+ 
+DateTime : 2016-12-13 14:26:54,732 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-13 14:26:54
+ 
+
+ 
+DateTime : 2016-12-13 14:27:58,012 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-13 14:27:57
+ 
+
+ 
+DateTime : 2016-12-13 14:31:52,876 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-13 14:31:52
+ 
+
+ 
+DateTime : 2016-12-13 15:00:07,461 
+Lever : ERROR 
+Class : Logging 
+Message : System.ServiceModel.FaultException	Username does not exist	System.Collections.ListDictionaryInternal
+ 
+
+ 
+DateTime : 2016-12-13 15:00:19,830 
+Lever : ERROR 
+Class : Logging 
+Message : System.ServiceModel.FaultException	Login password is incorrect	System.Collections.ListDictionaryInternal
+ 
+
+ 
+DateTime : 2016-12-13 15:01:25,703 
+Lever : ERROR 
+Class : Logging 
+Message : System.ServiceModel.FaultException	Username does not exist	System.Collections.ListDictionaryInternal
+ 
+
+ 
+DateTime : 2016-12-13 15:01:43,412 
+Lever : ERROR 
+Class : Logging 
+Message : System.ServiceModel.FaultException	Login password is incorrect	System.Collections.ListDictionaryInternal
+ 
+
+ 
+DateTime : 2016-12-13 16:04:36,448 
+Lever : ERROR 
+Class : Logging 
+Message : System.ServiceModel.EndpointNotFoundException	There was no endpoint listening at http://localhost:8888/user that could accept the message. This is often caused by an incorrect address or SOAP action. See InnerException, if present, for more details.	System.Collections.ListDictionaryInternal
+ 
+
+ 
+DateTime : 2016-12-13 16:05:45,600 
+Lever : ERROR 
+Class : Logging 
+Message : System.ServiceModel.EndpointNotFoundException	There was no endpoint listening at http://localhost:8888/user that could accept the message. This is often caused by an incorrect address or SOAP action. See InnerException, if present, for more details.	System.Collections.ListDictionaryInternal
+ 
+
+ 
+DateTime : 2016-12-13 16:06:42,150 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-13 16:06:42
+ 
+
+ 
+DateTime : 2016-12-13 16:11:06,014 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-13 16:11:05
+ 
+
+ 
+DateTime : 2016-12-13 16:12:43,105 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-13 16:12:43
+ 
+
+ 
+DateTime : 2016-12-13 16:12:58,113 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-13 16:12:58
+ 
+
+ 
+DateTime : 2016-12-13 16:14:12,794 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-13 16:14:12
+ 
+
+ 
+DateTime : 2016-12-13 16:16:28,256 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-13 16:16:28
+ 
+
+ 
+DateTime : 2016-12-13 16:19:19,918 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-13 16:19:19
+ 
+
+ 
+DateTime : 2016-12-13 16:20:58,898 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-13 16:20:58
+ 
+
+ 
+DateTime : 2016-12-13 16:21:42,719 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-13 16:21:42
+ 
+
+ 
+DateTime : 2016-12-13 16:21:57,602 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-13 16:21:57
+ 
+
+ 
+DateTime : 2016-12-13 16:22:22,855 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-13 16:22:22
+ 
+
+ 
+DateTime : 2016-12-13 16:58:52,405 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-13 16:58:52
+ 
+
+ 
+DateTime : 2016-12-13 17:00:00,464 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-13 17:00:00
+ 
+
+ 
+DateTime : 2016-12-13 17:01:07,883 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logon system at 2016-12-13 17:01:07
+ 
+
+ 
+DateTime : 2016-12-13 17:01:15,145 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logout system at 2016-12-13 17:01:15
+ 
+
+ 
+DateTime : 2016-12-13 17:01:28,700 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logon system at 2016-12-13 17:01:28
+ 
+
+ 
+DateTime : 2016-12-13 17:02:40,648 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logout system at 2016-12-13 17:02:40
+ 
+
+ 
+DateTime : 2016-12-13 17:02:43,006 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logon system at 2016-12-13 17:02:43
+ 
+
+ 
+DateTime : 2016-12-13 17:03:37,322 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logon system at 2016-12-13 17:03:37
+ 
+
+ 
+DateTime : 2016-12-13 17:08:24,722 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logon system at 2016-12-13 17:08:24
+ 
+
+ 
+DateTime : 2016-12-13 19:14:56,536 
+Lever : ERROR 
+Class : Logging 
+Message : System.ServiceModel.FaultException	Username does not exist	System.Collections.ListDictionaryInternal
+ 
+
+ 
+DateTime : 2016-12-13 19:15:02,048 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logon system at 2016-12-13 19:15:02
+ 
+
+ 
+DateTime : 2016-12-13 20:00:12,957 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logon system at 2016-12-13 20:00:12
+ 
+
+ 
+DateTime : 2016-12-13 20:00:17,111 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logout system at 2016-12-13 20:00:17
+ 
+
+ 
+DateTime : 2016-12-13 20:00:22,233 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-13 20:00:22
+ 
+
+ 
+DateTime : 2016-12-13 20:00:27,652 
+Lever : ERROR 
+Class : Logging 
+Message : System.ServiceModel.FaultException	No Record On This Condition!	System.Collections.ListDictionaryInternal
+ 
+
+ 
+DateTime : 2016-12-13 20:00:34,508 
+Lever : ERROR 
+Class : Logging 
+Message : System.ServiceModel.FaultException	No Record On This Condition!	System.Collections.ListDictionaryInternal
+ 
+
+ 
+DateTime : 2016-12-13 20:00:43,941 
+Lever : ERROR 
+Class : Logging 
+Message : System.ServiceModel.FaultException	No Record On This Condition!	System.Collections.ListDictionaryInternal
+ 
+
+ 
+DateTime : 2016-12-13 20:00:51,624 
+Lever : ERROR 
+Class : Logging 
+Message : System.ServiceModel.FaultException	No Record On This Condition!	System.Collections.ListDictionaryInternal
+ 
+
+ 
+DateTime : 2016-12-13 20:01:53,827 
+Lever : ERROR 
+Class : Logging 
+Message : System.ServiceModel.FaultException	No Record On This Condition!	System.Collections.ListDictionaryInternal
+ 
+
+ 
+DateTime : 2016-12-13 20:04:31,699 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-13 20:04:31
+ 
+
+ 
+DateTime : 2016-12-13 20:05:05,479 
+Lever : ERROR 
+Class : Logging 
+Message : System.ServiceModel.FaultException	No Record On This Condition!	System.Collections.ListDictionaryInternal
+ 
+
+ 
+DateTime : 2016-12-13 20:06:05,026 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-13 20:06:05
+ 
+
+ 
+DateTime : 2016-12-13 20:06:14,194 
+Lever : ERROR 
+Class : Logging 
+Message : System.ServiceModel.FaultException	No Record On This Condition!	System.Collections.ListDictionaryInternal
+ 
+
+ 
+DateTime : 2016-12-13 20:06:26,999 
+Lever : ERROR 
+Class : Logging 
+Message : System.ServiceModel.FaultException	No Record On This Condition!	System.Collections.ListDictionaryInternal
+ 
+
+ 
+DateTime : 2016-12-13 20:07:39,291 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-13 20:07:39
+ 
+
+ 
+DateTime : 2016-12-13 20:36:26,484 
+Lever : ERROR 
+Class : Logging 
+Message : System.ServiceModel.Security.MessageSecurityException	An unsecured or incorrectly secured fault was received from the other party. See the inner FaultException for the fault code and detail.	System.Collections.ListDictionaryInternal
+ 
+
+ 
+DateTime : 2016-12-13 20:36:52,049 
+Lever : ERROR 
+Class : Logging 
+Message : System.ServiceModel.CommunicationObjectFaultedException	The communication object, System.ServiceModel.Channels.ServiceChannel, cannot be used for communication because it is in the Faulted state.	System.Collections.ListDictionaryInternal
+ 
+
+ 
+DateTime : 2016-12-13 20:37:05,729 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-13 20:37:05
+ 
+
+ 
+DateTime : 2016-12-13 20:37:12,554 
+Lever : ERROR 
+Class : Logging 
+Message : System.ServiceModel.FaultException	No Record On This Condition!	System.Collections.ListDictionaryInternal
+ 
+
+ 
+DateTime : 2016-12-13 20:37:50,691 
+Lever : ERROR 
+Class : Logging 
+Message : System.ServiceModel.FaultException	No Record On This Condition!	System.Collections.ListDictionaryInternal
+ 
+
+ 
+DateTime : 2016-12-13 20:40:52,691 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-13 20:40:52
+ 
+
+ 
+DateTime : 2016-12-13 20:40:59,922 
+Lever : ERROR 
+Class : Logging 
+Message : System.ServiceModel.FaultException	No Record On This Condition!	System.Collections.ListDictionaryInternal
+ 
+
+ 
+DateTime : 2016-12-13 20:41:10,869 
+Lever : ERROR 
+Class : Logging 
+Message : System.ServiceModel.FaultException	No Record On This Condition!	System.Collections.ListDictionaryInternal
+ 
+
+ 
+DateTime : 2016-12-13 20:41:21,801 
+Lever : ERROR 
+Class : Logging 
+Message : System.ServiceModel.FaultException	No Record On This Condition!	System.Collections.ListDictionaryInternal
+ 
+
+ 
+DateTime : 2016-12-13 20:41:49,459 
+Lever : ERROR 
+Class : Logging 
+Message : System.ServiceModel.CommunicationException	An error occurred while receiving the HTTP response to http://localhost:8888/exam. This could be due to the service endpoint binding not using the HTTP protocol. This could also be due to an HTTP request context being aborted by the server (possibly due to the service shutting down). See server logs for more details.	System.Collections.ListDictionaryInternal
+ 
+
+ 
+DateTime : 2016-12-13 20:44:14,666 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-13 20:44:14
+ 
+
+ 
+DateTime : 2016-12-13 20:44:30,720 
+Lever : ERROR 
+Class : Logging 
+Message : System.ServiceModel.FaultException	No Record On This Condition!	System.Collections.ListDictionaryInternal
+ 
+
+ 
+DateTime : 2016-12-13 20:45:33,797 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-13 20:45:33
+ 
+
+ 
+DateTime : 2016-12-13 20:45:58,894 
+Lever : ERROR 
+Class : Logging 
+Message : System.ServiceModel.FaultException	No Record On This Condition!	System.Collections.ListDictionaryInternal
+ 
+
+ 
+DateTime : 2016-12-13 20:46:03,735 
+Lever : ERROR 
+Class : Logging 
+Message : System.ServiceModel.FaultException`1[System.ServiceModel.ExceptionDetail]	Incorrect syntax near the keyword 'AND'.
+Incorrect syntax near the keyword 'AND'.	System.Collections.ListDictionaryInternal
+ 
+
+ 
+DateTime : 2016-12-13 20:50:47,340 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-13 20:50:47
+ 
+
+ 
+DateTime : 2016-12-13 20:50:53,868 
+Lever : ERROR 
+Class : Logging 
+Message : System.ServiceModel.FaultException	No Record On This Condition!	System.Collections.ListDictionaryInternal
+ 
+
+ 
+DateTime : 2016-12-13 20:50:57,319 
+Lever : ERROR 
+Class : Logging 
+Message : System.ServiceModel.FaultException`1[System.ServiceModel.ExceptionDetail]	Incorrect syntax near the keyword 'AND'.
+Incorrect syntax near the keyword 'AND'.	System.Collections.ListDictionaryInternal
+ 
+
+ 
+DateTime : 2016-12-13 20:51:24,118 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-13 20:51:24
+ 
+
+ 
+DateTime : 2016-12-13 20:51:27,944 
+Lever : ERROR 
+Class : Logging 
+Message : System.ServiceModel.FaultException	No Record On This Condition!	System.Collections.ListDictionaryInternal
+ 
+
+ 
+DateTime : 2016-12-13 20:56:39,862 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-13 20:56:39
+ 
+
+ 
+DateTime : 2016-12-13 20:56:44,360 
+Lever : ERROR 
+Class : Logging 
+Message : System.ServiceModel.FaultException	No Record On This Condition!	System.Collections.ListDictionaryInternal
+ 
+
+ 
+DateTime : 2016-12-13 20:57:06,739 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-13 20:57:06
+ 
+
+ 
+DateTime : 2016-12-13 20:57:09,988 
+Lever : ERROR 
+Class : Logging 
+Message : System.ServiceModel.FaultException	No Record On This Condition!	System.Collections.ListDictionaryInternal
+ 
+
+ 
+DateTime : 2016-12-13 20:57:37,239 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-13 20:57:37
+ 
+
+ 
+DateTime : 2016-12-13 20:57:39,894 
+Lever : ERROR 
+Class : Logging 
+Message : System.ServiceModel.FaultException	No Record On This Condition!	System.Collections.ListDictionaryInternal
+ 
+
+ 
+DateTime : 2016-12-13 20:58:07,489 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-13 20:58:07
+ 
+
+ 
+DateTime : 2016-12-13 20:58:10,706 
+Lever : ERROR 
+Class : Logging 
+Message : System.ServiceModel.FaultException	No Record On This Condition!	System.Collections.ListDictionaryInternal
+ 
+
+ 
+DateTime : 2016-12-13 20:58:19,468 
+Lever : ERROR 
+Class : Logging 
+Message : System.ServiceModel.FaultException	No Record On This Condition!	System.Collections.ListDictionaryInternal
+ 
+
+ 
+DateTime : 2016-12-13 20:58:28,541 
+Lever : ERROR 
+Class : Logging 
+Message : System.ServiceModel.FaultException	No Record On This Condition!	System.Collections.ListDictionaryInternal
+ 
+
+ 
+DateTime : 2016-12-13 20:58:48,781 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-13 20:58:48
+ 
+
+ 
+DateTime : 2016-12-13 20:58:51,342 
+Lever : ERROR 
+Class : Logging 
+Message : System.ServiceModel.FaultException	No Record On This Condition!	System.Collections.ListDictionaryInternal
+ 
+
+ 
+DateTime : 2016-12-13 21:00:41,567 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-13 21:00:41
+ 
+
+ 
+DateTime : 2016-12-13 21:04:43,005 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-13 21:04:43
+ 
+
+ 
+DateTime : 2016-12-13 21:04:56,092 
+Lever : ERROR 
+Class : Logging 
+Message : System.ServiceModel.FaultException	No Record On This Condition!	System.Collections.ListDictionaryInternal
+ 
+
+ 
+DateTime : 2016-12-13 21:05:03,432 
+Lever : ERROR 
+Class : Logging 
+Message : System.ServiceModel.FaultException	No Record On This Condition!	System.Collections.ListDictionaryInternal
+ 
+
+ 
+DateTime : 2016-12-13 21:11:04,357 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logon system at 2016-12-13 21:11:04
+ 
+
+ 
+DateTime : 2016-12-13 21:11:45,633 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logon system at 2016-12-13 21:11:45
+ 
+
+ 
+DateTime : 2016-12-13 21:13:19,553 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logon system at 2016-12-13 21:13:19
+ 
+
+ 
+DateTime : 2016-12-13 21:13:48,398 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logon system at 2016-12-13 21:13:48
+ 
+
+ 
+DateTime : 2016-12-13 21:14:01,298 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logon system at 2016-12-13 21:14:01
+ 
+
+ 
+DateTime : 2016-12-13 21:14:22,053 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logout system at 2016-12-13 21:14:22
+ 
+
+ 
+DateTime : 2016-12-13 21:14:23,036 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logon system at 2016-12-13 21:14:23
+ 
+
+ 
+DateTime : 2016-12-13 21:14:51,631 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logon system at 2016-12-13 21:14:51
+ 
+
+ 
+DateTime : 2016-12-13 21:15:23,662 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logon system at 2016-12-13 21:15:23
+ 
+
+ 
+DateTime : 2016-12-13 21:15:37,092 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logon system at 2016-12-13 21:15:37
+ 
+
+ 
+DateTime : 2016-12-13 21:38:04,730 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logon system at 2016-12-13 21:38:04
+ 
+
+ 
+DateTime : 2016-12-13 21:38:06,089 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logout system at 2016-12-13 21:38:06
+ 
+
+ 
+DateTime : 2016-12-13 21:38:10,836 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-13 21:38:10
+ 
+
+ 
+DateTime : 2016-12-13 21:38:42,820 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-13 21:38:42
+ 
+
+ 
+DateTime : 2016-12-13 21:39:15,881 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-13 21:39:15
+ 
+
+ 
+DateTime : 2016-12-13 21:42:03,545 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-13 21:42:03
+ 
+
+ 
+DateTime : 2016-12-13 22:04:22,437 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logon system at 2016-12-13 22:04:22
+ 
+
+ 
+DateTime : 2016-12-13 22:05:11,506 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logout system at 2016-12-13 22:05:11
+ 
+
+ 
+DateTime : 2016-12-13 22:06:03,573 
+Lever : INFO  
+Class : Logging 
+Message : Kenneth.Zhou[8] Logon system at 2016-12-13 22:06:03
+ 
+
+ 
+DateTime : 2016-12-13 22:11:15,304 
+Lever : ERROR 
+Class : Logging 
+Message : System.ServiceModel.FaultException	No Record On This Condition!	System.Collections.ListDictionaryInternal
+ 
+
+ 
+DateTime : 2016-12-13 22:11:21,988 
+Lever : INFO  
+Class : Logging 
+Message : Kenneth.Zhou[8] Logout system at 2016-12-13 22:11:21
+ 
+
+ 
+DateTime : 2016-12-13 22:14:39,980 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logon system at 2016-12-13 22:14:39
+ 
+
+ 
+DateTime : 2016-12-13 22:14:44,947 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logout system at 2016-12-13 22:14:44
+ 
+
+ 
+DateTime : 2016-12-13 22:14:49,366 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-13 22:14:49
+ 
+
+ 
+DateTime : 2016-12-13 22:15:30,908 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-13 22:15:30
+ 
+
+ 
+DateTime : 2016-12-13 22:36:14,411 
+Lever : INFO  
+Class : Logging 
+Message : Kenneth.Zhou[8] Logon system at 2016-12-13 22:36:14
+ 
+
+ 
+DateTime : 2016-12-13 22:37:57,530 
+Lever : INFO  
+Class : Logging 
+Message : Kenneth[8] Logon system at 2016-12-13 22:37:57
+ 
+
+ 
+DateTime : 2016-12-13 22:42:48,834 
+Lever : INFO  
+Class : Logging 
+Message : Kenneth[8] Logon system at 2016-12-13 22:42:48
+ 
+
+ 
+DateTime : 2016-12-13 22:43:50,756 
+Lever : INFO  
+Class : Logging 
+Message : Kenneth[8] Logon system at 2016-12-13 22:43:50
+ 
+
+ 
+DateTime : 2016-12-13 22:44:18,444 
+Lever : INFO  
+Class : Logging 
+Message : Kenneth[8] Logon system at 2016-12-13 22:44:18
+ 
+
+ 
+DateTime : 2016-12-13 22:57:15,406 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logon system at 2016-12-13 22:57:15
+ 
+
+ 
+DateTime : 2016-12-13 22:57:42,033 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logon system at 2016-12-13 22:57:42
+ 
+
+ 
+DateTime : 2016-12-14 08:25:49,038 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logon system at 2016-12-14 8:25:49
+ 
+
+ 
+DateTime : 2016-12-14 08:27:27,441 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logon system at 2016-12-14 8:27:27
+ 
+
+ 
+DateTime : 2016-12-14 08:27:37,889 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logout system at 2016-12-14 8:27:37
+ 
+
+ 
+DateTime : 2016-12-14 10:14:29,776 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logon system at 2016-12-14 10:14:29
+ 
+
+ 
+DateTime : 2016-12-14 10:17:08,519 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logon system at 2016-12-14 10:17:08
+ 
+
+ 
+DateTime : 2016-12-14 10:22:18,849 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logon system at 2016-12-14 10:22:18
+ 
+
+ 
+DateTime : 2016-12-14 10:22:49,317 
+Lever : ERROR 
+Class : Logging 
+Message : System.ServiceModel.FaultException	Username does not exist	System.Collections.ListDictionaryInternal
+ 
+
+ 
+DateTime : 2016-12-14 10:22:49,538 
+Lever : ERROR 
+Class : Logging 
+Message : System.ServiceModel.FaultException	Username does not exist	System.Collections.ListDictionaryInternal
+ 
+
+ 
+DateTime : 2016-12-14 10:23:24,381 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-14 10:23:24
+ 
+
+ 
+DateTime : 2016-12-14 10:25:06,280 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-14 10:25:06
+ 
+
+ 
+DateTime : 2016-12-14 10:25:21,178 
+Lever : ERROR 
+Class : Logging 
+Message : System.ServiceModel.FaultException	No Record On This Condition!	System.Collections.ListDictionaryInternal
+ 
+
+ 
+DateTime : 2016-12-14 10:25:28,533 
+Lever : ERROR 
+Class : Logging 
+Message : System.ServiceModel.FaultException	No Record On This Condition!	System.Collections.ListDictionaryInternal
+ 
+
+ 
+DateTime : 2016-12-14 10:25:34,978 
+Lever : ERROR 
+Class : Logging 
+Message : System.ServiceModel.FaultException	No Record On This Condition!	System.Collections.ListDictionaryInternal
+ 
+
+ 
+DateTime : 2016-12-14 10:25:38,507 
+Lever : ERROR 
+Class : Logging 
+Message : System.ServiceModel.FaultException	No Record On This Condition!	System.Collections.ListDictionaryInternal
+ 
+
+ 
+DateTime : 2016-12-14 10:26:33,049 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-14 10:26:33
+ 
+
+ 
+DateTime : 2016-12-14 10:37:58,254 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-14 10:37:58
+ 
+
+ 
+DateTime : 2016-12-14 10:38:05,864 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logon system at 2016-12-14 10:38:05
+ 
+
+ 
+DateTime : 2016-12-14 10:38:52,292 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logon system at 2016-12-14 10:38:52
+ 
+
+ 
+DateTime : 2016-12-14 10:58:30,845 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logon system at 2016-12-14 10:58:30
+ 
+
+ 
+DateTime : 2016-12-14 10:59:47,237 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logon system at 2016-12-14 10:59:47
+ 
+
+ 
+DateTime : 2016-12-14 11:01:19,920 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logon system at 2016-12-14 11:01:19
+ 
+
+ 
+DateTime : 2016-12-14 11:02:02,294 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logon system at 2016-12-14 11:02:02
+ 
+
+ 
+DateTime : 2016-12-14 11:02:10,056 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logout system at 2016-12-14 11:02:10
+ 
+
+ 
+DateTime : 2016-12-14 11:02:11,712 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logon system at 2016-12-14 11:02:11
+ 
+
+ 
+DateTime : 2016-12-14 11:02:40,482 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logon system at 2016-12-14 11:02:40
+ 
+
+ 
+DateTime : 2016-12-14 11:02:57,538 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logout system at 2016-12-14 11:02:57
+ 
+
+ 
+DateTime : 2016-12-14 11:07:33,366 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-14 11:07:33
+ 
+
+ 
+DateTime : 2016-12-14 11:09:40,785 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-14 11:09:40
+ 
+
+ 
+DateTime : 2016-12-14 11:10:20,410 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-14 11:10:20
+ 
+
+ 
+DateTime : 2016-12-14 11:11:49,140 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-14 11:11:49
+ 
+
+ 
+DateTime : 2016-12-14 11:12:38,089 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-14 11:12:38
+ 
+
+ 
+DateTime : 2016-12-14 11:13:21,119 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-14 11:13:21
+ 
+
+ 
+DateTime : 2016-12-14 11:15:15,730 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-14 11:15:15
+ 
+
+ 
+DateTime : 2016-12-14 11:18:01,961 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-14 11:18:01
+ 
+
+ 
+DateTime : 2016-12-14 11:19:27,083 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-14 11:19:27
+ 
+
+ 
+DateTime : 2016-12-14 11:27:37,123 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-14 11:27:37
+ 
+
+ 
+DateTime : 2016-12-14 11:28:24,557 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-14 11:28:24
+ 
+
+ 
+DateTime : 2016-12-14 11:29:20,379 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-14 11:29:20
+ 
+
+ 
+DateTime : 2016-12-14 11:34:25,992 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-14 11:34:25
+ 
+
+ 
+DateTime : 2016-12-14 11:35:25,390 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-14 11:35:25
+ 
+
+ 
+DateTime : 2016-12-14 11:38:00,766 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-14 11:38:00
+ 
+
+ 
+DateTime : 2016-12-14 12:54:07,094 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-14 12:54:07
+ 
+
+ 
+DateTime : 2016-12-14 12:54:39,566 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-14 12:54:39
+ 
+
+ 
+DateTime : 2016-12-14 12:56:09,155 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-14 12:56:09
+ 
+
+ 
+DateTime : 2016-12-14 12:59:55,206 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-14 12:59:55
+ 
+
+ 
+DateTime : 2016-12-14 13:00:40,516 
+Lever : ERROR 
+Class : Logging 
+Message : System.ServiceModel.EndpointNotFoundException	There was no endpoint listening at http://localhost:8888/user that could accept the message. This is often caused by an incorrect address or SOAP action. See InnerException, if present, for more details.	System.Collections.ListDictionaryInternal
+ 
+
+ 
+DateTime : 2016-12-14 13:00:56,744 
+Lever : ERROR 
+Class : Logging 
+Message : System.ServiceModel.EndpointNotFoundException	There was no endpoint listening at http://localhost:8888/user that could accept the message. This is often caused by an incorrect address or SOAP action. See InnerException, if present, for more details.	System.Collections.ListDictionaryInternal
+ 
+
+ 
+DateTime : 2016-12-14 13:02:34,877 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-14 13:02:34
+ 
+
+ 
+DateTime : 2016-12-14 13:04:46,231 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-14 13:04:46
+ 
+
+ 
+DateTime : 2016-12-14 13:06:17,554 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-14 13:06:17
+ 
+
+ 
+DateTime : 2016-12-14 14:00:51,286 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-14 14:00:51
+ 
+
+ 
+DateTime : 2016-12-14 14:26:08,699 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-14 14:26:08
+ 
+
+ 
+DateTime : 2016-12-14 14:27:05,926 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-14 14:27:05
+ 
+
+ 
+DateTime : 2016-12-14 14:27:46,801 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-14 14:27:46
+ 
+
+ 
+DateTime : 2016-12-14 14:28:52,509 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-14 14:28:52
+ 
+
+ 
+DateTime : 2016-12-14 14:39:07,265 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-14 14:39:07
+ 
+
+ 
+DateTime : 2016-12-14 14:39:44,094 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-14 14:39:44
+ 
+
+ 
+DateTime : 2016-12-14 14:40:20,720 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-14 14:40:20
+ 
+
+ 
+DateTime : 2016-12-14 14:45:58,586 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-14 14:45:58
+ 
+
+ 
+DateTime : 2016-12-14 14:48:40,787 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-14 14:48:40
+ 
+
+ 
+DateTime : 2016-12-14 14:59:05,352 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-14 14:59:05
+ 
+
+ 
+DateTime : 2016-12-14 14:59:29,389 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-14 14:59:29
+ 
+
+ 
+DateTime : 2016-12-14 15:01:00,947 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-14 15:01:00
+ 
+
+ 
+DateTime : 2016-12-14 15:02:32,285 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-14 15:02:32
+ 
+
+ 
+DateTime : 2016-12-14 15:03:04,710 
+Lever : ERROR 
+Class : Logging 
+Message : System.ServiceModel.EndpointNotFoundException	There was no endpoint listening at http://localhost:8888/user that could accept the message. This is often caused by an incorrect address or SOAP action. See InnerException, if present, for more details.	System.Collections.ListDictionaryInternal
+ 
+
+ 
+DateTime : 2016-12-14 15:03:31,043 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-14 15:03:31
+ 
+
+ 
+DateTime : 2016-12-14 15:05:36,181 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-14 15:05:36
+ 
+
+ 
+DateTime : 2016-12-14 15:06:05,451 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-14 15:06:05
+ 
+
+ 
+DateTime : 2016-12-14 15:08:38,374 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-14 15:08:38
+ 
+
+ 
+DateTime : 2016-12-14 15:10:27,909 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-14 15:10:27
+ 
+
+ 
+DateTime : 2016-12-14 15:11:37,100 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-14 15:11:37
+ 
+
+ 
+DateTime : 2016-12-14 15:13:43,363 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-14 15:13:43
+ 
+
+ 
+DateTime : 2016-12-14 15:16:22,737 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-14 15:16:22
+ 
+
+ 
+DateTime : 2016-12-14 15:24:13,035 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-14 15:24:13
+ 
+
+ 
+DateTime : 2016-12-14 15:25:27,864 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-14 15:25:27
+ 
+
+ 
+DateTime : 2016-12-14 15:25:42,031 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-14 15:25:42
+ 
+
+ 
+DateTime : 2016-12-14 15:26:18,016 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-14 15:26:18
+ 
+
+ 
+DateTime : 2016-12-14 15:30:55,297 
+Lever : INFO  
+Class : Logging 
+Message : Kenneth[8] Logon system at 2016-12-14 15:30:55
+ 
+
+ 
+DateTime : 2016-12-14 16:33:59,529 
+Lever : INFO  
+Class : Logging 
+Message : Kenneth[8] Logon system at 2016-12-14 16:33:59
+ 
+
+ 
+DateTime : 2016-12-14 16:34:13,289 
+Lever : INFO  
+Class : Logging 
+Message : Kenneth[8] Logon system at 2016-12-14 16:34:13
+ 
+
+ 
+DateTime : 2016-12-14 16:35:16,077 
+Lever : INFO  
+Class : Logging 
+Message : Kenneth[8] Logon system at 2016-12-14 16:35:16
+ 
+
+ 
+DateTime : 2016-12-14 16:36:36,545 
+Lever : ERROR 
+Class : Logging 
+Message : System.ServiceModel.FaultException	No Record On This Condition!	System.Collections.ListDictionaryInternal
+ 
+
+ 
+DateTime : 2016-12-14 16:57:09,196 
+Lever : INFO  
+Class : Logging 
+Message : Kenneth[8] Logon system at 2016-12-14 16:57:09
+ 
+
+ 
+DateTime : 2016-12-14 19:24:27,450 
+Lever : INFO  
+Class : Logging 
+Message : Kenneth[8] Logon system at 2016-12-14 19:24:27
+ 
+
+ 
+DateTime : 2016-12-14 19:24:58,270 
+Lever : INFO  
+Class : Logging 
+Message : Kenneth[8] Logon system at 2016-12-14 19:24:58
+ 
+
+ 
+DateTime : 2016-12-14 19:25:24,972 
+Lever : INFO  
+Class : Logging 
+Message : Kenneth[8] Logon system at 2016-12-14 19:25:24
+ 
+
+ 
+DateTime : 2016-12-14 19:49:11,126 
+Lever : INFO  
+Class : Logging 
+Message : Kenneth[8] Logon system at 2016-12-14 19:49:11
+ 
+
+ 
+DateTime : 2016-12-14 19:49:32,326 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logon system at 2016-12-14 19:49:32
+ 
+
+ 
+DateTime : 2016-12-14 19:54:16,452 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logout system at 2016-12-14 19:54:16
+ 
+
+ 
+DateTime : 2016-12-14 19:54:17,796 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logon system at 2016-12-14 19:54:17
+ 
+
+ 
+DateTime : 2016-12-14 19:54:35,526 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logout system at 2016-12-14 19:54:35
+ 
+
+ 
+DateTime : 2016-12-14 20:49:27,294 
+Lever : INFO  
+Class : Logging 
+Message : Kenneth[8] Logon system at 2016-12-14 20:49:27
+ 
+
+ 
+DateTime : 2016-12-14 20:50:38,225 
+Lever : ERROR 
+Class : Logging 
+Message : System.ServiceModel.EndpointNotFoundException	There was no endpoint listening at http://localhost:8888/user that could accept the message. This is often caused by an incorrect address or SOAP action. See InnerException, if present, for more details.	System.Collections.ListDictionaryInternal
+ 
+
+ 
+DateTime : 2016-12-14 20:51:38,831 
+Lever : ERROR 
+Class : Logging 
+Message : System.ServiceModel.EndpointNotFoundException	There was no endpoint listening at http://localhost:8888/user that could accept the message. This is often caused by an incorrect address or SOAP action. See InnerException, if present, for more details.	System.Collections.ListDictionaryInternal
+ 
+
+ 
+DateTime : 2016-12-14 20:52:31,362 
+Lever : INFO  
+Class : Logging 
+Message : Kenneth[8] Logon system at 2016-12-14 20:52:31
+ 
+
+ 
+DateTime : 2016-12-14 20:54:30,575 
+Lever : INFO  
+Class : Logging 
+Message : Kenneth[8] Logon system at 2016-12-14 20:54:30
+ 
+
+ 
+DateTime : 2016-12-14 20:55:47,958 
+Lever : INFO  
+Class : Logging 
+Message : Kenneth[8] Logon system at 2016-12-14 20:55:47
+ 
+
+ 
+DateTime : 2016-12-14 20:56:04,000 
+Lever : INFO  
+Class : Logging 
+Message : Kenneth[8] Logon system at 2016-12-14 20:56:04
+ 
+
+ 
+DateTime : 2016-12-14 21:03:31,971 
+Lever : ERROR 
+Class : Logging 
+Message : System.ServiceModel.EndpointNotFoundException	There was no endpoint listening at http://localhost:8888/user that could accept the message. This is often caused by an incorrect address or SOAP action. See InnerException, if present, for more details.	System.Collections.ListDictionaryInternal
+ 
+
+ 
+DateTime : 2016-12-14 21:04:08,304 
+Lever : INFO  
+Class : Logging 
+Message : Kenneth[8] Logon system at 2016-12-14 21:04:08
+ 
+
+ 
+DateTime : 2016-12-14 21:04:46,761 
+Lever : INFO  
+Class : Logging 
+Message : Kenneth[8] Logon system at 2016-12-14 21:04:46
+ 
+
+ 
+DateTime : 2016-12-14 21:11:27,435 
+Lever : INFO  
+Class : Logging 
+Message : Kenneth[8] Logon system at 2016-12-14 21:11:27
+ 
+
+ 
+DateTime : 2016-12-14 21:12:17,419 
+Lever : INFO  
+Class : Logging 
+Message : Kenneth[8] Logon system at 2016-12-14 21:12:17
+ 
+
+ 
+DateTime : 2016-12-14 21:13:11,637 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logon system at 2016-12-14 21:13:11
+ 
+
+ 
+DateTime : 2016-12-14 21:16:19,298 
+Lever : ERROR 
+Class : Logging 
+Message : System.ServiceModel.EndpointNotFoundException	There was no endpoint listening at http://localhost:8888/user that could accept the message. This is often caused by an incorrect address or SOAP action. See InnerException, if present, for more details.	System.Collections.ListDictionaryInternal
+ 
+
+ 
+DateTime : 2016-12-14 21:32:36,045 
+Lever : ERROR 
+Class : Logging 
+Message : System.ServiceModel.EndpointNotFoundException	There was no endpoint listening at http://localhost:8888/user that could accept the message. This is often caused by an incorrect address or SOAP action. See InnerException, if present, for more details.	System.Collections.ListDictionaryInternal
+ 
+
+ 
+DateTime : 2016-12-14 21:38:38,309 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logon system at 2016-12-14 21:38:38
+ 
+
+ 
+DateTime : 2016-12-14 21:39:22,201 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logout system at 2016-12-14 21:39:22
+ 
+
+ 
+DateTime : 2016-12-14 22:06:01,616 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logon system at 2016-12-14 22:06:01
+ 
+
+ 
+DateTime : 2016-12-14 22:06:04,100 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logout system at 2016-12-14 22:06:04
+ 
+
+ 
+DateTime : 2016-12-14 22:06:08,333 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-14 22:06:08
+ 
+
+ 
+DateTime : 2016-12-14 22:09:16,291 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-14 22:09:16
+ 
+
+ 
+DateTime : 2016-12-14 22:16:35,843 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-14 22:16:35
+ 
+
+ 
+DateTime : 2016-12-14 22:28:07,256 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-14 22:28:07
+ 
+
+ 
+DateTime : 2016-12-15 08:31:56,220 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-15 8:31:56
+ 
+
+ 
+DateTime : 2016-12-15 08:32:04,717 
+Lever : ERROR 
+Class : Logging 
+Message : System.ServiceModel.FaultException	No Record On This Condition!	System.Collections.ListDictionaryInternal
+ 
+
+ 
+DateTime : 2016-12-15 08:34:31,150 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-15 8:34:31
+ 
+
+ 
+DateTime : 2016-12-15 08:35:14,623 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-15 8:35:14
+ 
+
+ 
+DateTime : 2016-12-15 09:37:30,581 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-15 9:37:30
+ 
+
+ 
+DateTime : 2016-12-15 10:04:23,147 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-15 10:04:23
+ 
+
+ 
+DateTime : 2016-12-15 10:10:03,984 
+Lever : ERROR 
+Class : Logging 
+Message : System.ServiceModel.FaultException	No Record On This Condition!	System.Collections.ListDictionaryInternal
+ 
+
+ 
+DateTime : 2016-12-15 10:13:22,153 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-15 10:13:22
+ 
+
+ 
+DateTime : 2016-12-15 10:13:35,791 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logon system at 2016-12-15 10:13:35
+ 
+
+ 
+DateTime : 2016-12-15 10:13:47,131 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logout system at 2016-12-15 10:13:47
+ 
+
+ 
+DateTime : 2016-12-15 10:15:22,733 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logon system at 2016-12-15 10:15:22
+ 
+
+ 
+DateTime : 2016-12-15 10:28:59,529 
+Lever : ERROR 
+Class : Logging 
+Message : System.ServiceModel.FaultException	No Record On This Condition!	System.Collections.ListDictionaryInternal
+ 
+
+ 
+DateTime : 2016-12-15 10:29:37,691 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-15 10:29:37
+ 
+
+ 
+DateTime : 2016-12-15 10:33:39,881 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-15 10:33:39
+ 
+
+ 
+DateTime : 2016-12-15 10:34:27,665 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-15 10:34:27
+ 
+
+ 
+DateTime : 2016-12-15 10:37:24,606 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-15 10:37:24
+ 
+
+ 
+DateTime : 2016-12-15 10:38:16,640 
+Lever : ERROR 
+Class : Logging 
+Message : System.ServiceModel.FaultException	No Record On This Condition!	System.Collections.ListDictionaryInternal
+ 
+
+ 
+DateTime : 2016-12-15 10:39:49,913 
+Lever : ERROR 
+Class : Logging 
+Message : System.ServiceModel.FaultException	Login password is incorrect	System.Collections.ListDictionaryInternal
+ 
+
+ 
+DateTime : 2016-12-15 10:39:56,911 
+Lever : ERROR 
+Class : Logging 
+Message : System.ServiceModel.FaultException	Username does not exist	System.Collections.ListDictionaryInternal
+ 
+
+ 
+DateTime : 2016-12-15 10:40:05,097 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-15 10:40:05
+ 
+
+ 
+DateTime : 2016-12-15 10:50:17,038 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-15 10:50:17
+ 
+
+ 
+DateTime : 2016-12-15 10:50:17,257 
+Lever : ERROR 
+Class : Logging 
+Message : System.ServiceModel.FaultException	No Record On This Condition!	System.Collections.ListDictionaryInternal
+ 
+
+ 
+DateTime : 2016-12-15 10:52:03,386 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logon system at 2016-12-15 10:52:03
+ 
+
+ 
+DateTime : 2016-12-15 10:52:06,948 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logout system at 2016-12-15 10:52:06
+ 
+
+ 
+DateTime : 2016-12-15 16:40:24,878 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logon system at 2016-12-15 16:40:24
+ 
+
+ 
+DateTime : 2016-12-15 16:41:29,803 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logout system at 2016-12-15 16:41:29
+ 
+
+ 
+DateTime : 2016-12-15 16:41:31,069 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logon system at 2016-12-15 16:41:31
+ 
+
+ 
+DateTime : 2016-12-15 16:41:33,818 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logout system at 2016-12-15 16:41:33
+ 
+
+ 
+DateTime : 2016-12-15 16:41:35,099 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logon system at 2016-12-15 16:41:35
+ 
+
+ 
+DateTime : 2016-12-15 16:41:38,927 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logout system at 2016-12-15 16:41:38
+ 
+
+ 
+DateTime : 2016-12-15 16:41:40,989 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logon system at 2016-12-15 16:41:40
+ 
+
+ 
+DateTime : 2016-12-15 16:41:42,629 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logout system at 2016-12-15 16:41:42
+ 
+
+ 
+DateTime : 2016-12-15 16:41:43,832 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logon system at 2016-12-15 16:41:43
+ 
+
+ 
+DateTime : 2016-12-15 16:41:45,363 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logout system at 2016-12-15 16:41:45
+ 
+
+ 
+DateTime : 2016-12-15 16:41:46,769 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logon system at 2016-12-15 16:41:46
+ 
+
+ 
+DateTime : 2016-12-15 16:41:48,269 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logout system at 2016-12-15 16:41:48
+ 
+
+ 
+DateTime : 2016-12-15 16:41:49,471 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logon system at 2016-12-15 16:41:49
+ 
+
+ 
+DateTime : 2016-12-15 16:41:51,127 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logout system at 2016-12-15 16:41:51
+ 
+
+ 
+DateTime : 2016-12-15 16:41:51,909 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logon system at 2016-12-15 16:41:51
+ 
+
+ 
+DateTime : 2016-12-15 16:41:53,377 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logout system at 2016-12-15 16:41:53
+ 
+
+ 
+DateTime : 2016-12-15 16:41:54,267 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logon system at 2016-12-15 16:41:54
+ 
+
+ 
+DateTime : 2016-12-15 16:41:55,970 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logout system at 2016-12-15 16:41:55
+ 
+
+ 
+DateTime : 2016-12-15 16:41:57,001 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logon system at 2016-12-15 16:41:57
+ 
+
+ 
+DateTime : 2016-12-15 16:41:58,501 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logout system at 2016-12-15 16:41:58
+ 
+
+ 
+DateTime : 2016-12-15 16:41:59,391 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logon system at 2016-12-15 16:41:59
+ 
+
+ 
+DateTime : 2016-12-15 16:42:00,626 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logout system at 2016-12-15 16:42:00
+ 
+
+ 
+DateTime : 2016-12-15 16:42:01,719 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logon system at 2016-12-15 16:42:01
+ 
+
+ 
+DateTime : 2016-12-15 16:42:03,063 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logout system at 2016-12-15 16:42:03
+ 
+
+ 
+DateTime : 2016-12-15 16:42:03,969 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logon system at 2016-12-15 16:42:03
+ 
+
+ 
+DateTime : 2016-12-15 16:42:05,312 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logout system at 2016-12-15 16:42:05
+ 
+
+ 
+DateTime : 2016-12-15 16:42:06,500 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logon system at 2016-12-15 16:42:06
+ 
+
+ 
+DateTime : 2016-12-15 16:42:07,687 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logout system at 2016-12-15 16:42:07
+ 
+
+ 
+DateTime : 2016-12-15 16:42:09,437 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logon system at 2016-12-15 16:42:09
+ 
+
+ 
+DateTime : 2016-12-15 16:42:10,608 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logout system at 2016-12-15 16:42:10
+ 
+
+ 
+DateTime : 2016-12-15 16:42:11,780 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logon system at 2016-12-15 16:42:11
+ 
+
+ 
+DateTime : 2016-12-15 16:42:12,998 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logout system at 2016-12-15 16:42:12
+ 
+
+ 
+DateTime : 2016-12-15 16:42:14,029 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logon system at 2016-12-15 16:42:14
+ 
+
+ 
+DateTime : 2016-12-15 16:42:15,326 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logout system at 2016-12-15 16:42:15
+ 
+
+ 
+DateTime : 2016-12-15 16:42:16,357 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logon system at 2016-12-15 16:42:16
+ 
+
+ 
+DateTime : 2016-12-15 16:42:17,857 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logout system at 2016-12-15 16:42:17
+ 
+
+ 
+DateTime : 2016-12-15 16:42:18,716 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logon system at 2016-12-15 16:42:18
+ 
+
+ 
+DateTime : 2016-12-15 16:42:20,013 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logout system at 2016-12-15 16:42:20
+ 
+
+ 
+DateTime : 2016-12-15 16:42:20,966 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logon system at 2016-12-15 16:42:20
+ 
+
+ 
+DateTime : 2016-12-15 16:42:23,012 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logout system at 2016-12-15 16:42:23
+ 
+
+ 
+DateTime : 2016-12-15 16:42:23,887 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logon system at 2016-12-15 16:42:23
+ 
+
+ 
+DateTime : 2016-12-15 16:42:25,246 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logout system at 2016-12-15 16:42:25
+ 
+
+ 
+DateTime : 2016-12-15 16:42:26,105 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logon system at 2016-12-15 16:42:26
+ 
+
+ 
+DateTime : 2016-12-15 16:42:27,792 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logout system at 2016-12-15 16:42:27
+ 
+
+ 
+DateTime : 2016-12-15 16:42:29,245 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logon system at 2016-12-15 16:42:29
+ 
+
+ 
+DateTime : 2016-12-15 16:42:31,307 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logout system at 2016-12-15 16:42:31
+ 
+
+ 
+DateTime : 2016-12-15 16:42:33,010 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logon system at 2016-12-15 16:42:33
+ 
+
+ 
+DateTime : 2016-12-15 16:42:34,541 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logout system at 2016-12-15 16:42:34
+ 
+
+ 
+DateTime : 2016-12-15 16:42:35,775 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logon system at 2016-12-15 16:42:35
+ 
+
+ 
+DateTime : 2016-12-15 16:42:37,072 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logout system at 2016-12-15 16:42:37
+ 
+
+ 
+DateTime : 2016-12-15 16:42:38,822 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logon system at 2016-12-15 16:42:38
+ 
+
+ 
+DateTime : 2016-12-15 16:42:41,118 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logout system at 2016-12-15 16:42:41
+ 
+
+ 
+DateTime : 2016-12-15 16:42:42,430 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logon system at 2016-12-15 16:42:42
+ 
+
+ 
+DateTime : 2016-12-15 16:42:44,039 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logout system at 2016-12-15 16:42:44
+ 
+
+ 
+DateTime : 2016-12-15 16:42:44,930 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logon system at 2016-12-15 16:42:44
+ 
+
+ 
+DateTime : 2016-12-15 16:42:46,148 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logout system at 2016-12-15 16:42:46
+ 
+
+ 
+DateTime : 2016-12-15 16:42:47,648 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logon system at 2016-12-15 16:42:47
+ 
+
+ 
+DateTime : 2016-12-15 16:42:49,085 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logout system at 2016-12-15 16:42:49
+ 
+
+ 
+DateTime : 2016-12-15 16:42:49,945 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logon system at 2016-12-15 16:42:49
+ 
+
+ 
+DateTime : 2016-12-15 16:42:51,522 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logout system at 2016-12-15 16:42:51
+ 
+
+ 
+DateTime : 2016-12-15 16:42:52,397 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logon system at 2016-12-15 16:42:52
+ 
+
+ 
+DateTime : 2016-12-15 16:42:53,475 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logout system at 2016-12-15 16:42:53
+ 
+
+ 
+DateTime : 2016-12-15 16:42:54,584 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logon system at 2016-12-15 16:42:54
+ 
+
+ 
+DateTime : 2016-12-15 16:42:55,662 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logout system at 2016-12-15 16:42:55
+ 
+
+ 
+DateTime : 2016-12-15 16:42:56,568 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logon system at 2016-12-15 16:42:56
+ 
+
+ 
+DateTime : 2016-12-15 16:42:58,084 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logout system at 2016-12-15 16:42:58
+ 
+
+ 
+DateTime : 2016-12-15 16:42:59,084 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logon system at 2016-12-15 16:42:59
+ 
+
+ 
+DateTime : 2016-12-15 16:43:00,349 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logout system at 2016-12-15 16:43:00
+ 
+
+ 
+DateTime : 2016-12-15 16:47:41,515 
+Lever : ERROR 
+Class : Logging 
+Message : System.ServiceModel.FaultException	Username does not exist	System.Collections.ListDictionaryInternal
+ 
+
+ 
+DateTime : 2016-12-15 16:47:44,437 
+Lever : INFO  
+Class : Logging 
+Message : Kelly.Miao[9] Logon system at 2016-12-15 16:47:44
+ 
+
+ 
+DateTime : 2016-12-15 16:47:44,577 
+Lever : ERROR 
+Class : Logging 
+Message : System.ServiceModel.FaultException	No Record On This Condition!	System.Collections.ListDictionaryInternal
+ 
+
+ 
+DateTime : 2016-12-15 16:48:29,757 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logon system at 2016-12-15 16:48:29
+ 
+
+ 
+DateTime : 2016-12-15 16:48:39,333 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logout system at 2016-12-15 16:48:39
+ 
+
+ 
+DateTime : 2016-12-15 16:48:41,754 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logon system at 2016-12-15 16:48:41
+ 
+
+ 
+DateTime : 2016-12-15 16:48:46,300 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logout system at 2016-12-15 16:48:46
+ 
+
+ 
+DateTime : 2016-12-15 16:48:47,769 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logon system at 2016-12-15 16:48:47
+ 
+
+ 
+DateTime : 2016-12-15 16:48:49,128 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logout system at 2016-12-15 16:48:49
+ 
+
+ 
+DateTime : 2016-12-15 16:48:52,565 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logon system at 2016-12-15 16:48:52
+ 
+
+ 
+DateTime : 2016-12-15 16:48:54,127 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logout system at 2016-12-15 16:48:54
+ 
+
+ 
+DateTime : 2016-12-15 16:48:58,611 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logon system at 2016-12-15 16:48:58
+ 
+
+ 
+DateTime : 2016-12-15 16:49:01,501 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logout system at 2016-12-15 16:49:01
+ 
+
+ 
+DateTime : 2016-12-15 16:49:04,250 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logon system at 2016-12-15 16:49:04
+ 
+
+ 
+DateTime : 2016-12-15 16:49:07,749 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logout system at 2016-12-15 16:49:07
+ 
+
+ 
+DateTime : 2016-12-15 16:49:11,186 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logon system at 2016-12-15 16:49:11
+ 
+
+ 
+DateTime : 2016-12-15 16:49:18,091 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logout system at 2016-12-15 16:49:18
+ 
+
+ 
+DateTime : 2016-12-15 16:49:27,996 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logon system at 2016-12-15 16:49:27
+ 
+
+ 
+DateTime : 2016-12-15 16:49:51,491 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logout system at 2016-12-15 16:49:51
+ 
+
+ 
+DateTime : 2016-12-15 16:49:53,210 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logon system at 2016-12-15 16:49:53
+ 
+
+ 
+DateTime : 2016-12-15 16:49:54,663 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logout system at 2016-12-15 16:49:54
+ 
+
+ 
+DateTime : 2016-12-15 16:49:56,428 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logon system at 2016-12-15 16:49:56
+ 
+
+ 
+DateTime : 2016-12-15 16:49:57,412 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logout system at 2016-12-15 16:49:57
+ 
+
+ 
+DateTime : 2016-12-15 16:49:59,177 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logon system at 2016-12-15 16:49:59
+ 
+
+ 
+DateTime : 2016-12-15 16:50:00,583 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logout system at 2016-12-15 16:50:00
+ 
+
+ 
+DateTime : 2016-12-15 16:50:02,146 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logon system at 2016-12-15 16:50:02
+ 
+
+ 
+DateTime : 2016-12-15 16:50:03,614 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logout system at 2016-12-15 16:50:03
+ 
+
+ 
+DateTime : 2016-12-15 16:50:05,208 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logon system at 2016-12-15 16:50:05
+ 
+
+ 
+DateTime : 2016-12-15 16:50:06,567 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logout system at 2016-12-15 16:50:06
+ 
+
+ 
+DateTime : 2016-12-15 16:50:14,471 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logon system at 2016-12-15 16:50:14
+ 
+
+ 
+DateTime : 2016-12-15 16:50:16,362 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logout system at 2016-12-15 16:50:16
+ 
+
+ 
+DateTime : 2016-12-15 16:50:17,815 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logon system at 2016-12-15 16:50:17
+ 
+
+ 
+DateTime : 2016-12-15 16:50:20,517 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logout system at 2016-12-15 16:50:20
+ 
+
+ 
+DateTime : 2016-12-15 16:50:21,486 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logon system at 2016-12-15 16:50:21
+ 
+
+ 
+DateTime : 2016-12-15 16:52:48,302 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logout system at 2016-12-15 16:52:48
+ 
+
+ 
+DateTime : 2016-12-15 16:52:57,972 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logon system at 2016-12-15 16:52:57
+ 
+
+ 
+DateTime : 2016-12-15 16:53:02,284 
+Lever : INFO  
+Class : Logging 
+Message : Jasper.Yue[2] Logout system at 2016-12-15 16:53:02
+ 

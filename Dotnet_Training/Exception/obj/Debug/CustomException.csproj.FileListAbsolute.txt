@@ -1,0 +1,15 @@
+D:\Project\YZDEV20161017\Exception\bin\Debug\Exception.dll
+D:\Project\YZDEV20161017\Exception\bin\Debug\Exception.pdb
+D:\Project\YZDEV20161017\Exception\bin\Debug\Common.dll
+D:\Project\YZDEV20161017\Exception\bin\Debug\Common.pdb
+D:\Project\YZDEV20161017\Exception\obj\Debug\ResolveAssemblyReference.cache
+D:\Project\YZDEV20161017\Exception\obj\Debug\Exception.dll
+D:\Project\YZDEV20161017\Exception\obj\Debug\Exception.pdb
+D:\Project\DotNet\YZDEV20161017\Exception\bin\Debug\Exception.dll
+D:\Project\DotNet\YZDEV20161017\Exception\bin\Debug\Exception.pdb
+D:\Project\DotNet\YZDEV20161017\Exception\bin\Debug\Common.dll
+D:\Project\DotNet\YZDEV20161017\Exception\bin\Debug\log4net.dll
+D:\Project\DotNet\YZDEV20161017\Exception\bin\Debug\Common.pdb
+D:\Project\DotNet\YZDEV20161017\Exception\obj\Debug\ResolveAssemblyReference.cache
+D:\Project\DotNet\YZDEV20161017\Exception\obj\Debug\Exception.dll
+D:\Project\DotNet\YZDEV20161017\Exception\obj\Debug\Exception.pdb

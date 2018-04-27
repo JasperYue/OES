@@ -1,0 +1,9 @@
+D:\Project\YZDEV20161017\onlineExamSystem\onlineExamSystem\bin\Debug\onlineExamSystem.exe
+D:\Project\YZDEV20161017\onlineExamSystem\onlineExamSystem\bin\Debug\onlineExamSystem.pdb
+D:\Project\YZDEV20161017\onlineExamSystem\onlineExamSystem\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Project\YZDEV20161017\onlineExamSystem\onlineExamSystem\obj\x86\Debug\onlineExamSystem.Properties.Resources.resources
+D:\Project\YZDEV20161017\onlineExamSystem\onlineExamSystem\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Project\YZDEV20161017\onlineExamSystem\onlineExamSystem\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\Project\YZDEV20161017\onlineExamSystem\onlineExamSystem\obj\x86\Debug\onlineExamSystem.exe
+D:\Project\YZDEV20161017\onlineExamSystem\onlineExamSystem\obj\x86\Debug\onlineExamSystem.pdb
+D:\Project\YZDEV20161017\onlineExamSystem\onlineExamSystem\obj\x86\Debug\onlineExamSystem.login.resources

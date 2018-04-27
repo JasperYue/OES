@@ -1,0 +1,10 @@
+D:\Project\YZDEV20161017\Common\bin\Debug\Common.dll
+D:\Project\YZDEV20161017\Common\bin\Debug\Common.pdb
+D:\Project\YZDEV20161017\Common\obj\Debug\ResolveAssemblyReference.cache
+D:\Project\YZDEV20161017\Common\obj\Debug\Common.dll
+D:\Project\YZDEV20161017\Common\obj\Debug\Common.pdb
+D:\Project\DotNet\YZDEV20161017\Common\bin\Debug\Common.dll
+D:\Project\DotNet\YZDEV20161017\Common\bin\Debug\Common.pdb
+D:\Project\DotNet\YZDEV20161017\Common\obj\Debug\ResolveAssemblyReference.cache
+D:\Project\DotNet\YZDEV20161017\Common\obj\Debug\Common.dll
+D:\Project\DotNet\YZDEV20161017\Common\obj\Debug\Common.pdb

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<controller>
+    <!-- The top 2 actionNodes' URI is all login.action -->
+    <!-- Use httpMethod to mark different request and turn to different method -->
+    <!-- Like login.action#GET  --> toLogin  --> to login page -->
+    <!-- Like login.action#POST --> login    --> to handle login -->
+    <action name="login" class="userController" method="toLogin">
+        <result name="needLogin" view="WEB-INF/jsp/login.jsp" redirect="false"></result>
+        <result name="hadLogin" view="toQuestionList.action" redirect="true"></result>
+    </action>
+    <action name="login" class="userController" method="login" httpMethod="POST">
+        <result name="error" view="WEB-INF/jsp/login.jsp" redirect="false"></result>
+        <result name="success" type="cookie" view="toQuestionList.action" redirect="true" viewParameter="go:attribute"></result>
+    </action>
+    <action name="logout" class="userController" method="logout">
+        <result name="success" view="login.action" redirect="true"></result>
+    </action>
+    <action name="toEdit" class="questionController" method="toEdit" httpMethod="POST">
+        <result name="jsonResult" type="json"></result>
+    </action>
+    <action name="addOrEditQuestion" class="questionController" method="addOrEditQuestion" httpMethod="POST">
+        <result name="jsonResult" type="json"></result>
+    </action>
+    <action name="toQuestionList" class="questionController" method="toQuestionList">
+        <result name="success" view="WEB-INF/jsp/question/main.jsp" redirect="false"></result>
+    </action>
+    <action name="queryQuestionList" class="questionController" method="queryQuestionList"  httpMethod="POST">
+        <result name="jsonResult" type="json"></result>
+    </action>
+    <action name="deleteQuestion" class="questionController" method="deleteQuestion"  httpMethod="POST">
+        <result name="jsonResult" type="json"></result>
+    </action>
+    <action name="queryExamList" class="examController" method="queryExamList" httpMethod="POST">
+        <result name="jsonResult" type="json"></result>
+    </action>
+    <action name="addExam" class="examController" method="addExam" httpMethod="POST">
+        <result name="jsonResult" type="json"></result>
+    </action>
+</controller>

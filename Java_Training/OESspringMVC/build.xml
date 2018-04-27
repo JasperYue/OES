@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="OESspringMVC" default="run-test" basedir=".">
+    <!-- 系统环境变量引用,需配置ANT_HOME & CATALINA_HOME -->
+    <property environment="env"></property>
+    
+    <!-- 对应项目中Java Resources下的src & conf & test [Source folder] -->
+    <property name="src.dir" location="src"></property>
+    <property name="test.src.dir" location="test"></property>
+    <property name="conf.dir" location="config"></property>
+    
+    <!-- 引用的jar包目录 -->
+    <!-- 如果在lib中放了测试用的包,这份配置下把包都扔进WEBINF内lib就行,Junit4.6 -->
+    <property name="web.dir" location="WebContent"></property>
+    <property name="lib.dir" location="${web.dir}/WEB-INF/lib"></property>
+    
+    <!-- 需要安装cobertura2.0.3,location指向其根目录 -->
+    <property name="cobertura.home" location="D:\cobertura-2.0.3"></property>
+    <!-- cobertura2.0.3根目录下的cobertura2.0.3.jar加入WEB-INF/lib中,否则需要多加一个property节点  -->
+    <property name="cobertura.lib.dir" location="${cobertura.home}/lib"></property>
+    
+    <property name="build.dir" location="build"></property>
+    <property name="build.classes" location="${build.dir}/classes"></property>
+    <property name="build.test.dir" location="${build.dir}/test"></property>
+    <property name="build.test.classes" location="${build.test.dir}/classes"></property>
+    <property name="build.test.report" location="${build.test.dir}/report"></property>
+    <property name="cobertura.dir" location="${build.dir}/cobertura/"></property>
+    <property name="cobertura.html.dir" location="${cobertura.dir}/html"></property>
+    <property name="cobertura.class.dir" location="${cobertura.dir}/class"></property>
+
+    <path id="compile-classpath">
+        <fileset dir="${lib.dir}" includes="*.jar" excludes="jstl-1.2.jar"></fileset>
+        <fileset dir="${env.CATALINA_HOME}/lib" includes="*.jar"></fileset>
+        <fileset dir="${cobertura.lib.dir}" includes="*.jar"></fileset>
+    </path>
+    
+    <path id="compile-test-classpath">
+        <path refid="compile-classpath"></path>
+        <pathelement location="${build.classes}"/>
+    </path>
+    
+    <path id="run-test-classpath">
+        <path refid="compile-test-classpath"/>
+        <pathelement location="${build.test.classes}"/>
+    </path>
+    
+    <taskdef classpathref="run-test-classpath" resource="tasks.properties" /> 
+    
+    <target name="clean">
+        <delete dir="${build.dir}"/>
+    </target>
+    
+    <target name="init" depends="clean">
+        <mkdir dir="${build.dir}"/>
+        <mkdir dir="${build.classes}"/>
+        <mkdir dir="${build.test.dir}"/>
+        <mkdir dir="${build.test.classes}"/>
+        <mkdir dir="${build.test.report}"/>
+        <mkdir dir="${cobertura.dir}"/>
+        <mkdir dir="${cobertura.html.dir}"/>
+        <mkdir dir="${cobertura.class.dir}"/>
+   </target>
+
+    <target name="compile" depends="init">
+        <javac destdir="${build.classes}" srcdir="${src.dir}" 
+            classpathref="compile-classpath" includeantruntime="true" failonerror="true" debug="true" encoding="utf-8"></javac>
+        <copy todir="${build.classes}">
+            <fileset dir="${src.dir}" includes="**/*.*" excludes="**/*.java"></fileset>
+        </copy>
+        <copy todir="${build.classes}">
+            <fileset dir="${conf.dir}"></fileset>
+        </copy>
+    </target>
+    
+    <target name="compile-test" depends="compile">
+        <javac destdir="${build.test.classes}" srcdir="${test.src.dir}"
+            includeantruntime="true" failonerror="true" 
+            classpathref="compile-test-classpath" encoding="utf-8"></javac>
+    </target>
+    
+    <target name="run-test" depends="compile-test">
+        <delete file="cobertura.ser"/>
+        <cobertura-instrument todir="${cobertura.class.dir}">
+            <fileset dir="${build.classes}">
+                <include name="**/*.class" />
+            </fileset>
+        </cobertura-instrument>
+        <junit fork="true" haltonfailure="false" failureproperty="junit.fail" >
+            <classpath location="${cobertura.class.dir}" />  
+            <classpath location="${build.classes}" />
+            <classpath location="${build.test.classes}" />
+                    
+            <classpath refid="compile-classpath"></classpath>
+            <formatter type="xml" />
+            <test name="${testcase}" todir="${reports.xml.dir}" if="testcase" />
+                    
+            <batchtest todir="${build.test.report}" unless="testcase">
+                <fileset dir="${test.src.dir}" includes="**/*Test.java" ></fileset>
+            </batchtest>
+        </junit>
+        <junitreport>
+            <fileset dir="${build.test.report}" includes="TEST-*.xml"></fileset>
+            <report format="frames" todir="${build.test.report}/html"/>
+        </junitreport>
+        <cobertura-report srcdir="${src.dir}" destdir="${cobertura.dir}" format="html" />
+        <delete file="cobertura.ser"/>
+        <fail if="${junit.fail}" message="单元测试失败，具体情况请查询${build.test.report}"/>
+   </target>
+</project>

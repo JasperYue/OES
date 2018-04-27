@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="0bffeff1-24a3-4929-aa08-b551b519eadb" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8888/user?wsdl" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="user.xsd" MetadataType="Schema" ID="28bb070d-5f88-41ae-8a57-171789ca73a0" SourceId="1" SourceUrl="http://localhost:8888/user?xsd=xsd0" />
+    <MetadataFile FileName="UserServiceImpl.wsdl" MetadataType="Wsdl" ID="93033d14-111d-474b-a37b-29862bbe5526" SourceId="1" SourceUrl="http://localhost:8888/user?wsdl" />
+    <MetadataFile FileName="user1.xsd" MetadataType="Schema" ID="54a5f9ac-bbbb-4b82-8c5c-66a551c19b82" SourceId="1" SourceUrl="http://localhost:8888/user?xsd=xsd2" />
+    <MetadataFile FileName="user2.xsd" MetadataType="Schema" ID="e882f8c4-1c17-499f-83ee-21d3d12fc6a2" SourceId="1" SourceUrl="http://localhost:8888/user?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisualState xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ShowCheckBoxes="false">
+  <TopNode>[0-1022]D:\Project\DotNet\YZDEV20161017\Server\ServiceTest\bin\Debug\ServiceTest.dll</TopNode>
+  <SelectedNode>[0-1021]ServiceTest.TestLogin.TestPasswordNotCorrect</SelectedNode>
+  <ExcludeCategories>false</ExcludeCategories>
+  <Nodes>
+    <Node UniqueName="[0-1022]D:\Project\DotNet\YZDEV20161017\Server\ServiceTest\bin\Debug\ServiceTest.dll" Expanded="true" />
+    <Node UniqueName="[0-1023]ServiceTest" Expanded="true" />
+    <Node UniqueName="[0-1018]ServiceTest.TestLogin" Expanded="true" />
+    <Node UniqueName="[0-1000]ServiceTest.TestStudent" Expanded="true" />
+  </Nodes>
+</VisualState>

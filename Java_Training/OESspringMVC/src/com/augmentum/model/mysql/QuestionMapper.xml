@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.augmentum.model.Question">
+    <resultMap type="Question" id="questionMap">
+        <id column="id" property="id"/>
+        <result column="num" property="num"/>
+        <result column="title" property="title"/>
+        <result column="item_A" property="itemA"/>
+        <result column="item_B" property="itemB"/>
+        <result column="item_C" property="itemC"/>
+        <result column="item_D" property="itemD"/>
+        <result column="answer" property="answer"/>
+        <result column="del_mark" property="delMark"/>
+        <result column="refer_mark" property="referMark"/>
+        <result column="create_time" property="createTime"/>
+        <result column="update_time" property="updateTime"/>
+    </resultMap>
+    
+    <insert id="addQuestion" parameterType="Question" useGeneratedKeys="true" keyProperty="id">
+        <![CDATA[
+            INSERT INTO question(num, title, item_A, item_B, item_C, item_D, answer, create_time, update_time)
+            VALUES(#{num}, #{title}, #{itemA}, #{itemB}, #{itemC}, #{itemD}, #{answer},
+        ]]>
+        <if test="createTime != null">
+            <![CDATA[#{createTime}, now())]]>
+        </if>
+        <if test="createTime == null">
+            <![CDATA[now(), now())]]>
+        </if>
+    </insert>
+    
+    <update id="editQuestion" parameterType="Question">
+        <![CDATA[
+            UPDATE question
+            SET num = #{num},
+                title = #{title},
+                item_A = #{itemA},
+                item_B = #{itemB},
+                item_C = #{itemC},
+                item_D = #{itemD},
+                answer = #{answer},
+                update_time = now()
+            WHERE 
+                id = #{id}
+        ]]>
+    </update>
+
+    <select id="getQuestion" parameterType="Question" resultMap="questionMap">
+        <![CDATA[
+        SELECT id, num, title, item_A, item_B, item_C, item_D, answer, del_mark, refer_mark, create_time, update_time
+        FROM question
+        WHERE 
+            del_mark = 0 AND id = #{id}
+        ]]>
+    </select>
+
+    <select id="findQuestion" parameterType="map" resultMap="questionMap">
+        <![CDATA[
+            SELECT id, num, title, item_A, item_B, item_C, item_D, answer, del_mark, refer_mark, create_time, update_time
+            FROM question WHERE del_mark = 0 AND title LIKE #{title} ORDER BY num 
+        ]]>
+        <if test="orderField == 0">
+            <![CDATA[ASC]]>
+        </if>
+        <if test="orderField == 1">
+            <![CDATA[DESC]]>
+        </if>
+            LIMIT #{startItem}, #{endItem}
+    </select>
+    
+    <select id="getQuestionCount" parameterType="String" resultType="int">
+        <![CDATA[
+            SELECT COUNT(*) FROM question WHERE del_mark = 0 AND title LIKE #{title}
+        ]]>
+    </select>
+    
+    <select id="findQuestionIdList" parameterType="int" resultMap="questionMap">
+        <![CDATA[
+            SELECT id, answer, refer_mark FROM question ORDER BY RAND() LIMIT #{needQuantity}
+        ]]>
+    </select>
+    
+    <update id="deleteQuestion" parameterType="List">  
+        UPDATE question SET del_mark = 1 WHERE id IN 
+        <foreach collection="list" item="item" index="index" open="(" separator="," close=")" >
+            #{item}
+        </foreach>
+    </update>
+    
+    <update id="batchEditQuestion" parameterType="List">
+        UPDATE question SET refer_mark = 1 WHERE id IN
+        <foreach collection="list" item="item" index="index" open="(" separator="," close=")" >
+            #{item}
+        </foreach>
+    </update>
+    
+</mapper>

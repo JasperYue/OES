@@ -1,0 +1,359 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6AD01560-4E0D-4CF9-8C9A-D8B69DDAFBDD}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>UI</RootNamespace>
+    <AssemblyName>onlineExamSystem</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="log4net">
+      <HintPath>..\..\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\Reference Assemblies\Microsoft\VBPowerPacks\v10.0\Microsoft.VisualBasic.PowerPacks.Vs.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DemoPanelLoop.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DemoPanelLoop.Designer.cs">
+      <DependentUpon>DemoPanelLoop.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Res\Res.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Res.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Res\Res.zh-Hans.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Res.zh-Hans.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\ExamService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\FileService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\UserService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="PanelLoop.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PanelLoop.Designer.cs">
+      <DependentUpon>PanelLoop.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\AdvancedLabel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="AutoScale.cs" />
+    <Compile Include="BaseForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BaseForm.Designer.cs">
+      <DependentUpon>BaseForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Teacher\DetailForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Teacher\DetailForm.Designer.cs">
+      <DependentUpon>DetailForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\Item.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\Item.Designer.cs">
+      <DependentUpon>Item.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginForm.Designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Student\StudentForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Student\StudentForm.Designer.cs">
+      <DependentUpon>StudentForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\MsgBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserControl\MsgBox.Designer.cs">
+      <DependentUpon>MsgBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Student\TakeExamForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Student\TakeExamForm.Designer.cs">
+      <DependentUpon>TakeExamForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Teacher\TeacherForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Teacher\TeacherForm.Designer.cs">
+      <DependentUpon>TeacherForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="BaseForm.resx">
+      <DependentUpon>BaseForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BaseForm.zh-Hans.resx">
+      <DependentUpon>BaseForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DemoPanelLoop.resx">
+      <DependentUpon>DemoPanelLoop.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginForm.zh-Hans.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PanelLoop.resx">
+      <DependentUpon>PanelLoop.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Res\Res.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Res.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Res\Res.zh-Hans.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Res.zh-Hans.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Student\StudentForm.zh-Hans.resx">
+      <DependentUpon>StudentForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Student\TakeExamForm.zh-Hans.resx">
+      <DependentUpon>TakeExamForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Teacher\DetailForm.resx">
+      <DependentUpon>DetailForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Teacher\DetailForm.zh-Hans.resx">
+      <DependentUpon>DetailForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Teacher\TeacherForm.zh-Hans.resx">
+      <DependentUpon>TeacherForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\Item.resx">
+      <DependentUpon>Item.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Student\StudentForm.resx">
+      <DependentUpon>StudentForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\MsgBox.resx">
+      <DependentUpon>MsgBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Student\TakeExamForm.resx">
+      <DependentUpon>TakeExamForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Teacher\TeacherForm.resx">
+      <DependentUpon>TeacherForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="App.config" />
+    <None Include="Properties\DataSources\System.Data.DataSet.datasource" />
+    <None Include="Properties\DataSources\System.Data.DataTable.datasource" />
+    <None Include="Properties\DataSources\System.Drawing.Bitmap.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Service References\ExamService\exam.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\ExamService\exam1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\ExamService\exam2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\ExamService\ExamServiceImpl.wsdl" />
+    <None Include="Service References\ExamService\UI.ExamService.Exam.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ExamService\UI.ExamService.Question.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ExamService\UI.ExamService.Result.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ExamService\UI.ExamService.ReturnParamsOfAttendanceYgFqSxnr.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ExamService\UI.ExamService.ReturnParamsOfExamListYgFqSxnr.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ExamService\UI.ExamService.ReturnParamsOfExamResultYgFqSxnr.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\FileService\file.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\FileService\file1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\FileService\file2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\FileService\file3.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\FileService\FileServiceImpl.wsdl" />
+    <None Include="Service References\UserService\UI.UserService.User.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\UserService\user.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\UserService\user1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\UserService\user2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\UserService\UserServiceImpl.wsdl" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Images\BTN_Close_16x16.png.png" />
+    <Content Include="Images\BTN_PageLeft_20x15.png.png" />
+    <Content Include="Images\BTN_PageRight_20x15.png .png" />
+    <Content Include="Images\BTN_Radio_Selected_16x16.png.png" />
+    <Content Include="Images\BTN_Radio_Unselected_16x16.png.png" />
+    <Content Include="Images\BTN_RemeberMe_Select_12x12.png.png" />
+    <Content Include="Images\BTN_RemeberMe_Unselect_12X12.png.png" />
+    <Content Include="Images\ICN_Avatar_130x110.png  .png" />
+    <Content Include="Images\ICN_Client_Login_Wrong_20X20.png" />
+    <Content Include="Images\ICN_Client_PersonalInformation_20x20.png" />
+    <Content Include="Images\ICN_CloseLogin_15x15.png.png" />
+    <Content Include="Images\ICN_Decrese_10x15.png.png" />
+    <Content Include="Images\ICN_Edit_15x15.png.png" />
+    <Content Include="Images\ICN_Increase_10x15.png.png" />
+    <Content Include="Images\ICN_Password_20x15.png.png" />
+    <Content Include="Images\ICN_Right_15x15.png" />
+    <Content Include="Images\ICN_Search_15x20.png.png" />
+    <Content Include="Images\ICN_Selected_15x15.png.png" />
+    <Content Include="Images\ICN_Unselected_15x15.png  .png" />
+    <Content Include="Images\ICN_Usename_20x20.png.png" />
+    <Content Include="Images\ICN_Wrong_15x15.png" />
+    <Content Include="Images\LOGO_Client_Login_40X300.png" />
+    <Content Include="Images\LOGO_Client_Maxmize.png" />
+    <Content Include="Images\LOGO_Client_Minimize.png" />
+    <Content Include="Images\LOGO_Client_Titel_120x20.png" />
+    <Content Include="Images\LOGO_Client_Title_120x20.png" />
+    <Content Include="Images\LOGO_Client_TS_Close.png" />
+    <None Include="Service References\FileService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Service References\FileService\configuration.svcinfo" />
+    <None Include="Service References\FileService\configuration91.svcinfo" />
+    <None Include="Service References\ExamService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Service References\ExamService\configuration.svcinfo" />
+    <None Include="Service References\ExamService\configuration91.svcinfo" />
+    <None Include="Service References\UserService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Service References\UserService\configuration.svcinfo" />
+    <None Include="Service References\UserService\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Common\Common.csproj">
+      <Project>{321EC30F-1808-4C43-B995-283D361AA4F4}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Exception\CustomException.csproj">
+      <Project>{642B329A-2996-4C80-A689-B13DCBEF7AD8}</Project>
+      <Name>CustomException</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\ExamService\" />
+    <WCFMetadataStorage Include="Service References\FileService\" />
+    <WCFMetadataStorage Include="Service References\UserService\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

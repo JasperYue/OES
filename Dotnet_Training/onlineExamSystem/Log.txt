@@ -1,0 +1,194 @@
+2016-11-23 16:12:47:	Column 'Gender' does not belong to table Table.
+2016-11-23 16:33:09:	Column 'Gender' does not belong to table Table.
+2016-11-23 16:33:20:	Column 'Gender' does not belong to table Table.
+2016-11-23 22:03:19:	Procedure or function 'FindAllExamByConditions' expects parameter '@PageSize', which was not supplied.
+2016-11-24 10:38:01:	Column 'Gender' does not belong to table Table.
+2016-11-24 10:38:01:	Column 'Tel' does not belong to table Table.
+2016-11-24 10:38:01:	Column 'Email' does not belong to table Table.
+2016-11-24 10:38:01:	Column 'DelMark' does not belong to table Table.
+2016-11-24 10:38:01:	Column 'CreateTime' does not belong to table Table.
+2016-11-24 10:38:01:	Column 'UpdateTime' does not belong to table Table.
+2016-11-24 12:08:48:	Column 'RoleName' does not belong to table Table.
+2016-11-26 8:39:50:	Could not find file 'D:\Project\YZDEV20161017\onlineExamSystem\User.xml'.
+2016-11-26 9:40:45:	Could not find file 'D:\Project\YZDEV20161017\onlineExamSystem\User.xml'.
+2016-11-26 9:41:10:	Could not find file 'D:\Project\YZDEV20161017\onlineExamSystem\User.xml'.
+2016-11-26 9:41:12:	Could not find file 'D:\Project\YZDEV20161017\onlineExamSystem\User.xml'.
+2016-11-26 9:41:22:	Could not find file 'D:\Project\YZDEV20161017\onlineExamSystem\User.xml'.
+2016-11-26 9:41:53:	Could not find file 'D:\Project\YZDEV20161017\onlineExamSystem\User.xml'.
+2016-11-26 9:50:34:	Could not find file 'D:\Project\YZDEV20161017\onlineExamSystem\User.xml'.
+2016-11-26 9:50:34:	Could not find file 'D:\Project\YZDEV20161017\onlineExamSystem\User.xml'.
+2016-11-26 10:04:30:	Could not find file 'D:\Project\YZDEV20161017\onlineExamSystem\User.xml'.
+2016-11-26 10:04:31:	Could not find file 'D:\Project\YZDEV20161017\onlineExamSystem\User.xml'.
+2016-11-26 11:20:45:	Could not find file 'D:\Project\YZDEV20161017\onlineExamSystem\User.xml'.
+2016-11-26 11:20:45:	Could not find file 'D:\Project\YZDEV20161017\onlineExamSystem\User.xml'.
+2016-11-26 15:40:00:	Could not find file 'D:\Project\YZDEV20161017\onlineExamSystem\User.xml'.
+2016-11-26 15:40:00:	Could not find file 'D:\Project\YZDEV20161017\onlineExamSystem\User.xml'.
+2016-11-26 16:47:49:	Could not find file 'D:\Project\YZDEV20161017\onlineExamSystem\User.xml'.
+2016-11-26 16:47:53:	Could not find file 'D:\Project\YZDEV20161017\onlineExamSystem\User.xml'.
+2016-11-26 16:47:53:	Could not find file 'D:\Project\YZDEV20161017\onlineExamSystem\User.xml'.
+2016-11-26 16:51:03:	Could not find file 'D:\Project\YZDEV20161017\onlineExamSystem\User.xml'.
+2016-11-26 16:54:14:	Could not find file 'D:\Project\YZDEV20161017\onlineExamSystem\User.xml'.
+2016-11-26 16:54:21:	Could not find file 'D:\Project\YZDEV20161017\onlineExamSystem\User.xml'.
+2016-11-26 16:54:24:	Object reference not set to an instance of an object.
+2016-11-26 16:54:29:	Object reference not set to an instance of an object.
+2016-11-26 16:54:39:	Object reference not set to an instance of an object.
+2016-11-26 16:54:46:	Object reference not set to an instance of an object.
+2016-11-26 18:55:48:	Object reference not set to an instance of an object.
+2016-11-26 18:56:03:	Object reference not set to an instance of an object.
+2016-11-26 19:18:46:	Object reference not set to an instance of an object.
+2016-11-26 19:23:34:	Object reference not set to an instance of an object.
+2016-11-26 19:38:17:	Object reference not set to an instance of an object.
+2016-11-26 19:38:42:	Object reference not set to an instance of an object.
+2016-11-26 19:38:59:	Object reference not set to an instance of an object.
+2016-11-26 19:51:21:	Object reference not set to an instance of an object.
+2016-11-26 20:00:28:	Object reference not set to an instance of an object.
+2016-11-26 20:03:42:	Object reference not set to an instance of an object.
+2016-11-26 20:05:19:	Object reference not set to an instance of an object.
+2016-11-26 20:10:18:	Object reference not set to an instance of an object.
+2016-11-26 20:10:21:	Object reference not set to an instance of an object.
+2016-11-26 20:10:24:	Object reference not set to an instance of an object.
+2016-11-26 20:15:13:	Object reference not set to an instance of an object.
+2016-11-26 20:15:18:	Object reference not set to an instance of an object.
+2016-11-26 20:23:52:	Object reference not set to an instance of an object.
+2016-11-26 20:23:59:	Object reference not set to an instance of an object.
+2016-11-26 20:24:08:	Object reference not set to an instance of an object.
+2016-11-26 20:24:47:	Object reference not set to an instance of an object.
+2016-11-26 20:24:59:	Object reference not set to an instance of an object.
+2016-11-26 20:31:28:	Object reference not set to an instance of an object.
+2016-11-26 20:31:35:	Object reference not set to an instance of an object.
+2016-11-26 20:31:42:	Object reference not set to an instance of an object.
+2016-11-26 20:31:47:	Object reference not set to an instance of an object.
+2016-11-26 20:32:26:	Object reference not set to an instance of an object.
+2016-11-26 20:34:48:	Object reference not set to an instance of an object.
+2016-11-26 20:34:52:	Object reference not set to an instance of an object.
+2016-11-26 20:35:25:	Object reference not set to an instance of an object.
+2016-11-26 20:36:24:	Object reference not set to an instance of an object.
+2016-11-26 20:36:43:	Object reference not set to an instance of an object.
+2016-11-26 20:36:53:	Object reference not set to an instance of an object.
+2016-11-26 20:37:00:	Object reference not set to an instance of an object.
+2016-11-26 20:37:10:	Object reference not set to an instance of an object.
+2016-11-26 20:37:28:	Object reference not set to an instance of an object.
+2016-11-26 20:37:33:	Object reference not set to an instance of an object.
+2016-11-26 20:37:44:	Object reference not set to an instance of an object.
+2016-11-26 20:48:48:	Object reference not set to an instance of an object.
+2016-11-26 20:48:58:	Object reference not set to an instance of an object.
+2016-11-26 20:49:35:	Object reference not set to an instance of an object.
+2016-11-26 20:49:42:	Object reference not set to an instance of an object.
+2016-11-26 20:49:50:	Object reference not set to an instance of an object.
+2016-11-26 20:51:06:	Object reference not set to an instance of an object.
+2016-11-26 20:51:15:	Object reference not set to an instance of an object.
+2016-11-26 20:52:44:	Object reference not set to an instance of an object.
+2016-11-26 20:53:22:	Object reference not set to an instance of an object.
+2016-11-26 20:53:34:	Object reference not set to an instance of an object.
+2016-11-26 20:58:59:	Object reference not set to an instance of an object.
+2016-11-26 21:00:51:	Object reference not set to an instance of an object.
+2016-11-26 21:01:05:	Object reference not set to an instance of an object.
+2016-11-26 21:08:46:	Object reference not set to an instance of an object.
+2016-11-26 21:08:57:	Object reference not set to an instance of an object.
+2016-11-26 21:08:58:	Object reference not set to an instance of an object.
+2016-11-26 21:09:25:	Object reference not set to an instance of an object.
+2016-11-26 21:09:32:	Object reference not set to an instance of an object.
+2016-11-26 21:09:33:	Object reference not set to an instance of an object.
+2016-11-26 21:09:34:	Object reference not set to an instance of an object.
+2016-11-26 21:10:03:	Object reference not set to an instance of an object.
+2016-11-26 21:10:10:	Object reference not set to an instance of an object.
+2016-11-26 21:10:11:	Object reference not set to an instance of an object.
+2016-11-26 21:10:12:	Object reference not set to an instance of an object.
+2016-11-26 21:10:24:	Object reference not set to an instance of an object.
+2016-11-26 21:10:30:	Object reference not set to an instance of an object.
+2016-11-26 21:10:31:	Object reference not set to an instance of an object.
+2016-11-26 21:10:32:	Object reference not set to an instance of an object.
+2016-11-26 21:12:12:	Object reference not set to an instance of an object.
+2016-11-26 21:12:18:	Object reference not set to an instance of an object.
+2016-11-26 21:12:18:	Object reference not set to an instance of an object.
+2016-11-26 21:12:19:	Could not find file 'D:\Project\YZDEV20161017\onlineExamSystem\User.xml'.
+2016-11-26 21:12:59:	Could not find file 'D:\Project\YZDEV20161017\onlineExamSystem\User.xml'.
+2016-11-26 21:13:18:	Could not find file 'D:\Project\YZDEV20161017\onlineExamSystem\User.xml'.
+2016-11-26 21:13:22:	Could not find file 'D:\Project\YZDEV20161017\onlineExamSystem\User.xml'.
+2016-11-26 21:13:27:	Could not find file 'D:\Project\YZDEV20161017\onlineExamSystem\User.xml'.
+2016-11-26 21:13:33:	Could not find file 'D:\Project\YZDEV20161017\onlineExamSystem\User.xml'.
+2016-11-26 21:13:33:	Object reference not set to an instance of an object.
+2016-11-26 21:13:34:	Could not find file 'D:\Project\YZDEV20161017\onlineExamSystem\User.xml'.
+2016-11-26 21:15:42:	Could not find file 'D:\Project\YZDEV20161017\onlineExamSystem\User.xml'.
+2016-11-26 21:15:48:	Could not find file 'D:\Project\YZDEV20161017\onlineExamSystem\User.xml'.
+2016-11-26 21:15:48:	Object reference not set to an instance of an object.
+2016-11-26 21:15:50:	Object reference not set to an instance of an object.
+2016-11-26 21:20:34:	Object reference not set to an instance of an object.
+2016-11-26 21:20:40:	Object reference not set to an instance of an object.
+2016-11-26 21:20:40:	Object reference not set to an instance of an object.
+2016-11-26 21:29:38:	Object reference not set to an instance of an object.
+2016-11-26 21:48:08:	Could not find file 'D:\Project\YZDEV20161017\onlineExamSystem\User.xml'.
+2016-11-26 21:48:15:	Could not find file 'D:\Project\YZDEV20161017\onlineExamSystem\User.xml'.
+2016-11-26 21:48:18:	Could not find file 'D:\Project\YZDEV20161017\onlineExamSystem\User.xml'.
+2016-11-26 21:48:26:	Could not find file 'D:\Project\YZDEV20161017\onlineExamSystem\User.xml'.
+2016-11-28 11:22:44:	Object reference not set to an instance of an object.
+2016-11-30 8:30:33:	Cannot access a disposed object.
+Object name: 'FormMain'.
+2016-11-30 8:30:38:	Cannot access a disposed object.
+Object name: 'FormMain'.
+2016-11-30 8:33:45:	Cannot access a disposed object.
+Object name: 'FormMain'.
+2016-11-30 8:37:27:	Object reference not set to an instance of an object.
+2016-11-30 8:38:41:	Object reference not set to an instance of an object.
+2016-11-30 16:45:26:	There was no endpoint listening at http://localhost:8888/ that could accept the message. This is often caused by an incorrect address or SOAP action. See InnerException, if present, for more details.
+2016-11-30 20:35:49:	The multi-part identifier "Constants.SIGN_SLASH" could not be bound.
+2016-11-30 20:49:27:	The SqlParameterCollection only accepts non-null SqlParameter type objects.
+Parameter name: value
+2016-11-30 21:13:01:	The SqlParameterCollection only accepts non-null SqlParameter type objects.
+Parameter name: value
+2016-11-30 21:35:55:	Cannot access a disposed object.
+Object name: 'FormMain'.
+2016-12-1 13:37:37:	Incorrect syntax near the keyword 'AND'.
+Incorrect syntax near the keyword 'AND'.
+Incorrect syntax near ')'.
+2016-12-1 14:37:39:	Object reference not set to an instance of an object.
+2016-12-1 14:38:04:	Object reference not set to an instance of an object.
+2016-12-1 14:39:10:	Object reference not set to an instance of an object.
+2016-12-1 14:39:19:	Object reference not set to an instance of an object.
+2016-12-3 11:50:49:	Object reference not set to an instance of an object.
+2016-12-3 12:00:11:	The request channel timed out while waiting for a reply after 00:01:00. Increase the timeout value passed to the call to Request or increase the SendTimeout value on the Binding. The time allotted to this operation may have been a portion of a longer timeout.
+2016-12-3 12:41:11:	ExceptionObject reference not set to an instance of an object.	System.Collections.ListDictionaryInternal
+2016-12-3 12:42:43:	ExceptionObject reference not set to an instance of an object.	System.Collections.ListDictionaryInternal
+2016-12-3 13:06:10:	ExceptionAn error occurred while receiving the HTTP response to http://localhost:8888/. This could be due to the service endpoint binding not using the HTTP protocol. This could also be due to an HTTP request context being aborted by the server (possibly due to the service shutting down). See server logs for more details.	System.Collections.ListDictionaryInternal
+2016-12-3 13:07:12:	ExceptionAn error occurred while receiving the HTTP response to http://localhost:8888/. This could be due to the service endpoint binding not using the HTTP protocol. This could also be due to an HTTP request context being aborted by the server (possibly due to the service shutting down). See server logs for more details.	System.Collections.ListDictionaryInternal
+2016-12-3 13:10:12:	ExceptionAn error occurred while receiving the HTTP response to http://localhost:8888/. This could be due to the service endpoint binding not using the HTTP protocol. This could also be due to an HTTP request context being aborted by the server (possibly due to the service shutting down). See server logs for more details.	System.Collections.ListDictionaryInternal
+2016-12-3 13:22:18:	ExceptionAn error occurred while receiving the HTTP response to http://localhost:8888/. This could be due to the service endpoint binding not using the HTTP protocol. This could also be due to an HTTP request context being aborted by the server (possibly due to the service shutting down). See server logs for more details.	System.Collections.ListDictionaryInternal
+2016-12-3 13:25:09:	ExceptionAn error occurred while receiving the HTTP response to http://localhost:8888/. This could be due to the service endpoint binding not using the HTTP protocol. This could also be due to an HTTP request context being aborted by the server (possibly due to the service shutting down). See server logs for more details.	System.Collections.ListDictionaryInternal
+2016-12-3 13:35:44:	ExceptionAn error occurred while receiving the HTTP response to http://localhost:8888/. This could be due to the service endpoint binding not using the HTTP protocol. This could also be due to an HTTP request context being aborted by the server (possibly due to the service shutting down). See server logs for more details.	System.Collections.ListDictionaryInternal
+2016-12-3 13:43:18:	ExceptionAn error occurred while receiving the HTTP response to http://localhost:8888/. This could be due to the service endpoint binding not using the HTTP protocol. This could also be due to an HTTP request context being aborted by the server (possibly due to the service shutting down). See server logs for more details.	System.Collections.ListDictionaryInternal
+2016-12-3 13:47:09:	ExceptionObject reference not set to an instance of an object.	System.Collections.ListDictionaryInternal
+2016-12-3 20:10:45:	ExceptionObject reference not set to an instance of an object.	System.Collections.ListDictionaryInternal
+2016-12-3 20:15:37:	ExceptionObject reference not set to an instance of an object.	System.Collections.ListDictionaryInternal
+2016-12-3 20:17:06:	ExceptionObject reference not set to an instance of an object.	System.Collections.ListDictionaryInternal
+2016-12-5 19:05:39:	ExceptionIndex was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index	System.Collections.ListDictionaryInternal
+2016-12-5 19:06:04:	ExceptionIndex was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index	System.Collections.ListDictionaryInternal
+2016-12-5 19:09:27:	ExceptionIndex was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index	System.Collections.ListDictionaryInternal
+2016-12-5 19:10:26:	ExceptionIndex was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index	System.Collections.ListDictionaryInternal
+2016-12-5 19:18:43:	ExceptionIndex was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index	System.Collections.ListDictionaryInternal
+2016-12-6 10:55:57:	ExceptionThere was no endpoint listening at http://localhost:8888/ that could accept the message. This is often caused by an incorrect address or SOAP action. See InnerException, if present, for more details.	System.Collections.ListDictionaryInternal
+2016-12-6 10:56:11:	ExceptionThe communication object, System.ServiceModel.Channels.ServiceChannel, cannot be used for communication because it is in the Faulted state.	System.Collections.ListDictionaryInternal
+2016-12-6 10:56:18:	ExceptionThe communication object, System.ServiceModel.Channels.ServiceChannel, cannot be used for communication because it is in the Faulted state.	System.Collections.ListDictionaryInternal
+2016-12-6 20:37:37:	ExceptionThe request channel timed out while waiting for a reply after 00:01:00. Increase the timeout value passed to the call to Request or increase the SendTimeout value on the Binding. The time allotted to this operation may have been a portion of a longer timeout.	System.Collections.ListDictionaryInternal
+2016-12-6 20:37:45:	ExceptionAn unsecured or incorrectly secured fault was received from the other party. See the inner FaultException for the fault code and detail.	System.Collections.ListDictionaryInternal
+2016-12-6 20:40:44:	ExceptionThe request channel timed out while waiting for a reply after 00:00:59.9843831. Increase the timeout value passed to the call to Request or increase the SendTimeout value on the Binding. The time allotted to this operation may have been a portion of a longer timeout.	System.Collections.ListDictionaryInternal
+2016-12-6 20:41:48:	ExceptionAn error occurred while receiving the HTTP response to http://localhost:8888/. This could be due to the service endpoint binding not using the HTTP protocol. This could also be due to an HTTP request context being aborted by the server (possibly due to the service shutting down). See server logs for more details.	System.Collections.ListDictionaryInternal
+2016-12-7 13:43:26:	FaultExceptionEntity User not found!	System.Collections.ListDictionaryInternal
+2016-12-7 13:45:52:	FaultExceptionEntity User not found!	System.Collections.ListDictionaryInternal
+2016-12-7 13:49:31:	FaultExceptionEntity User not found!	System.Collections.ListDictionaryInternal
+2016-12-7 13:49:36:	ExceptionThe communication object, System.ServiceModel.Channels.ServiceChannel, cannot be used for communication because it is in the Faulted state.	System.Collections.ListDictionaryInternal
+2016-12-7 13:50:05:	ExceptionThe communication object, System.ServiceModel.Channels.ServiceChannel, cannot be used for communication because it is in the Faulted state.	System.Collections.ListDictionaryInternal
+2016-12-7 13:56:48:	FaultExceptionEntity User not found!	System.Collections.ListDictionaryInternal
+2016-12-7 13:56:56:	FaultExceptionEntity User not found!	System.Collections.ListDictionaryInternal
+2016-12-7 14:00:46:	FaultExceptionEntity User not found!	System.Collections.ListDictionaryInternal
+2016-12-7 14:00:53:	FaultExceptionEntity User not found!	System.Collections.ListDictionaryInternal
+2016-12-7 14:05:31:	FaultExceptionEntity User not found!	System.Collections.ListDictionaryInternal
+2016-12-7 14:06:49:	FaultExceptionEntity User not found!	System.Collections.ListDictionaryInternal
+2016-12-7 14:07:40:	FaultException Entity User not found!	System.Collections.ListDictionaryInternal
+2016-12-7 14:08:36:	FaultException Entity User not found!	System.Collections.ListDictionaryInternal
+2016-12-7 14:12:54:	FaultException Entity User not found!	System.Collections.ListDictionaryInternal
+2016-12-7 14:29:20:	FaultException Entity User not found!	System.Collections.ListDictionaryInternal

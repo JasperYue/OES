@@ -1,0 +1,431 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="lblSystem.Text" xml:space="preserve">
+    <value>Online Exam System Client</value>
+  </data>
+  <data name="&gt;&gt;picLogo.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;picMax.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="picMax.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="picLogo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 20</value>
+  </data>
+  <data name="lblPerPage.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1024, 768</value>
+  </data>
+  <data name="&gt;&gt;pnlHeader.Name" xml:space="preserve">
+    <value>pnlHeader</value>
+  </data>
+  <data name="&gt;&gt;picMin.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblSystem.Location" type="System.Drawing.Point, System.Drawing">
+    <value>160, 8</value>
+  </data>
+  <data name="&gt;&gt;picClose.Parent" xml:space="preserve">
+    <value>pnlHeader</value>
+  </data>
+  <data name="pnlPageBar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 15</value>
+  </data>
+  <data name="picMin.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="lblPerPage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>579, 550</value>
+  </data>
+  <data name="&gt;&gt;lblPerPage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pnlHeader.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="lblGo.Text" xml:space="preserve">
+    <value>Go</value>
+  </data>
+  <data name="picMax.Size" type="System.Drawing.Size, System.Drawing">
+    <value>14, 13</value>
+  </data>
+  <data name="cboPageSize.Items1" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="cboPageSize.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 23</value>
+  </data>
+  <data name="lblGo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>670, 549</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 12</value>
+  </data>
+  <data name="pnlPageBar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>325, 550</value>
+  </data>
+  <data name="&gt;&gt;picClose.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="picLogo.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="&gt;&gt;lblGo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblGo.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 12px</value>
+  </data>
+  <data name="picClose.Location" type="System.Drawing.Point, System.Drawing">
+    <value>987, 7</value>
+  </data>
+  <data name="&gt;&gt;picClose.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblPerPage.Name" xml:space="preserve">
+    <value>lblPerPage</value>
+  </data>
+  <data name="txtPageNo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>641, 546</value>
+  </data>
+  <data name="lblSystem.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 14px</value>
+  </data>
+  <data name="picMax.Location" type="System.Drawing.Point, System.Drawing">
+    <value>960, 9</value>
+  </data>
+  <data name="lblSystem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 16</value>
+  </data>
+  <data name="&gt;&gt;txtPageNo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;picLogo.Name" xml:space="preserve">
+    <value>picLogo</value>
+  </data>
+  <data name="lblPerPage.Text" xml:space="preserve">
+    <value>Per page</value>
+  </data>
+  <data name="cboPageSize.Location" type="System.Drawing.Point, System.Drawing">
+    <value>536, 546</value>
+  </data>
+  <data name="lblGo.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="lblPerPage.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 12px</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="picMin.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;picMax.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="cboPageSize.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 12px</value>
+  </data>
+  <data name="lblPerPage.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="picLogo.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="pnlHeader.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="lblSystem.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lblSystem.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="pnlHeader.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;picLogo.Parent" xml:space="preserve">
+    <value>pnlHeader</value>
+  </data>
+  <data name="lblGo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 15</value>
+  </data>
+  <data name="pnlHeader.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="&gt;&gt;lblGo.Name" xml:space="preserve">
+    <value>lblGo</value>
+  </data>
+  <data name="&gt;&gt;picClose.Name" xml:space="preserve">
+    <value>picClose</value>
+  </data>
+  <data name="&gt;&gt;picMax.Name" xml:space="preserve">
+    <value>picMax</value>
+  </data>
+  <data name="picMax.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;picLogo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblSystem.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="lblGo.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblSystem.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;picMin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cboPageSize.Items" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;lblSystem.Name" xml:space="preserve">
+    <value>lblSystem</value>
+  </data>
+  <data name="picMin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>930, 6</value>
+  </data>
+  <data name="picClose.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="picLogo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 4</value>
+  </data>
+  <data name="txtPageNo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>21, 21</value>
+  </data>
+  <data name="&gt;&gt;cboPageSize.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlHeader.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pnlPageBar.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="&gt;&gt;pnlHeader.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="picLogo.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;picMin.Name" xml:space="preserve">
+    <value>picMin</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>BaseForm</value>
+  </data>
+  <data name="&gt;&gt;lblSystem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblSystem.Parent" xml:space="preserve">
+    <value>pnlHeader</value>
+  </data>
+  <data name="&gt;&gt;txtPageNo.Name" xml:space="preserve">
+    <value>txtPageNo</value>
+  </data>
+  <data name="&gt;&gt;pnlHeader.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;picMax.Parent" xml:space="preserve">
+    <value>pnlHeader</value>
+  </data>
+  <data name="pnlHeader.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1024, 28</value>
+  </data>
+  <data name="txtPageNo.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="cboPageSize.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="picMin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>17, 17</value>
+  </data>
+  <data name="lblPerPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 15</value>
+  </data>
+  <data name="&gt;&gt;cboPageSize.Name" xml:space="preserve">
+    <value>cboPageSize</value>
+  </data>
+  <data name="picClose.Size" type="System.Drawing.Size, System.Drawing">
+    <value>17, 17</value>
+  </data>
+  <data name="&gt;&gt;pnlPageBar.Name" xml:space="preserve">
+    <value>pnlPageBar</value>
+  </data>
+  <data name="&gt;&gt;picMin.Parent" xml:space="preserve">
+    <value>pnlHeader</value>
+  </data>
+  <data name="&gt;&gt;pnlPageBar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="picClose.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+</root>

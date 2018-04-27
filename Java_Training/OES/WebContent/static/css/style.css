@@ -1,0 +1,606 @@
+﻿a {
+    color: #FFFFFF;
+}
+div.shade {
+    width: 100%;
+    height: 768px;
+    position: absolute;
+    opacity: 0.4;
+    background-color: #000;
+    z-index: 100;
+    display: none;
+}
+div.wrapper {
+    font-family : "Arial Regular";
+    width: 1280px;
+    height: 768px;
+    background-color: #FFFFFF;
+    margin: 0 auto;
+}
+/* -------------- Header CSS start -------------- */
+header {
+    height: 80px;
+    background-color: #2E4358;
+}
+header img {
+    padding: 20px 40px 20px 20px;
+}
+header h3 {
+    height: 80px;
+    line-height: 80px;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+header ul {
+    height: 60px;
+    padding: 20px 20px 0 0;
+    font-size: 14px;
+}
+header ul li:first-child {
+    margin-bottom: 20px;
+    text-align: right;
+}
+header ul li:first-child  a {
+    font-family: 黑体 Regular;
+}
+header ul li:last-child a {
+    color: #FFFFFF;
+}
+header ul li:last-child span {
+    display: inline-block;
+    background: url("../images/ICN_Web_PersonalInformation_20x20.png") no-repeat;
+    height: 20px;
+    line-height: 20px;
+    padding-left: 30px;
+    margin-right: 30px;
+    color: #FFFFFF;
+}
+nav ul {
+    height: 40px;
+    padding-left: 20px;
+}
+nav ul li a {
+    display: inline-block;
+    padding: 0 16px;
+    height: 40px;
+    width: 200px;
+    line-height: 40px;
+    color: #2E4358;
+    font-size: 18px;
+    text-align: center;
+}
+nav ul li:first-child {
+    margin-right: 88px;
+}
+nav ul li  > a.panelChecked {
+    background-color: #D2DAE3;
+}
+/* -------------- Header CSS end -------------- */
+/* -------------- BOX CSS start -------------- */
+div.msgbox {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 398px;
+    height: 198px;
+    border: 1px solid #2E4358;
+    border-radius: 5px;
+    display: none;
+    background-color: #FFFFFF;
+    text-align: center;
+    z-index: 200;
+}
+label.close {
+    width: 21px;
+    height: 21px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    background: url("../images/BTN_Close_21x21.png") no-repeat;
+}
+div.msgbox h3, .alertbox h3 {
+    margin: 70px 0 50px 0;
+    font-size: 14px;
+    color: #0A0A0A;
+    font-weight: 400;
+}
+.alertbox {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 398px;
+    height: 58px;
+    border: 1px solid #2E4358;
+    border-radius: 5px;
+    display: none;
+    background-color: #FFFFFF;
+    text-align: center;
+    z-index: 200;
+}
+.alertbox h3 {
+    margin: 20px 0;
+}
+div.btn-group {
+    padding: 0 105px 40px 105px;
+    color: #FFFFFF;
+}
+div.btn-group > input {
+    background: #FE9901;
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+/* -------------- BOX CSS end -------------- */
+/* -------------- MAIN CSS start -------------- */
+nav ~ section {
+    background-color: #D2DAE3;
+}
+.bread {
+    height: 30px;
+    line-height: 30px;
+    color: #0A0A0A;
+    font-size: 12px;
+    padding-left: 25px;
+}
+.bread span:last-child {
+    color: #5E5E5E;
+}
+.content {
+    width: 1240px;
+    margin: 0 20px;
+    height: 580px;
+    background-color: #FFFFFF;
+}
+.content > aside {
+    height: 530px;
+    width: 179px;
+    padding: 50px 10px 0;
+    border-right: 1px solid #9D9D9D;
+}
+ul.tree li:last-child {
+    border-bottom: 1px solid #2E4358;
+}
+ul.tree li:first-child {
+    border-top: 1px solid #2E4358;
+}
+ul.tree li a {
+    display: block;
+    font-size: 14px;
+    height: 30px;
+    line-height: 30px;
+    color: #2E4358;
+    background-color: #FFFFFF;
+    text-align: center;
+}
+ul.tree a.selected {
+    background-color: #2E4358;
+    color: #FFFFFF;
+}
+.addOrEditPanel, .examPanel, .addPanel {
+    display: none;
+}
+/* -------------- article CSS start -------------- */
+article {
+    width: 976px;
+    padding: 0 30px;
+}
+.mainHeader > p:first-child {
+    width: 180px;
+    border: 1px solid #296793;
+    border-radius: 3px;
+    margin: 10px 0;
+    height:30px;
+}
+.mainHeader > p:first-child  > input:first-child {
+    width: 145px;
+    height: 28px;
+    padding-left: 5px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    font-size: 14px;
+    color: #5E5E5E;
+}
+.examPanel .mainHeader > p:last-child {
+    width: 276px;
+    border: 1px solid #296793;
+    border-radius: 3px;
+    margin: 10px 0;
+    height:30px;
+}
+.examPanel .mainHeader > p:last-child  > input {
+    width: 80px;
+    height: 28px;
+    padding-left: 5px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    font-size: 14px;
+    color: #5E5E5E;
+    text-align: center;
+}
+.examPanel .mainHeader > p:last-child  > input:last-child {
+    height: 30px;
+    background-color: #FFFFFF;
+    width:60px;
+    outline: none;
+    border-left: 1px solid #296793;
+    border-radius: 0 5px 5px 0;
+    color: #FE9901
+}
+.examPanel .mainHeader > p:last-child  span{
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    border-left: 1px solid #296793;
+    border-right: 1px solid #296793;
+    vertical-align: top;
+    padding: 0 7px;
+}
+.search {
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    outline: none;
+    border: none;
+    background: url("../images/ICN_Search_15x20.png") no-repeat 5px 5px;
+}
+.mainContent {
+    border: 1px solid #2E4358;
+    border-radius: 5px;
+}
+#questionList, #examList {
+    width: 975px;
+    text-align: center;
+}
+#questionList thead tr, #examList thead tr {
+    border-bottom: 1px solid #2E4358;
+    color: #0A0A0A;
+    font-size: 14px;
+} 
+#questionList tbody tr, #examList tbody tr {
+    border-bottom: 1px solid #9D9D9D;
+    font-size: 12px;
+    color: #0A0A0A;
+    height: 30px;
+    line-height: 30px;
+}
+#questionList thead tr, #examList thead tr{
+    height: 40px;
+    line-height: 40px;
+}
+#questionList thead tr td:nth-child(2) i , #examList thead tr td:nth-child(2) i , #examList thead tr td:nth-child(3) i , #examList thead tr td:nth-child(4) i {
+    display: inline-block;
+    vertical-align: middle;
+    width: 10px;
+    height: 15px;
+    cursor: pointer;
+}
+#questionList tr td:first-child {
+    padding: 0 40px 0 70px;
+}
+#examList tr td:first-child  {
+    padding: 0 45px 0 40px;
+
+}
+#questionList tr td:nth-child(3) {
+    width: 300px;
+    padding: 0 90px;
+}
+#examList tr td:nth-child(3), #examList tr td:nth-child(5) {
+    padding: 0 45px;
+}
+#questionList tr td:nth-child(5), #questionList tfoot tr td:last-child {
+    padding: 0 70px 0 40px;
+    position: relative;
+}
+#examList tr td:nth-child(7) {
+    padding: 0 45px;
+}
+#examList tr td:nth-child(7) a{
+    display: inline-block;
+    padding: 0 5px;
+    height: 20px;
+    line-height: 20px;
+}
+#questionList tbody tr td:nth-child(3) a, #examList tr td:nth-child(3) > a {
+    color: #296793;
+    font-size: 12px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: block;
+}
+#examList tr td:nth-child(3) > a {
+    width: 150px;
+}
+#questionList tbody tr td:nth-child(3) a {
+    width: 300px;
+}   
+#questionList tbody tr td:nth-child(4) a, #examList tbody tr td:nth-child(4) a  {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background: url("../images/ICN_Edit_15x15.png") no-repeat;
+    vertical-align: middle;
+}
+#questionList tfoot tr td:first-child, #examList tfoot tr td:first-child  {
+    padding-bottom: 15px;
+}
+#questionList tfoot tr td:last-child, #examList tfoot tr td:last-child {
+    padding-bottom: 40px;;
+}
+#questionList tfoot tr td:last-child input[type='button'], #examList tfoot tr td:last-child input[type='button'] {
+    border: none;
+    outline: none;
+    background-color: #FE9901;
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    color: #FFFFFF;
+    border-radius: 5px;
+    margin-top: 30px;
+    font-size: 14px;
+}
+input[type='checkbox'] {
+    -webkit-appearance: none;
+    width: 15px;
+    height: 15px;
+    vertical-align: middle;
+}
+.increase {
+    background: url("../images/ICN_Increse_10x15.png") no-repeat;
+}
+.decrease {
+    background: url("../images/ICN_Decrease_10x15.png") no-repeat;
+}
+.checkOrNot {
+    position: absolute;
+    top: 0;
+    right: 60px;
+    font-size: 12px;
+}
+.ckUncheck {
+    background: url("../images/ICN_Unselected_15x15.png") no-repeat;
+}
+.ckChecked {
+    background: url("../images/ICN_Selected_15x15.png") no-repeat;
+}
+.pagination, .toolbar {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px;
+    display: inline-block;
+    width: 300px;
+    text-align: right;
+}
+.toolbar {
+    text-align: left;
+    width: 200px;
+}
+.pagination a, .toolbar a {
+    margin-right: 10px;
+}
+.prev, .next {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    background: url("../images/BTN_PageLeft_20x15.png") no-repeat;
+}
+.next {
+    background: url("../images/BTN_PageRight_20x15.png") no-repeat;
+}
+.code {
+    color: #5E5E5E;
+}
+.current {
+    color: #FE9901;
+}
+.toolbar span {
+    margin-right: 15px;
+}
+.toolbar input[type='text'] {
+    margin-right: 10px;
+    width: 25px;
+    border-radius: 3px;
+    border: 1px solid #5E5E5E;
+}
+.toolbar a:last-child {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    line-height: 18px;
+    background-color: #FE9901;
+    text-align: center;
+}
+.questionUlList {
+    margin: 0 130px 50px 130px;
+    color: #0A0A0A;
+    font-size: 14px;
+}
+.questionUlList li:first-child {
+    margin: 30px 0;
+    height: 22px;
+}
+.questionUlList li {
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+.questionUlList label {
+    display: inline-block;
+    width: 100px;
+    margin-right: 40px;
+}
+.questionUlList li span:last-child {
+    position: absolute;
+    width: 270px;
+    color: red;
+    font-size: 12px;
+}
+.examUlList li span:last-child {
+    position: absolute;
+    width: 250px;
+    color: red;
+    font-size: 12px;
+}
+.areaMsg {
+    display: inline-block;
+    height: 80px;
+    line-height: 80px;
+}
+.questionTitle {
+    height: 80px;
+    line-height: 80px;
+    vertical-align: top;
+}
+.question_title {
+    width: 470px;
+    height: 80px;
+    resize: none;
+}
+.answer {
+    background: #D2DAE3;
+}
+#answerList ~ dd {
+    height: 20px;
+    line-height: 20px;
+    margin-bottom: 15px;
+    padding: 0;
+}
+.questionUlList li.noBottom {
+    margin-bottom: 0;
+}
+input[type='radio'] {
+    -webkit-appearance: none;
+    width: 20px;
+    height: 20px;
+    background: url("../images/BTN_Radio_Unselected_17x17.png") no-repeat;
+    vertical-align: middle;
+    outline: none;
+    margin-right: 10px;
+}
+input[type='radio'].radioCK {
+    background: url("../images/BTN_Radio_Selected_17x17.png") no-repeat;
+}
+.questionInput {
+    width: 445px;
+    margin-left: 10px;
+    border: 1px solid #2E4358;
+    border-radius: 3px;
+}
+.questionAnswer {
+    background-color: #D2DAE3;
+}
+.questionUlList + div {
+    text-align: center;
+    margin: 0 310px;
+}
+.questionUlList + div > a {
+    display: inline-block;
+    width: 150px;
+    height: 30px;
+    line-height: 30px;
+    background: #FE9901;
+    border-radius: 5px;
+}
+.examUlList {
+    margin: 0 175px;
+}
+.examUlList li {
+    height: 30px;
+    line-height: 30px;
+    margin-bottom: 30px;
+    font-family: "Arial Regular";
+    font-size: 14px;
+    color: #0A0A0A;
+}
+.examUlList li:first-child {
+    margin-top: 30px;
+}
+.examUlList li input {
+    height:25px;
+    border: 1px solid #2E4358;
+    border-radius: 3px;
+    padding: 0 5px;
+}
+.examUlList li textarea {
+    border: 1px solid #2E4358;
+    border-radius: 3px;
+    resize: none;
+    width: 400px;
+    padding: 0;
+}
+.examUlList li:first-child input {
+    width: 400px;
+}
+.examUlList li:nth-child(2) {
+    height: 60px;
+}
+.examUlList li:nth-child(2) label {
+    height: 60px;
+    line-height: 60px;
+    vertical-align: top;
+}
+.examUlList li:nth-child(3) input:nth-of-type(1) {
+    width: 110px;
+}
+.examUlList li:nth-child(3) input:nth-of-type(2), .examUlList li:nth-child(3) input:nth-of-type(3) {
+    width: 25px;
+}
+.examUlList li:nth-child(4) input {
+    width: 80px;
+    margin-right: 10px;
+}
+.examUlList li:nth-last-child(2) {
+    margin-bottom: 20px;
+}
+.examUlList li:last-child {
+    margin-bottom: 50px;
+}
+.examUlList li > p{
+    display: inline-block;
+    width: 130px;
+    margin: 0 10px 0 10px;
+}
+.examUlList li:last-child > input, .examUlList li:nth-last-child(2) > input {
+    width: 30px;
+}
+.examUlList li label {
+    width: 150px;
+    margin-right: 30px;
+    display: inline-block;
+}
+.examUlList li label em {
+    margin-left:5px;
+    color: red;
+}
+.examUlList + div {
+    text-align: center;
+    margin: 0 330px;
+}
+.examUlList + div > a {
+    display: inline-block;
+    width: 150px;
+    height: 30px;
+    line-height: 30px;
+    background: #FE9901;
+    border-radius: 5px;
+}
+
+/* -------------- article CSS end -------------- */
+/* -------------- MAIN CSS end -------------- */
+footer {
+    text-align: center;
+    font-size: 12px;
+    color: #0A0A0A;
+    height: 40px;
+    background-color: #D2DAE3;
+}

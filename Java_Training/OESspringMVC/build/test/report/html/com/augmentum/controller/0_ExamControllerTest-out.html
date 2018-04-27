@@ -1,0 +1,275 @@
+<html xmlns:string="xalan://java.lang.String" xmlns:lxslt="http://xml.apache.org/xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Standard Output from ExamControllerTest</title>
+</head>
+<body>
+<pre>2016-11-20 11:46:53,031 INFO  XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [applicationContext.xml]
+2016-11-20 11:46:53,422 INFO  XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [oes-mvc.xml]
+2016-11-20 11:46:53,594 INFO  ClassPathBeanDefinitionScanner - JSR-250 'javax.annotation.ManagedBean' found and supported for component scanning
+2016-11-20 11:46:53,734 INFO  GenericApplicationContext - Refreshing org.springframework.context.support.GenericApplicationContext@16c31dc: startup date [Sun Nov 20 11:46:53 CST 2016]; root of context hierarchy
+2016-11-20 11:46:54,031 INFO  PropertyPlaceholderConfigurer - Loading properties file from class path resource [app.properties]
+2016-11-20 11:46:54,125 INFO  DefaultListableBeanFactory - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1367092: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,dataSource,transactionManager,txAdvice,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.aop.aspectj.AspectJPointcutAdvisor#0,org.springframework.aop.aspectj.AspectJPointcutAdvisor#1,org.springframework.aop.aspectj.AspectJPointcutAdvisor#2,org.springframework.aop.aspectj.AspectJPointcutAdvisor#3,businessService,logMethodTimeAdvice,userController,userService,questionController,questionService,examController,examService,sqlSessionFactory,sqlSessionTemplate,baseDao,userDao,examDao,questionDao,org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping#0,org.springframework.format.support.FormattingConversionServiceFactoryBean#0,org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter#0,org.springframework.web.servlet.handler.MappedInterceptor#0,org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0,org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0,org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0,org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping,org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter,org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter,org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0,org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#0,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,viewResolver,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0]; root of factory hierarchy
+2016-11-20 11:46:54,578 INFO  MLog - MLog clients using log4j logging.
+2016-11-20 11:46:54,781 INFO  C3P0Registry - Initializing c3p0-0.9.2.1 [built 20-March-2013 10:47:27 +0000; debug? true; trace: 10]
+2016-11-20 11:46:56,016 INFO  AbstractPoolBackedDataSource - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -&gt; 3, acquireRetryAttempts -&gt; 30, acquireRetryDelay -&gt; 1000, autoCommitOnClose -&gt; false, automaticTestTable -&gt; null, breakAfterAcquireFailure -&gt; false, checkoutTimeout -&gt; 0, connectionCustomizerClassName -&gt; null, connectionTesterClassName -&gt; com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -&gt; 31t9vp9kzgzw9t1k78c9c|114de83, debugUnreturnedConnectionStackTraces -&gt; false, description -&gt; null, driverClass -&gt; com.mysql.jdbc.Driver, factoryClassLocation -&gt; null, forceIgnoreUnresolvedTransactions -&gt; false, identityToken -&gt; 31t9vp9kzgzw9t1k78c9c|114de83, idleConnectionTestPeriod -&gt; 0, initialPoolSize -&gt; 5, jdbcUrl -&gt; jdbc:mysql://localhost:3306/oes?useUnicode=true&amp;characterEncoding=utf-8&amp;allowMultiQueries=true, maxAdministrativeTaskTime -&gt; 0, maxConnectionAge -&gt; 0, maxIdleTime -&gt; 0, maxIdleTimeExcessConnections -&gt; 0, maxPoolSize -&gt; 20, maxStatements -&gt; 0, maxStatementsPerConnection -&gt; 0, minPoolSize -&gt; 5, numHelperThreads -&gt; 3, preferredTestQuery -&gt; null, properties -&gt; {user=******, password=******}, propertyCycle -&gt; 0, statementCacheNumDeferredCloseThreads -&gt; 0, testConnectionOnCheckin -&gt; false, testConnectionOnCheckout -&gt; false, unreturnedConnectionTimeout -&gt; 0, userOverrides -&gt; {}, usesTraditionalReflectiveProxies -&gt; false ]
+2016-11-20 11:46:57,391 INFO  RequestMappingHandlerMapping - Mapped "{[/page/user/logout],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.augmentum.controller.UserController.logout()
+2016-11-20 11:46:57,391 INFO  RequestMappingHandlerMapping - Mapped "{[/page/user/login],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.augmentum.controller.UserController.toLogin(java.lang.String)
+2016-11-20 11:46:57,391 INFO  RequestMappingHandlerMapping - Mapped "{[/page/user/login],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.augmentum.controller.UserController.login(com.augmentum.model.User,javax.servlet.http.HttpServletResponse,java.lang.String,java.lang.String,java.lang.String,javax.servlet.http.Cookie,javax.servlet.http.Cookie) throws javax.servlet.ServletException,java.io.IOException
+2016-11-20 11:46:57,391 INFO  RequestMappingHandlerMapping - Mapped "{[/page/question/toEdit],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.Object com.augmentum.controller.QuestionController.toEdit(java.lang.String,com.augmentum.model.Question) throws java.io.IOException
+2016-11-20 11:46:57,391 INFO  RequestMappingHandlerMapping - Mapped "{[/page/question/addOrEditQuestion],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.Object com.augmentum.controller.QuestionController.addOrEditQuestion(com.augmentum.model.Question)
+2016-11-20 11:46:57,391 INFO  RequestMappingHandlerMapping - Mapped "{[/page/question/toQuestionList],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.augmentum.controller.QuestionController.toQuestionList()
+2016-11-20 11:46:57,391 INFO  RequestMappingHandlerMapping - Mapped "{[/page/question/queryQuestionList],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.Object com.augmentum.controller.QuestionController.queryQuestionList(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2016-11-20 11:46:57,391 INFO  RequestMappingHandlerMapping - Mapped "{[/page/question/deleteQuestion],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.Object com.augmentum.controller.QuestionController.deleteQuestion(java.lang.String[])
+2016-11-20 11:46:57,391 INFO  RequestMappingHandlerMapping - Mapped "{[/page/exam/queryExamList],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.Object com.augmentum.controller.ExamController.queryExamList(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2016-11-20 11:46:57,391 INFO  RequestMappingHandlerMapping - Mapped "{[/page/exam/addExam],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.Object com.augmentum.controller.ExamController.addExam(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Boolean,java.lang.String,java.lang.String)
+2016-11-20 11:46:58,469 INFO  SimpleUrlHandlerMapping - Mapped URL path [/static/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2016-11-20 11:46:58,609 INFO  TransactionalTestExecutionListener - Began transaction (1): transaction manager [org.springframework.jdbc.datasource.DataSourceTransactionManager@7d6e53]; rollback [true]
+2016-11-20 11:46:58,625 INFO  LogMethodTimeAspect - Jasper.Yue IN method: addExam
+2016-11-20 11:46:58,734 DEBUG getQuestionCount - ooo Using Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@84c504]
+2016-11-20 11:46:58,750 DEBUG getQuestionCount - ==&gt;  Preparing: SELECT COUNT(*) FROM question WHERE del_mark = 0 AND title LIKE ? 
+2016-11-20 11:46:58,812 DEBUG getQuestionCount - ==&gt; Parameters: %%(String)
+2016-11-20 11:46:58,844 INFO  LogMethodTimeAspect - Jasper.Yue OUT method: addExam
+2016-11-20 11:46:58,844 INFO  LogMethodTimeAspect - Jasper.Yue IN method: addExam Throw Exception Sorry, the question is not enough in the system!
+2016-11-20 11:46:58,859 INFO  BaseController - com.augmentum.model.User@af3ba1Sorry, the question is not enough in the system!
+com.augmentum.exception.ServiceException: Sorry, the question is not enough in the system!
+	at com.augmentum.service.impl.ExamServiceImpl.addExam(ExamServiceImpl.java:84)
+	at com.augmentum.service.impl.ExamServiceImpl$$FastClassByCGLIB$$630b3673.invoke(&lt;generated&gt;)
+	at net.sf.cglib.proxy.MethodProxy.invoke(MethodProxy.java:191)
+	at org.springframework.aop.framework.Cglib2AopProxy$CglibMethodInvocation.invokeJoinpoint(Cglib2AopProxy.java:689)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:150)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:50)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:80)
+	at com.augmentum.advice.LogMethodTimeAspect.doAround(LogMethodTimeAspect.java:31)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:621)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:610)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:65)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.aop.aspectj.AspectJAfterAdvice.invoke(AspectJAfterAdvice.java:42)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.aop.aspectj.AspectJAfterThrowingAdvice.invoke(AspectJAfterThrowingAdvice.java:55)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:90)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.aop.framework.Cglib2AopProxy$DynamicAdvisedInterceptor.intercept(Cglib2AopProxy.java:622)
+	at com.augmentum.service.impl.ExamServiceImpl$$EnhancerByCGLIB$$e29900f1.addExam(&lt;generated&gt;)
+	at com.augmentum.controller.ExamController.addExam(ExamController.java:76)
+	at com.augmentum.controller.ExamControllerTest.addExamSaveAsDraft(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:44)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:41)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:74)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:31)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:83)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:72)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:231)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:88)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:180)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:41)
+	at org.junit.runners.ParentRunner$1.evaluate(ParentRunner.java:173)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:31)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:71)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:220)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:174)
+	at junit.framework.JUnit4TestAdapter.run(JUnit4TestAdapter.java:39)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:523)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.launch(JUnitTestRunner.java:1063)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.main(JUnitTestRunner.java:914)
+2016-11-20 11:46:58,859 INFO  TransactionalTestExecutionListener - Rolled back transaction after test execution for test context [TestContext@443007 testClass = ExamControllerTest, testInstance = com.augmentum.controller.ExamControllerTest@ad3a7a, testMethod = addExamSaveAsDraft@ExamControllerTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@da3058 testClass = ExamControllerTest, locations = '{classpath:applicationContext.xml, classpath:oes-mvc.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+2016-11-20 11:46:58,859 INFO  TransactionalTestExecutionListener - Began transaction (2): transaction manager [org.springframework.jdbc.datasource.DataSourceTransactionManager@7d6e53]; rollback [true]
+2016-11-20 11:46:58,859 INFO  LogMethodTimeAspect - Jasper.Yue IN method: addExam
+2016-11-20 11:46:58,859 DEBUG getQuestionCount - ooo Using Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@1b241c1]
+2016-11-20 11:46:58,859 DEBUG getQuestionCount - ==&gt;  Preparing: SELECT COUNT(*) FROM question WHERE del_mark = 0 AND title LIKE ? 
+2016-11-20 11:46:58,859 DEBUG getQuestionCount - ==&gt; Parameters: %%(String)
+2016-11-20 11:46:58,875 DEBUG findQuestionIdList - ooo Using Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@1b241c1]
+2016-11-20 11:46:58,875 DEBUG findQuestionIdList - ==&gt;  Preparing: SELECT id, answer, refer_mark FROM question ORDER BY RAND() LIMIT ? 
+2016-11-20 11:46:58,875 DEBUG findQuestionIdList - ==&gt; Parameters: 100(Integer)
+2016-11-20 11:46:58,953 DEBUG batchEditQuestion - ooo Using Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@1b241c1]
+2016-11-20 11:46:58,953 DEBUG batchEditQuestion - ==&gt;  Preparing: UPDATE question SET refer_mark = 1 WHERE id IN ( ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? ) 
+2016-11-20 11:46:58,969 DEBUG batchEditQuestion - ==&gt; Parameters: 77(Integer), 55(Integer), 20(Integer), 42(Integer), 15(Integer), 38(Integer), 27(Integer), 95(Integer), 91(Integer), 92(Integer), 106(Integer), 90(Integer), 5(Integer), 51(Integer), 81(Integer), 96(Integer), 11(Integer), 93(Integer), 52(Integer), 18(Integer), 7(Integer), 80(Integer), 39(Integer), 40(Integer), 66(Integer), 12(Integer), 8(Integer), 62(Integer), 6(Integer), 59(Integer), 24(Integer), 54(Integer), 76(Integer), 79(Integer), 21(Integer), 43(Integer), 23(Integer), 2(Integer), 71(Integer), 25(Integer), 26(Integer), 50(Integer), 16(Integer), 48(Integer), 14(Integer), 19(Integer), 63(Integer), 65(Integer), 17(Integer), 41(Integer), 32(Integer), 53(Integer), 37(Integer), 29(Integer), 31(Integer), 61(Integer), 99(Integer), 58(Integer), 57(Integer), 36(Integer), 34(Integer), 67(Integer), 94(Integer), 9(Integer), 28(Integer), 70(Integer), 68(Integer), 49(Integer), 105(Integer), 69(Integer), 64(Integer), 78(Integer), 13(Integer), 33(Integer), 10(Integer), 22(Integer), 30(Integer), 56(Integer), 47(Integer), 72(Integer), 35(Integer)
+2016-11-20 11:46:58,969 DEBUG addExam - ooo Using Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@1b241c1]
+2016-11-20 11:46:58,969 DEBUG addExam - ==&gt;  Preparing: INSERT INTO exam(name, description, single_score, total_score, pass_criteria, need_quantity, fact_quantity, effective_time, duration, creator, answer_str, status, create_time, update_time) VALUES(?, '', ?, ?, ?, ?, ?, str_to_date(?, '%Y-%m-%d %H:%i'), ?, ?, ?, ?, now(), now()) 
+2016-11-20 11:46:58,969 DEBUG addExam - ==&gt; Parameters: Test(String), 2.0(Float), 100.0(Float), 60(Integer), 100(Integer), 81(Integer), 2016-11-01 11:00(String), 120(Integer), Jasper.Yue(String), 1,1&amp;2,1&amp;3,1&amp;4,1&amp;5,1&amp;6,3&amp;7,1&amp;8,2&amp;9,1&amp;10,2&amp;11,1&amp;12,2&amp;13,2&amp;14,4&amp;15,1&amp;16,1&amp;17,2&amp;18,1&amp;19,1&amp;20,2&amp;21,3&amp;22,1&amp;23,1&amp;24,1&amp;25,1&amp;26,1&amp;27,2&amp;28,4&amp;29,3&amp;30,1&amp;31,4&amp;32,3&amp;33,1&amp;34,1&amp;35,1&amp;36,1&amp;37,1&amp;38,2&amp;39,2&amp;40,3&amp;41,1&amp;42,3&amp;43,1&amp;44,1&amp;45,1&amp;46,2&amp;47,1&amp;48,1&amp;49,3&amp;50,1&amp;51,2&amp;52,3&amp;53,1&amp;54,1&amp;55,1&amp;56,1&amp;57,3&amp;58,1&amp;59,3&amp;60,1&amp;61,1&amp;62,1&amp;63,1&amp;64,1&amp;65,1&amp;66,1&amp;67,1&amp;68,1&amp;69,1&amp;70,2&amp;71,1&amp;72,1&amp;73,2&amp;74,1&amp;75,3&amp;76,1&amp;77,4&amp;78,3&amp;79,1&amp;80,3&amp;81,1(String), 0(Integer)
+2016-11-20 11:46:58,984 DEBUG editExam - ooo Using Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@1b241c1]
+2016-11-20 11:46:58,984 DEBUG editExam - ==&gt;  Preparing: UPDATE exam SET num = ? WHERE id = ? 
+2016-11-20 11:46:58,984 DEBUG editExam - ==&gt; Parameters: E000045(String), 45(Integer)
+2016-11-20 11:46:59,000 DEBUG batchInsertQuestionToPaper - ooo Using Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@1b241c1]
+2016-11-20 11:46:59,000 DEBUG batchInsertQuestionToPaper - ==&gt;  Preparing: INSERT exam_question(exam_id, question_id) VALUES (?,?) , (?,?) , (?,?) , (?,?) , (?,?) , (?,?) , (?,?) , (?,?) , (?,?) , (?,?) , (?,?) , (?,?) , (?,?) , (?,?) , (?,?) , (?,?) , (?,?) , (?,?) , (?,?) , (?,?) , (?,?) , (?,?) , (?,?) , (?,?) , (?,?) , (?,?) , (?,?) , (?,?) , (?,?) , (?,?) , (?,?) , (?,?) , (?,?) , (?,?) , (?,?) , (?,?) , (?,?) , (?,?) , (?,?) , (?,?) , (?,?) , (?,?) , (?,?) , (?,?) , (?,?) , (?,?) , (?,?) , (?,?) , (?,?) , (?,?) , (?,?) , (?,?) , (?,?) , (?,?) , (?,?) , (?,?) , (?,?) , (?,?) , (?,?) , (?,?) , (?,?) , (?,?) , (?,?) , (?,?) , (?,?) , (?,?) , (?,?) , (?,?) , (?,?) , (?,?) , (?,?) , (?,?) , (?,?) , (?,?) , (?,?) , (?,?) , (?,?) , (?,?) , (?,?) , (?,?) , (?,?) 
+2016-11-20 11:46:59,000 DEBUG batchInsertQuestionToPaper - ==&gt; Parameters: 45(Integer), 77(Integer), 45(Integer), 55(Integer), 45(Integer), 20(Integer), 45(Integer), 42(Integer), 45(Integer), 15(Integer), 45(Integer), 38(Integer), 45(Integer), 27(Integer), 45(Integer), 95(Integer), 45(Integer), 91(Integer), 45(Integer), 92(Integer), 45(Integer), 106(Integer), 45(Integer), 90(Integer), 45(Integer), 5(Integer), 45(Integer), 51(Integer), 45(Integer), 81(Integer), 45(Integer), 96(Integer), 45(Integer), 11(Integer), 45(Integer), 93(Integer), 45(Integer), 52(Integer), 45(Integer), 18(Integer), 45(Integer), 7(Integer), 45(Integer), 80(Integer), 45(Integer), 39(Integer), 45(Integer), 40(Integer), 45(Integer), 66(Integer), 45(Integer), 12(Integer), 45(Integer), 8(Integer), 45(Integer), 62(Integer), 45(Integer), 6(Integer), 45(Integer), 59(Integer), 45(Integer), 24(Integer), 45(Integer), 54(Integer), 45(Integer), 76(Integer), 45(Integer), 79(Integer), 45(Integer), 21(Integer), 45(Integer), 43(Integer), 45(Integer), 23(Integer), 45(Integer), 2(Integer), 45(Integer), 71(Integer), 45(Integer), 25(Integer), 45(Integer), 26(Integer), 45(Integer), 50(Integer), 45(Integer), 16(Integer), 45(Integer), 48(Integer), 45(Integer), 14(Integer), 45(Integer), 19(Integer), 45(Integer), 63(Integer), 45(Integer), 65(Integer), 45(Integer), 17(Integer), 45(Integer), 41(Integer), 45(Integer), 32(Integer), 45(Integer), 53(Integer), 45(Integer), 37(Integer), 45(Integer), 29(Integer), 45(Integer), 31(Integer), 45(Integer), 61(Integer), 45(Integer), 99(Integer), 45(Integer), 58(Integer), 45(Integer), 57(Integer), 45(Integer), 36(Integer), 45(Integer), 34(Integer), 45(Integer), 67(Integer), 45(Integer), 94(Integer), 45(Integer), 9(Integer), 45(Integer), 28(Integer), 45(Integer), 70(Integer), 45(Integer), 68(Integer), 45(Integer), 49(Integer), 45(Integer), 105(Integer), 45(Integer), 69(Integer), 45(Integer), 64(Integer), 45(Integer), 78(Integer), 45(Integer), 13(Integer), 45(Integer), 33(Integer), 45(Integer), 10(Integer), 45(Integer), 22(Integer), 45(Integer), 30(Integer), 45(Integer), 56(Integer), 45(Integer), 47(Integer), 45(Integer), 72(Integer), 45(Integer), 35(Integer)
+2016-11-20 11:46:59,015 INFO  LogMethodTimeAspect - Jasper.Yue : ExamServiceImpl : addExam : 156
+2016-11-20 11:46:59,015 INFO  LogMethodTimeAspect - Jasper.Yue OUT method: addExam
+2016-11-20 11:46:59,031 INFO  TransactionalTestExecutionListener - Rolled back transaction after test execution for test context [TestContext@443007 testClass = ExamControllerTest, testInstance = com.augmentum.controller.ExamControllerTest@1aa5cdb, testMethod = addExamAsDraftSuccessful@ExamControllerTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@da3058 testClass = ExamControllerTest, locations = '{classpath:applicationContext.xml, classpath:oes-mvc.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+2016-11-20 11:46:59,031 INFO  TransactionalTestExecutionListener - Began transaction (3): transaction manager [org.springframework.jdbc.datasource.DataSourceTransactionManager@7d6e53]; rollback [true]
+2016-11-20 11:46:59,031 INFO  LogMethodTimeAspect - Jasper.Yue IN method: addExam
+2016-11-20 11:46:59,031 INFO  LogMethodTimeAspect - Jasper.Yue OUT method: addExam
+2016-11-20 11:46:59,031 INFO  LogMethodTimeAspect - Jasper.Yue IN method: addExam Throw Exception Data validate error.
+2016-11-20 11:46:59,031 INFO  BaseController - com.augmentum.model.User@122f23aData validate error.
+com.augmentum.exception.ParamException: Data validate error.
+	at com.augmentum.service.impl.ExamServiceImpl.addExam(ExamServiceImpl.java:71)
+	at com.augmentum.service.impl.ExamServiceImpl$$FastClassByCGLIB$$630b3673.invoke(&lt;generated&gt;)
+	at net.sf.cglib.proxy.MethodProxy.invoke(MethodProxy.java:191)
+	at org.springframework.aop.framework.Cglib2AopProxy$CglibMethodInvocation.invokeJoinpoint(Cglib2AopProxy.java:689)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:150)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:50)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:80)
+	at com.augmentum.advice.LogMethodTimeAspect.doAround(LogMethodTimeAspect.java:31)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:621)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:610)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:65)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.aop.aspectj.AspectJAfterAdvice.invoke(AspectJAfterAdvice.java:42)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.aop.aspectj.AspectJAfterThrowingAdvice.invoke(AspectJAfterThrowingAdvice.java:55)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:90)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.aop.framework.Cglib2AopProxy$DynamicAdvisedInterceptor.intercept(Cglib2AopProxy.java:622)
+	at com.augmentum.service.impl.ExamServiceImpl$$EnhancerByCGLIB$$e29900f1.addExam(&lt;generated&gt;)
+	at com.augmentum.controller.ExamController.addExam(ExamController.java:76)
+	at com.augmentum.controller.ExamControllerTest.addExamValidationLengthFailed(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:44)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:41)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:74)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:31)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:83)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:72)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:231)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:88)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:180)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:41)
+	at org.junit.runners.ParentRunner$1.evaluate(ParentRunner.java:173)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:31)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:71)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:220)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:174)
+	at junit.framework.JUnit4TestAdapter.run(JUnit4TestAdapter.java:39)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:523)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.launch(JUnitTestRunner.java:1063)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.main(JUnitTestRunner.java:914)
+2016-11-20 11:46:59,031 INFO  TransactionalTestExecutionListener - Rolled back transaction after test execution for test context [TestContext@443007 testClass = ExamControllerTest, testInstance = com.augmentum.controller.ExamControllerTest@1accabf, testMethod = addExamValidationLengthFailed@ExamControllerTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@da3058 testClass = ExamControllerTest, locations = '{classpath:applicationContext.xml, classpath:oes-mvc.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+2016-11-20 11:46:59,031 INFO  TransactionalTestExecutionListener - Began transaction (4): transaction manager [org.springframework.jdbc.datasource.DataSourceTransactionManager@7d6e53]; rollback [true]
+2016-11-20 11:46:59,047 INFO  LogMethodTimeAspect - Jasper.Yue IN method: findExamList
+2016-11-20 11:46:59,047 DEBUG getExamCount - ooo Using Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@17e5cf5]
+2016-11-20 11:46:59,047 DEBUG getExamCount - ==&gt;  Preparing: SELECT COUNT(*) FROM exam WHERE name LIKE ? AND effective_time BETWEEN str_to_date(?, '%Y-%d-%m') AND str_to_date(?, '%Y-%d-%m') 
+2016-11-20 11:46:59,047 DEBUG getExamCount - ==&gt; Parameters: %%(String), 2000-01-01(String), 2050-01-01(String)
+2016-11-20 11:46:59,047 DEBUG findExamList - ooo Using Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@17e5cf5]
+2016-11-20 11:46:59,047 DEBUG findExamList - ==&gt;  Preparing: SELECT id, num, name, need_quantity, fact_quantity, effective_time, duration, creator, status FROM exam WHERE name LIKE ? AND effective_time BETWEEN str_to_date(?, '%Y-%m-%d') AND str_to_date(?, '%Y-%m-%d') LIMIT ?, ? 
+2016-11-20 11:46:59,047 DEBUG findExamList - ==&gt; Parameters: %%(String), 2000-01-01(String), 2050-01-01(String), 3(Integer), 3(Integer)
+2016-11-20 11:46:59,062 INFO  LogMethodTimeAspect - Jasper.Yue : ExamServiceImpl : findExamList : 15
+2016-11-20 11:46:59,062 INFO  LogMethodTimeAspect - Jasper.Yue OUT method: findExamList
+2016-11-20 11:46:59,062 INFO  TransactionalTestExecutionListener - Rolled back transaction after test execution for test context [TestContext@443007 testClass = ExamControllerTest, testInstance = com.augmentum.controller.ExamControllerTest@165aff9, testMethod = queryExamListSuccessful@ExamControllerTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@da3058 testClass = ExamControllerTest, locations = '{classpath:applicationContext.xml, classpath:oes-mvc.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+2016-11-20 11:46:59,062 INFO  TransactionalTestExecutionListener - Began transaction (5): transaction manager [org.springframework.jdbc.datasource.DataSourceTransactionManager@7d6e53]; rollback [true]
+2016-11-20 11:46:59,062 INFO  LogMethodTimeAspect - Jasper.Yue IN method: addExam
+2016-11-20 11:46:59,062 INFO  LogMethodTimeAspect - Jasper.Yue OUT method: addExam
+2016-11-20 11:46:59,062 INFO  LogMethodTimeAspect - Jasper.Yue IN method: addExam Throw Exception Data validate error.
+2016-11-20 11:46:59,062 INFO  BaseController - com.augmentum.model.User@1f63a08Data validate error.
+com.augmentum.exception.ParamException: Data validate error.
+	at com.augmentum.service.impl.ExamServiceImpl.addExam(ExamServiceImpl.java:71)
+	at com.augmentum.service.impl.ExamServiceImpl$$FastClassByCGLIB$$630b3673.invoke(&lt;generated&gt;)
+	at net.sf.cglib.proxy.MethodProxy.invoke(MethodProxy.java:191)
+	at org.springframework.aop.framework.Cglib2AopProxy$CglibMethodInvocation.invokeJoinpoint(Cglib2AopProxy.java:689)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:150)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:50)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:80)
+	at com.augmentum.advice.LogMethodTimeAspect.doAround(LogMethodTimeAspect.java:31)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:621)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:610)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:65)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.aop.aspectj.AspectJAfterAdvice.invoke(AspectJAfterAdvice.java:42)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.aop.aspectj.AspectJAfterThrowingAdvice.invoke(AspectJAfterThrowingAdvice.java:55)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:90)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.aop.framework.Cglib2AopProxy$DynamicAdvisedInterceptor.intercept(Cglib2AopProxy.java:622)
+	at com.augmentum.service.impl.ExamServiceImpl$$EnhancerByCGLIB$$e29900f1.addExam(&lt;generated&gt;)
+	at com.augmentum.controller.ExamController.addExam(ExamController.java:76)
+	at com.augmentum.controller.ExamControllerTest.addExamValidationFailed(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:44)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:41)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:74)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:31)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:83)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:72)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:231)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:88)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:180)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:41)
+	at org.junit.runners.ParentRunner$1.evaluate(ParentRunner.java:173)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:31)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:71)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:220)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:174)
+	at junit.framework.JUnit4TestAdapter.run(JUnit4TestAdapter.java:39)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:523)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.launch(JUnitTestRunner.java:1063)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.main(JUnitTestRunner.java:914)
+2016-11-20 11:46:59,062 INFO  TransactionalTestExecutionListener - Rolled back transaction after test execution for test context [TestContext@443007 testClass = ExamControllerTest, testInstance = com.augmentum.controller.ExamControllerTest@f0b187, testMethod = addExamValidationFailed@ExamControllerTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@da3058 testClass = ExamControllerTest, locations = '{classpath:applicationContext.xml, classpath:oes-mvc.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+2016-11-20 11:46:59,062 INFO  TransactionalTestExecutionListener - Began transaction (6): transaction manager [org.springframework.jdbc.datasource.DataSourceTransactionManager@7d6e53]; rollback [true]
+2016-11-20 11:46:59,078 INFO  LogMethodTimeAspect - Jasper.Yue IN method: addExam
+2016-11-20 11:46:59,078 DEBUG getQuestionCount - ooo Using Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@1e59a4d]
+2016-11-20 11:46:59,078 DEBUG getQuestionCount - ==&gt;  Preparing: SELECT COUNT(*) FROM question WHERE del_mark = 0 AND title LIKE ? 
+2016-11-20 11:46:59,078 DEBUG getQuestionCount - ==&gt; Parameters: %%(String)
+2016-11-20 11:46:59,078 DEBUG findQuestionIdList - ooo Using Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@1e59a4d]
+2016-11-20 11:46:59,078 DEBUG findQuestionIdList - ==&gt;  Preparing: SELECT id, answer, refer_mark FROM question ORDER BY RAND() LIMIT ? 
+2016-11-20 11:46:59,078 DEBUG findQuestionIdList - ==&gt; Parameters: 20(Integer)
+2016-11-20 11:46:59,078 DEBUG batchEditQuestion - ooo Using Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@1e59a4d]
+2016-11-20 11:46:59,078 DEBUG batchEditQuestion - ==&gt;  Preparing: UPDATE question SET refer_mark = 1 WHERE id IN ( ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? ) 
+2016-11-20 11:46:59,078 DEBUG batchEditQuestion - ==&gt; Parameters: 7(Integer), 16(Integer), 12(Integer), 31(Integer), 24(Integer), 71(Integer), 35(Integer), 53(Integer), 48(Integer), 92(Integer), 55(Integer), 56(Integer), 28(Integer), 18(Integer), 34(Integer), 40(Integer), 30(Integer), 26(Integer), 93(Integer), 32(Integer)
+2016-11-20 11:46:59,078 DEBUG addExam - ooo Using Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@1e59a4d]
+2016-11-20 11:46:59,078 DEBUG addExam - ==&gt;  Preparing: INSERT INTO exam(name, description, single_score, total_score, pass_criteria, need_quantity, fact_quantity, effective_time, duration, creator, answer_str, status, create_time, update_time) VALUES(?, '', ?, ?, ?, ?, ?, str_to_date(?, '%Y-%m-%d %H:%i'), ?, ?, ?, ?, now(), now()) 
+2016-11-20 11:46:59,078 DEBUG addExam - ==&gt; Parameters: Test(String), 2.0(Float), 60.0(Float), 60(Integer), 20(Integer), 20(Integer), 2016-11-01 11:00(String), 120(Integer), Jasper.Yue(String), 1,3&amp;2,1&amp;3,1&amp;4,1&amp;5,4&amp;6,2&amp;7,1&amp;8,3&amp;9,1&amp;10,2&amp;11,1&amp;12,3&amp;13,1&amp;14,2&amp;15,1&amp;16,1&amp;17,4&amp;18,1&amp;19,1&amp;20,2(String), 1(Integer)
+2016-11-20 11:46:59,078 DEBUG editExam - ooo Using Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@1e59a4d]
+2016-11-20 11:46:59,078 DEBUG editExam - ==&gt;  Preparing: UPDATE exam SET num = ? WHERE id = ? 
+2016-11-20 11:46:59,078 DEBUG editExam - ==&gt; Parameters: E000046(String), 46(Integer)
+2016-11-20 11:46:59,094 DEBUG batchInsertQuestionToPaper - ooo Using Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@1e59a4d]
+2016-11-20 11:46:59,094 DEBUG batchInsertQuestionToPaper - ==&gt;  Preparing: INSERT exam_question(exam_id, question_id) VALUES (?,?) , (?,?) , (?,?) , (?,?) , (?,?) , (?,?) , (?,?) , (?,?) , (?,?) , (?,?) , (?,?) , (?,?) , (?,?) , (?,?) , (?,?) , (?,?) , (?,?) , (?,?) , (?,?) , (?,?) 
+2016-11-20 11:46:59,094 DEBUG batchInsertQuestionToPaper - ==&gt; Parameters: 46(Integer), 7(Integer), 46(Integer), 16(Integer), 46(Integer), 12(Integer), 46(Integer), 31(Integer), 46(Integer), 24(Integer), 46(Integer), 71(Integer), 46(Integer), 35(Integer), 46(Integer), 53(Integer), 46(Integer), 48(Integer), 46(Integer), 92(Integer), 46(Integer), 55(Integer), 46(Integer), 56(Integer), 46(Integer), 28(Integer), 46(Integer), 18(Integer), 46(Integer), 34(Integer), 46(Integer), 40(Integer), 46(Integer), 30(Integer), 46(Integer), 26(Integer), 46(Integer), 93(Integer), 46(Integer), 32(Integer)
+2016-11-20 11:46:59,094 INFO  LogMethodTimeAspect - Jasper.Yue : ExamServiceImpl : addExam : 16
+2016-11-20 11:46:59,094 INFO  LogMethodTimeAspect - Jasper.Yue OUT method: addExam
+2016-11-20 11:46:59,094 INFO  TransactionalTestExecutionListener - Rolled back transaction after test execution for test context [TestContext@443007 testClass = ExamControllerTest, testInstance = com.augmentum.controller.ExamControllerTest@12ca458, testMethod = addExamSuccessful@ExamControllerTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@da3058 testClass = ExamControllerTest, locations = '{classpath:applicationContext.xml, classpath:oes-mvc.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+</pre>
+</body>
+</html>

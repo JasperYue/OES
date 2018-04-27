@@ -1,0 +1,156 @@
+<html xmlns:string="xalan://java.lang.String" xmlns:lxslt="http://xml.apache.org/xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Standard Output from UserControllerTest</title>
+</head>
+<body>
+<pre>2016-11-20 11:47:10,749 INFO  XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [applicationContext.xml]
+2016-11-20 11:47:11,108 INFO  XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [oes-mvc.xml]
+2016-11-20 11:47:11,265 INFO  ClassPathBeanDefinitionScanner - JSR-250 'javax.annotation.ManagedBean' found and supported for component scanning
+2016-11-20 11:47:11,468 INFO  GenericApplicationContext - Refreshing org.springframework.context.support.GenericApplicationContext@d67b44: startup date [Sun Nov 20 11:47:11 CST 2016]; root of context hierarchy
+2016-11-20 11:47:11,780 INFO  PropertyPlaceholderConfigurer - Loading properties file from class path resource [app.properties]
+2016-11-20 11:47:11,858 INFO  DefaultListableBeanFactory - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1fbbe9f: defining beans [org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0,dataSource,transactionManager,txAdvice,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.aop.aspectj.AspectJPointcutAdvisor#0,org.springframework.aop.aspectj.AspectJPointcutAdvisor#1,org.springframework.aop.aspectj.AspectJPointcutAdvisor#2,org.springframework.aop.aspectj.AspectJPointcutAdvisor#3,businessService,logMethodTimeAdvice,userController,userService,questionController,questionService,examController,examService,sqlSessionFactory,sqlSessionTemplate,baseDao,userDao,examDao,questionDao,org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping#0,org.springframework.format.support.FormattingConversionServiceFactoryBean#0,org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter#0,org.springframework.web.servlet.handler.MappedInterceptor#0,org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0,org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0,org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0,org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping,org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter,org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter,org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0,org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#0,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,viewResolver,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0]; root of factory hierarchy
+2016-11-20 11:47:12,374 INFO  MLog - MLog clients using log4j logging.
+2016-11-20 11:47:12,593 INFO  C3P0Registry - Initializing c3p0-0.9.2.1 [built 20-March-2013 10:47:27 +0000; debug? true; trace: 10]
+2016-11-20 11:47:14,218 INFO  AbstractPoolBackedDataSource - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -&gt; 3, acquireRetryAttempts -&gt; 30, acquireRetryDelay -&gt; 1000, autoCommitOnClose -&gt; false, automaticTestTable -&gt; null, breakAfterAcquireFailure -&gt; false, checkoutTimeout -&gt; 0, connectionCustomizerClassName -&gt; null, connectionTesterClassName -&gt; com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -&gt; 31t9vp9kzh0a05pxcq4o|1f0788d, debugUnreturnedConnectionStackTraces -&gt; false, description -&gt; null, driverClass -&gt; com.mysql.jdbc.Driver, factoryClassLocation -&gt; null, forceIgnoreUnresolvedTransactions -&gt; false, identityToken -&gt; 31t9vp9kzh0a05pxcq4o|1f0788d, idleConnectionTestPeriod -&gt; 0, initialPoolSize -&gt; 5, jdbcUrl -&gt; jdbc:mysql://localhost:3306/oes?useUnicode=true&amp;characterEncoding=utf-8&amp;allowMultiQueries=true, maxAdministrativeTaskTime -&gt; 0, maxConnectionAge -&gt; 0, maxIdleTime -&gt; 0, maxIdleTimeExcessConnections -&gt; 0, maxPoolSize -&gt; 20, maxStatements -&gt; 0, maxStatementsPerConnection -&gt; 0, minPoolSize -&gt; 5, numHelperThreads -&gt; 3, preferredTestQuery -&gt; null, properties -&gt; {user=******, password=******}, propertyCycle -&gt; 0, statementCacheNumDeferredCloseThreads -&gt; 0, testConnectionOnCheckin -&gt; false, testConnectionOnCheckout -&gt; false, unreturnedConnectionTimeout -&gt; 0, userOverrides -&gt; {}, usesTraditionalReflectiveProxies -&gt; false ]
+2016-11-20 11:47:15,624 INFO  RequestMappingHandlerMapping - Mapped "{[/page/user/login],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.augmentum.controller.UserController.login(com.augmentum.model.User,javax.servlet.http.HttpServletResponse,java.lang.String,java.lang.String,java.lang.String,javax.servlet.http.Cookie,javax.servlet.http.Cookie) throws javax.servlet.ServletException,java.io.IOException
+2016-11-20 11:47:15,624 INFO  RequestMappingHandlerMapping - Mapped "{[/page/user/login],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.augmentum.controller.UserController.toLogin(java.lang.String)
+2016-11-20 11:47:15,624 INFO  RequestMappingHandlerMapping - Mapped "{[/page/user/logout],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.augmentum.controller.UserController.logout()
+2016-11-20 11:47:15,624 INFO  RequestMappingHandlerMapping - Mapped "{[/page/question/toEdit],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.Object com.augmentum.controller.QuestionController.toEdit(java.lang.String,com.augmentum.model.Question) throws java.io.IOException
+2016-11-20 11:47:15,624 INFO  RequestMappingHandlerMapping - Mapped "{[/page/question/addOrEditQuestion],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.Object com.augmentum.controller.QuestionController.addOrEditQuestion(com.augmentum.model.Question)
+2016-11-20 11:47:15,624 INFO  RequestMappingHandlerMapping - Mapped "{[/page/question/toQuestionList],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.web.servlet.ModelAndView com.augmentum.controller.QuestionController.toQuestionList()
+2016-11-20 11:47:15,624 INFO  RequestMappingHandlerMapping - Mapped "{[/page/question/queryQuestionList],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.Object com.augmentum.controller.QuestionController.queryQuestionList(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2016-11-20 11:47:15,624 INFO  RequestMappingHandlerMapping - Mapped "{[/page/question/deleteQuestion],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.Object com.augmentum.controller.QuestionController.deleteQuestion(java.lang.String[])
+2016-11-20 11:47:15,624 INFO  RequestMappingHandlerMapping - Mapped "{[/page/exam/addExam],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.Object com.augmentum.controller.ExamController.addExam(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Boolean,java.lang.String,java.lang.String)
+2016-11-20 11:47:15,624 INFO  RequestMappingHandlerMapping - Mapped "{[/page/exam/queryExamList],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.Object com.augmentum.controller.ExamController.queryExamList(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2016-11-20 11:47:16,764 INFO  SimpleUrlHandlerMapping - Mapped URL path [/static/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+2016-11-20 11:47:16,889 INFO  TransactionalTestExecutionListener - Began transaction (1): transaction manager [org.springframework.jdbc.datasource.DataSourceTransactionManager@1143fbc]; rollback [true]
+2016-11-20 11:47:17,061 DEBUG login - ooo Using Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@16cea48]
+2016-11-20 11:47:17,061 DEBUG login - ==&gt;  Preparing: SELECT * FROM user WHERE name = ? AND password = ? 
+2016-11-20 11:47:17,139 DEBUG login - ==&gt; Parameters: Jasper.Yue(String), 202cb962ac59075b964b07152d234b70(String)
+2016-11-20 11:47:17,186 INFO  BaseController - nullEntity User not found.
+com.augmentum.exception.ServiceException: Entity User not found.
+	at com.augmentum.service.impl.UserServiceImpl.login(UserServiceImpl.java:57)
+	at com.augmentum.service.impl.UserServiceImpl$$FastClassByCGLIB$$77f13f47.invoke(&lt;generated&gt;)
+	at net.sf.cglib.proxy.MethodProxy.invoke(MethodProxy.java:191)
+	at org.springframework.aop.framework.Cglib2AopProxy$CglibMethodInvocation.invokeJoinpoint(Cglib2AopProxy.java:689)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:150)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:50)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:80)
+	at com.augmentum.advice.LogMethodTimeAspect.doAround(LogMethodTimeAspect.java:31)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:621)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:610)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:65)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.aop.aspectj.AspectJAfterAdvice.invoke(AspectJAfterAdvice.java:42)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.aop.aspectj.AspectJAfterThrowingAdvice.invoke(AspectJAfterThrowingAdvice.java:55)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:90)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.aop.framework.Cglib2AopProxy$DynamicAdvisedInterceptor.intercept(Cglib2AopProxy.java:622)
+	at com.augmentum.service.impl.UserServiceImpl$$EnhancerByCGLIB$$7c9b6925.login(&lt;generated&gt;)
+	at com.augmentum.controller.UserController.login(UserController.java:81)
+	at com.augmentum.controller.UserControllerTest.testLoginUnSuccessful(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:44)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:41)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:74)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:31)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:83)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:72)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:231)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:88)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:180)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:41)
+	at org.junit.runners.ParentRunner$1.evaluate(ParentRunner.java:173)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:31)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:71)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:220)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:174)
+	at junit.framework.JUnit4TestAdapter.run(JUnit4TestAdapter.java:39)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:523)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.launch(JUnitTestRunner.java:1063)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.main(JUnitTestRunner.java:914)
+2016-11-20 11:47:17,186 INFO  TransactionalTestExecutionListener - Rolled back transaction after test execution for test context [TestContext@d6d763 testClass = UserControllerTest, testInstance = com.augmentum.controller.UserControllerTest@d6b35f, testMethod = testLoginUnSuccessful@UserControllerTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@19a5197 testClass = UserControllerTest, locations = '{classpath:applicationContext.xml, classpath:oes-mvc.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+2016-11-20 11:47:17,202 INFO  TransactionalTestExecutionListener - Began transaction (2): transaction manager [org.springframework.jdbc.datasource.DataSourceTransactionManager@1143fbc]; rollback [true]
+2016-11-20 11:47:17,202 INFO  BaseController - nullData validate error.
+com.augmentum.exception.ParamException: Data validate error.
+	at com.augmentum.service.impl.UserServiceImpl.login(UserServiceImpl.java:43)
+	at com.augmentum.service.impl.UserServiceImpl$$FastClassByCGLIB$$77f13f47.invoke(&lt;generated&gt;)
+	at net.sf.cglib.proxy.MethodProxy.invoke(MethodProxy.java:191)
+	at org.springframework.aop.framework.Cglib2AopProxy$CglibMethodInvocation.invokeJoinpoint(Cglib2AopProxy.java:689)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:150)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:50)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:80)
+	at com.augmentum.advice.LogMethodTimeAspect.doAround(LogMethodTimeAspect.java:31)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:621)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:610)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:65)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.aop.aspectj.AspectJAfterAdvice.invoke(AspectJAfterAdvice.java:42)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.aop.aspectj.AspectJAfterThrowingAdvice.invoke(AspectJAfterThrowingAdvice.java:55)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:90)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.aop.framework.Cglib2AopProxy$DynamicAdvisedInterceptor.intercept(Cglib2AopProxy.java:622)
+	at com.augmentum.service.impl.UserServiceImpl$$EnhancerByCGLIB$$7c9b6925.login(&lt;generated&gt;)
+	at com.augmentum.controller.UserController.login(UserController.java:81)
+	at com.augmentum.controller.UserControllerTest.testLoginValidationFailed(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:44)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:41)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:74)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:31)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:83)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:72)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:231)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:88)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:180)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:41)
+	at org.junit.runners.ParentRunner$1.evaluate(ParentRunner.java:173)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:31)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:71)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:220)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:174)
+	at junit.framework.JUnit4TestAdapter.run(JUnit4TestAdapter.java:39)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:523)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.launch(JUnitTestRunner.java:1063)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.main(JUnitTestRunner.java:914)
+2016-11-20 11:47:17,202 INFO  TransactionalTestExecutionListener - Rolled back transaction after test execution for test context [TestContext@d6d763 testClass = UserControllerTest, testInstance = com.augmentum.controller.UserControllerTest@12adfb3, testMethod = testLoginValidationFailed@UserControllerTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@19a5197 testClass = UserControllerTest, locations = '{classpath:applicationContext.xml, classpath:oes-mvc.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+2016-11-20 11:47:17,202 INFO  TransactionalTestExecutionListener - Began transaction (3): transaction manager [org.springframework.jdbc.datasource.DataSourceTransactionManager@1143fbc]; rollback [true]
+2016-11-20 11:47:17,202 DEBUG login - ooo Using Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@6506f0]
+2016-11-20 11:47:17,202 DEBUG login - ==&gt;  Preparing: SELECT * FROM user WHERE name = ? AND password = ? 
+2016-11-20 11:47:17,202 DEBUG login - ==&gt; Parameters: Jasper.Yue(String), e10adc3949ba59abbe56e057f20f883e(String)
+2016-11-20 11:47:17,264 INFO  UserController - Jasper.Yue login successfully
+2016-11-20 11:47:17,264 INFO  TransactionalTestExecutionListener - Rolled back transaction after test execution for test context [TestContext@d6d763 testClass = UserControllerTest, testInstance = com.augmentum.controller.UserControllerTest@5b9ec1, testMethod = testLoginSuccessful@UserControllerTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@19a5197 testClass = UserControllerTest, locations = '{classpath:applicationContext.xml, classpath:oes-mvc.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+</pre>
+</body>
+</html>

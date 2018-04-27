@@ -1,0 +1,393 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="picLogo.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lblLogout.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="lblLogout.Location" type="System.Drawing.Point, System.Drawing">
+    <value>968, 12</value>
+  </data>
+  <data name="lblLogout.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 16</value>
+  </data>
+  <data name="lblLogout.Text" xml:space="preserve">
+    <value>注销</value>
+  </data>
+  <data name="picUser.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABIAAAAUCAYAAACAl21KAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAALTAAA
+        C0wBwGFnoQAAAbhJREFUOE9jZMABUhoyHB58Fq//+JPLjInx/x8e1p/XZPhelS9smHoIlx4M8YTGbFfd
+        jAnfNdMn/0fGBll9P2Jrc+2JMmj9fAMBs9yu1+iGwPj2hS1XVq1iYCZoWEJddiwuQ0DiOhkT/ndM9tcl
+        aFBwZXEFPoNAchmNqcEEDSLkIu2MiUAXeRF2ESiMTHK63+NylV1By22iwgjk5Ki6/FDdzP7f6IbpZ/X9
+        jqnJ8yDoLWQFGc0pTg6FjYcMMvv+GWb3/ncsbDyf0JDjQLQh2yYxsKc1poV6l1XNzO9McN25Sk/x4AZl
+        2fKeSBuvspp50bV5Gd3dbtx4DcxuizW3KWi5AvMSKGAt8jp+WuZ1vAKxYeLW+W0PkxoyXbAaFlOX662X
+        2YeRmnEFOii8QiqKQlEMa+n1lzXO6f5CKP2gywPD7ltxW7QW3DCPstrlpBoCU+9c2LAfaBAjQ99UdxWD
+        rP4/5BoECrva7ghzhuCqkmpyDYHp8y6rnsngWNR4hlKDbPNbnzIAs8M3Sg0CBvpPhti6/GQg4yO5hoGy
+        UnB1SR445iJrCnKNs3v+Y8Og7IFLDiTuWVYzC2QGAISvBH21G4FIAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="llblChinese.Location" type="System.Drawing.Point, System.Drawing">
+    <value>894, 12</value>
+  </data>
+  <data name="llblChinese.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 16</value>
+  </data>
+  <data name="llblChinese.Text" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="lblExamTab.Text" xml:space="preserve">
+    <value>我的考试</value>
+  </data>
+  <data name="lblHomeTab.Text" xml:space="preserve">
+    <value>主页</value>
+  </data>
+  <data name="lblName.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="lblName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 16</value>
+  </data>
+  <data name="lblName.Text" xml:space="preserve">
+    <value>名称</value>
+  </data>
+  <data name="lblNum.Location" type="System.Drawing.Point, System.Drawing">
+    <value>231, 13</value>
+  </data>
+  <data name="lblNum.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 16</value>
+  </data>
+  <data name="lblNum.Text" xml:space="preserve">
+    <value>编号</value>
+  </data>
+  <data name="lblTime.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="lblTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>345, 13</value>
+  </data>
+  <data name="lblTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 16</value>
+  </data>
+  <data name="lblTime.Text" xml:space="preserve">
+    <value>生效时间</value>
+  </data>
+  <data name="lblDuration.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="lblDuration.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 16</value>
+  </data>
+  <data name="lblDuration.Text" xml:space="preserve">
+    <value>考试时长</value>
+  </data>
+  <data name="lblPassCriteria.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="lblPassCriteria.Location" type="System.Drawing.Point, System.Drawing">
+    <value>594, 13</value>
+  </data>
+  <data name="lblPassCriteria.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 16</value>
+  </data>
+  <data name="lblPassCriteria.Text" xml:space="preserve">
+    <value>及格分</value>
+  </data>
+  <data name="lblScore.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="lblScore.Location" type="System.Drawing.Point, System.Drawing">
+    <value>708, 13</value>
+  </data>
+  <data name="lblScore.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 16</value>
+  </data>
+  <data name="lblScore.Text" xml:space="preserve">
+    <value>考试分/考试总分</value>
+  </data>
+  <data name="picOperation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>929, 14</value>
+  </data>
+  <data name="lblOperation.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="lblOperation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>893, 13</value>
+  </data>
+  <data name="lblOperation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 16</value>
+  </data>
+  <data name="lblOperation.Text" xml:space="preserve">
+    <value>操作</value>
+  </data>
+  <data name="picName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>139, 13</value>
+  </data>
+  <data name="picPass.Location" type="System.Drawing.Point, System.Drawing">
+    <value>647, 13</value>
+  </data>
+  <data name="picTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>411, 13</value>
+  </data>
+  <data name="lblUnfinished.Text" xml:space="preserve">
+    <value>未参加考试</value>
+  </data>
+  <data name="lblFinished.Text" xml:space="preserve">
+    <value>已参加考试</value>
+  </data>
+  <data name="lblAll.Text" xml:space="preserve">
+    <value>所有考试</value>
+  </data>
+  <data name="lblNotice1.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="lblNotice1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 16</value>
+  </data>
+  <data name="lblNotice1.Text" xml:space="preserve">
+    <value>须知</value>
+  </data>
+  <data name="lblExaminationRule.Text" xml:space="preserve">
+    <value>考试细则</value>
+  </data>
+  <data name="lblRule6.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="lblRule6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>50, 328</value>
+  </data>
+  <data name="lblRule6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>220, 16</value>
+  </data>
+  <data name="lblRule6.Text" xml:space="preserve">
+    <value>5. 考生在交卷后，不能再次作答。</value>
+  </data>
+  <data name="lblRule5.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="lblRule5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>50, 299</value>
+  </data>
+  <data name="lblRule5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>346, 16</value>
+  </data>
+  <data name="lblRule5.Text" xml:space="preserve">
+    <value>4. 如果考生没有交卷，系统会在时间到达后自动提交。</value>
+  </data>
+  <data name="lblRule4.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="lblRule4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>50, 270</value>
+  </data>
+  <data name="lblRule4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>318, 16</value>
+  </data>
+  <data name="lblRule4.Text" xml:space="preserve">
+    <value>3. 没交卷，请不要离开考试页面或者关闭浏览器。</value>
+  </data>
+  <data name="lblRule2.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="lblRule2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>528, 16</value>
+  </data>
+  <data name="lblRule2.Text" xml:space="preserve">
+    <value>2. 系统会进行倒计时和自动保存考生的答案。考生应为没交卷而离开考试页面负责。</value>
+  </data>
+  <data name="lblRule1.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="lblRule1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>379, 16</value>
+  </data>
+  <data name="lblRule1.Text" xml:space="preserve">
+    <value>1.  考生应该在规定时间内(开始时间-到结束时间)参加考试。</value>
+  </data>
+  <data name="lblExamRule.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="lblExamRule.Location" type="System.Drawing.Point, System.Drawing">
+    <value>306, 150</value>
+  </data>
+  <data name="lblExamRule.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 21</value>
+  </data>
+  <data name="lblExamRule.Text" xml:space="preserve">
+    <value>考试细则</value>
+  </data>
+  <data name="lblContact.Text" xml:space="preserve">
+    <value>联系我们</value>
+  </data>
+  <data name="lblSysInfo.Text" xml:space="preserve">
+    <value>系统信息</value>
+  </data>
+  <data name="lblNotice2.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="lblNotice2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 16</value>
+  </data>
+  <data name="lblNotice2.Text" xml:space="preserve">
+    <value>须知</value>
+  </data>
+  <data name="lblTabAbout.Text" xml:space="preserve">
+    <value>相关资讯</value>
+  </data>
+  <data name="lblTabNotice.Text" xml:space="preserve">
+    <value>须知</value>
+  </data>
+</root>

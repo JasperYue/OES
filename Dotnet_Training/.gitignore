@@ -1,0 +1,8 @@
+/**/build/classes/
+/**/.settings/
+/**/.classpath
+/**/.project
+/**/*.MF
+/**/*.jar
+/**/*.class
+!.gitignore

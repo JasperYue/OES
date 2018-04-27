@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.augmentum.model.Exam">
+    <resultMap type="Exam" id="examMap">
+        <id column="id" property="id"/>
+        <result column="num" property="num"/>
+        <result column="name" property="name"/>
+        <result column="description" property="description"/>
+        <result column="single_score" property="singleScore"/>
+        <result column="total_score" property="totalScore"/>
+        <result column="pass_criteria" property="passCriteria"/>
+        <result column="need_quantity" property="needQuantity"/>
+        <result column="fact_quantity" property="factQuantity"/>
+        <result column="effective_time" property="effectiveTime"/>
+        <result column="duration" property="duration"/>
+        <result column="creator" property="creator"/>
+        <result column="answer_str" property="answerStr"/>
+        <result column="status" property="status"/>
+    </resultMap>
+    
+    <insert id="addExam" parameterType="Exam" useGeneratedKeys="true" keyProperty="id">
+        <![CDATA[
+            INSERT INTO exam(name, description, single_score, total_score, pass_criteria,
+            need_quantity, fact_quantity, effective_time, duration, creator, answer_str,
+            status, create_time, update_time) VALUES(#{name},
+        ]]>
+        <if test='description != ""'>
+            <![CDATA[#{description},]]>
+        </if>
+        <if test='description == ""'>
+            <![CDATA['',]]>
+        </if>
+             #{singleScore}, #{totalScore}, #{passCriteria}, #{needQuantity},
+             #{factQuantity}, str_to_date(#{effectiveTime}, '%Y-%m-%d %H:%i'), #{duration},
+             #{creator}, #{answerStr}, #{status}, now(), now())
+    </insert>
+    
+    <select id="getExamCount" parameterType="map" resultType="int">
+        <![CDATA[
+            SELECT COUNT(*) FROM exam WHERE name LIKE #{name}
+        ]]>
+        <if test="timeEnd != null">
+        <![CDATA[
+            AND effective_time BETWEEN str_to_date(#{timeBegin}, '%Y-%d-%m') AND str_to_date(#{timeEnd}, '%Y-%d-%m')
+        ]]>
+        </if>
+    </select>
+    
+    <select id="findExamList" parameterType="map" resultMap="examMap">
+        <![CDATA[
+            SELECT id, num, name, need_quantity, fact_quantity, effective_time, duration, creator, status
+            FROM exam WHERE name LIKE #{title} AND effective_time BETWEEN str_to_date(#{timeBegin}, '%Y-%m-%d')
+            AND str_to_date(#{timeEnd}, '%Y-%m-%d')
+        ]]>
+    <if test="orderField != null">
+        <![CDATA[ORDER BY ${orderField}]]>
+    </if>
+            LIMIT #{itemStart}, #{itemEnd}
+    </select>
+    
+    <update id="batchInsertQuestionToPaper" parameterType="map">
+        INSERT exam_question(exam_id, question_id)
+        VALUES
+        <foreach collection="idList" item="item"  index="index" separator="," >
+            (#{id},#{item})
+        </foreach>  
+    </update>
+    
+    <update id="editExam" parameterType="Exam" >
+        <![CDATA[
+            UPDATE exam SET num = #{num} WHERE id = #{id}
+        ]]>
+    </update>
+</mapper>

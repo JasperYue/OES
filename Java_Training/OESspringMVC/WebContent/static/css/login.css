@@ -1,0 +1,139 @@
+div.wrapper {
+    font-family: "Arial Bold";
+    width: 1280px;
+    height: 768px;
+    background-color: #FFFFFF;
+    margin: 0 auto;
+}
+/* --------The top part of login page start--------*/
+div.container {
+    height: 650px;
+}
+
+/* Left part of top part start */
+div.leftContent {
+    margin: 290px 0 0 170px;
+}
+div.leftContent > p {
+    font-size: 30px;
+    color: #2E4358;
+    margin-bottom: 0;
+}
+/* Left part of top part end */
+
+/* Right part of top part start */
+
+div.rightContent {
+    margin: 80px 170px 0 160px;
+}
+div.rightContent > h3 {
+    font-family: "Arial Reular";
+    font-size: 24px;
+    color: #2E4358;
+    margin-bottom: 20px;
+}
+ul.panel {
+    width: 400px;
+    height: 320px;
+    background-color: #2E4358;
+    border-radius: 5px;
+}
+ul.panel li {
+    width: 300px;
+    height: 35px;
+    margin: 0 auto;
+}
+ul.panel li:first-child {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.errMsgLoginShow {
+    font-family: "Arial Reular";
+    font-size: 12px;
+    font-weight: 600;
+    color: #FF0000;
+    background: #F2B6B6;
+    float: left;
+    width: 298px;
+    border: 1px solid #FFFFFF;
+    line-height: 20px;
+    margin: 5px 0;
+}
+ul.panel input[type='button'] {
+    color: #FFFFFF;
+    background: #F49930;
+    width: 300px;
+    height: 35px;
+    outline: none;
+    border: none;
+    padding: 0px;
+    border-radius: 5px;
+}
+ul.panel li:nth-child(2), ul.panel li:nth-child(4) {
+    background: #FFFFFF;
+    position: relative;
+    border-radius: 5px;
+}
+ul.panel li:nth-child(6){
+    margin-bottom: 20px;
+}
+span.rem, ul.panel li:last-child > a {
+    color: #FFFFFF;
+    font-size: 14px;
+    font-family: "Arial Reular"
+}
+span.rem {
+    margin-left: 10px;
+}
+ul.panel li:last-child > a {
+    color: #FFFFFF;
+    float: right;
+}
+ul.panel li:last-child label {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    vertical-align: middle;
+    background: url("../images/BTN_RemeberMe_Unselect_12X12.png") no-repeat;
+}
+ul.panel li label.remSelected {
+    background: url("../images/BTN_RemeberMe_Select_12x12.png") no-repeat;
+}
+#userName, #password {
+    float: right;
+    width: 245px;
+    height: 35px;
+    border: none;
+    padding: 8px;
+    outline: none;
+    border-radius: 0 5px 5px 0;
+}
+.user, .pwd, .err {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    vertical-align: middle;
+}
+.user {
+    background: url("../images/ICN_Usename_20x20.png") no-repeat 12px 7px;
+}
+.pwd {
+    background: url("../images/ICN_Password_20x15.png") no-repeat 15px 7px;
+}
+.err {
+    position: absolute;
+    left: 300px;
+    background: url("../images/ICN_Client_Login_Wrong_20X20.png") no-repeat 14px 8px;
+}
+
+/* Right part of top part end */
+/* --------The top part of login page end--------*/
+/* --------The footer of login page start--------*/
+div.footer {
+    border-top: 1px solid #2E4358;
+    font-size: 12px;
+    color: #2E4358;
+    padding: 10px 0 0 0;
+    text-align: center;
+}
+/* --------The footer of login page end--------*/

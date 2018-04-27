@@ -1,0 +1,7 @@
+<PartCoverSettings>
+  <Target>C:\Documents and Settings\jasper.yue\桌面\NUnit-2.5.10.11092\bin\net-2.0\nunit-console.exe</Target>
+  <TargetWorkDir>C:\Documents and Settings\jasper.yue\桌面\NUnit-2.5.10.11092\bin\net-2.0</TargetWorkDir>
+  <TargetArgs>D:\Project\DotNet\YZDEV20161017\Server\ServiceTest\bin\Debug\ServiceTest.dll</TargetArgs>
+  <LogLevel>24</LogLevel>
+  <Rule>+[WcfService]*</Rule>
+</PartCoverSettings>

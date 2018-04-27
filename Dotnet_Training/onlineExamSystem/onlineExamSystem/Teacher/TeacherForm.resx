@@ -1,0 +1,1632 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ExamineeCount.HeaderText" xml:space="preserve">
+    <value>Column8</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="&gt;&gt;picSearch.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="picName.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>AutoSize</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="lblQualifiedNum.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 14px</value>
+  </data>
+  <data name="lblName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 16</value>
+  </data>
+  <data name="&gt;&gt;Average.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;QualifiedNum.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblUserName.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblTabUser.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 14px</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="num.Width" type="System.Int32, mscorlib">
+    <value>70</value>
+  </data>
+  <data name="&gt;&gt;dgvPaperList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblUserName.Parent" xml:space="preserve">
+    <value>pnlUser</value>
+  </data>
+  <data name="&gt;&gt;lblDate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblAverageScore.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 16</value>
+  </data>
+  <data name="&gt;&gt;lblQuantity.Parent" xml:space="preserve">
+    <value>pnlOrderTitle</value>
+  </data>
+  <data name="lblPassRate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>896, 13</value>
+  </data>
+  <data name="&gt;&gt;ExamName.Name" xml:space="preserve">
+    <value>ExamName</value>
+  </data>
+  <data name="lblDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>908, 32</value>
+  </data>
+  <data name="pnlTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>675, 30</value>
+  </data>
+  <data name="&gt;&gt;pnlUpload.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlSearch.Type" xml:space="preserve">
+    <value>UI.AdvancedLabel, onlineExamSystem, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="lblTime.Text" xml:space="preserve">
+    <value>Effective Time</value>
+  </data>
+  <data name="&gt;&gt;lblQuantity.Name" xml:space="preserve">
+    <value>lblQuantity</value>
+  </data>
+  <data name="picUserIcon.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 110</value>
+  </data>
+  <data name="lblPassRate.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="lblTime.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 14px</value>
+  </data>
+  <data name="pnlNav.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;rownum.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="picSearch.Location" type="System.Drawing.Point, System.Drawing">
+    <value>185, 34</value>
+  </data>
+  <data name="&gt;&gt;lblTipMsg.Parent" xml:space="preserve">
+    <value>pnlUpload</value>
+  </data>
+  <data name="&gt;&gt;lblLogout.Name" xml:space="preserve">
+    <value>lblLogout</value>
+  </data>
+  <data name="pnlOrderTitle.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="lineOrderTop.X2" type="System.Int32, mscorlib">
+    <value>985</value>
+  </data>
+  <data name="dgvPaperList.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="picTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>373, 13</value>
+  </data>
+  <data name="FactQuantity.HeaderText" xml:space="preserve">
+    <value>Column6</value>
+  </data>
+  <data name="&gt;&gt;lblBack.Name" xml:space="preserve">
+    <value>lblBack</value>
+  </data>
+  <data name="&gt;&gt;lblLine.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblQualifiedNum.Text" xml:space="preserve">
+    <value>Qualified number</value>
+  </data>
+  <data name="lblName.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;pnlUpload.Name" xml:space="preserve">
+    <value>pnlUpload</value>
+  </data>
+  <data name="shapeContainer1.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;lblAddPhoto.Name" xml:space="preserve">
+    <value>lblAddPhoto</value>
+  </data>
+  <data name="&gt;&gt;picUserIcon.Parent" xml:space="preserve">
+    <value>pnlUser</value>
+  </data>
+  <data name="lblTipUpload.Text" xml:space="preserve">
+    <value>Photo Upload</value>
+  </data>
+  <data name="lblTabExamList.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="lblName.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="picAverage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>10, 15</value>
+  </data>
+  <data name="lblLine.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lblUserName.Name" xml:space="preserve">
+    <value>lblUserName</value>
+  </data>
+  <data name="lblExaminee.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;lblTime.Name" xml:space="preserve">
+    <value>lblTime</value>
+  </data>
+  <data name="timerStart.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="Average.Width" type="System.Int32, mscorlib">
+    <value>145</value>
+  </data>
+  <data name="&gt;&gt;EffectiveTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lineUser.Type" xml:space="preserve">
+    <value>Microsoft.VisualBasic.PowerPacks.LineShape, Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;ofdPic.Type" xml:space="preserve">
+    <value>System.Windows.Forms.OpenFileDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblBack.Size" type="System.Drawing.Size, System.Drawing">
+    <value>600, 30</value>
+  </data>
+  <data name="txtName.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="picUserIcon.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>CenterImage</value>
+  </data>
+  <data name="lineUser.Y1" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="rownum.Width" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="lblBack.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 12px</value>
+  </data>
+  <data name="lblLogout.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 14px</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>TeacherForm</value>
+  </data>
+  <data name="txtName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 14</value>
+  </data>
+  <data name="lblWorkNum.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 12px</value>
+  </data>
+  <data name="lblUserName.Text" xml:space="preserve">
+    <value>Jasper.Yue</value>
+  </data>
+  <data name="&gt;&gt;picNum.Parent" xml:space="preserve">
+    <value>pnlOrderTitle</value>
+  </data>
+  <data name="picUpload.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 160</value>
+  </data>
+  <data name="lineContainer.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;dgvPaperList.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="picUserIcon.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;llblChinese.Parent" xml:space="preserve">
+    <value>pnlNav</value>
+  </data>
+  <data name="lblTime.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="&gt;&gt;timerEnd.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblQuantity.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;ExamineeCount.Name" xml:space="preserve">
+    <value>ExamineeCount</value>
+  </data>
+  <data name="ExamId.HeaderText" xml:space="preserve">
+    <value>Column2</value>
+  </data>
+  <data name="&gt;&gt;lblTipMsg.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;EffectiveTime.Name" xml:space="preserve">
+    <value>EffectiveTime</value>
+  </data>
+  <data name="&gt;&gt;lblTipUpload.Name" xml:space="preserve">
+    <value>lblTipUpload</value>
+  </data>
+  <data name="lblNum.Location" type="System.Drawing.Point, System.Drawing">
+    <value>195, 13</value>
+  </data>
+  <data name="lblAverageScore.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblTipUpload.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 16</value>
+  </data>
+  <data name="lblLine.Text" xml:space="preserve">
+    <value>—</value>
+  </data>
+  <data name="&gt;&gt;lblWorkNum.Parent" xml:space="preserve">
+    <value>pnlUser</value>
+  </data>
+  <data name="&gt;&gt;picUpload.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;lblSystem.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;txtName.Parent" xml:space="preserve">
+    <value>pnlPaper</value>
+  </data>
+  <data name="&gt;&gt;picName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblTabExamList.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 18px</value>
+  </data>
+  <data name="lblTabUser.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 40</value>
+  </data>
+  <data name="&gt;&gt;picNum.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="picTime.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="picName.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="&gt;&gt;pnlOrderTitle.Parent" xml:space="preserve">
+    <value>pnlPaper</value>
+  </data>
+  <data name="&gt;&gt;timerStart.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="picTime.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="pnlSearch.Location" type="System.Drawing.Point, System.Drawing">
+    <value>30, 30</value>
+  </data>
+  <data name="&gt;&gt;lblTipMsg.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 12</value>
+  </data>
+  <data name="&gt;&gt;lblName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="shapeContainer1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>985, 660</value>
+  </data>
+  <data name="&gt;&gt;bgwExamList.Name" xml:space="preserve">
+    <value>bgwExamList</value>
+  </data>
+  <data name="&gt;&gt;lblBack.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;lblNum.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="EffectiveTime.Width" type="System.Int32, mscorlib">
+    <value>145</value>
+  </data>
+  <data name="rownum.HeaderText" xml:space="preserve">
+    <value>Column1</value>
+  </data>
+  <data name="&gt;&gt;dgvPaperList.Name" xml:space="preserve">
+    <value>dgvPaperList</value>
+  </data>
+  <data name="&gt;&gt;lblLine.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lineOrderTop.Type" xml:space="preserve">
+    <value>Microsoft.VisualBasic.PowerPacks.LineShape, Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;lblQualifiedNum.Name" xml:space="preserve">
+    <value>lblQualifiedNum</value>
+  </data>
+  <data name="picNum.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;llblChinese.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="llblChinese.Text" xml:space="preserve">
+    <value>中文</value>
+  </data>
+  <data name="lblTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>275, 13</value>
+  </data>
+  <data name="&gt;&gt;picAverage.Parent" xml:space="preserve">
+    <value>pnlOrderTitle</value>
+  </data>
+  <data name="lblExaminee.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 14px</value>
+  </data>
+  <data name="lblQualifiedNum.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblLine.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;pnlUser.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlTime.Parent" xml:space="preserve">
+    <value>pnlPaper</value>
+  </data>
+  <data name="&gt;&gt;picSearch.Parent" xml:space="preserve">
+    <value>pnlPaper</value>
+  </data>
+  <data name="lblUserName.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 12px</value>
+  </data>
+  <data name="&gt;&gt;lblBack.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblExaminee.Name" xml:space="preserve">
+    <value>lblExaminee</value>
+  </data>
+  <data name="&gt;&gt;picAverage.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;picTime.Parent" xml:space="preserve">
+    <value>pnlOrderTitle</value>
+  </data>
+  <data name="lineUser.Y2" type="System.Int32, mscorlib">
+    <value>660</value>
+  </data>
+  <data name="&gt;&gt;picTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pnlUser.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 90</value>
+  </data>
+  <data name="&gt;&gt;picSearch.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lblUserName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>65, 165</value>
+  </data>
+  <data name="lblTipMsg.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;Average.Name" xml:space="preserve">
+    <value>Average</value>
+  </data>
+  <data name="&gt;&gt;picUpload.Parent" xml:space="preserve">
+    <value>pnlUpload</value>
+  </data>
+  <data name="&gt;&gt;pnlOrderTitle.Name" xml:space="preserve">
+    <value>pnlOrderTitle</value>
+  </data>
+  <data name="lblBack.Text" xml:space="preserve">
+    <value>  Set your avatar</value>
+  </data>
+  <data name="lblAddPhoto.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="lblLine.Location" type="System.Drawing.Point, System.Drawing">
+    <value>786, 40</value>
+  </data>
+  <data name="lblDate.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="lineContainer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>985, 660</value>
+  </data>
+  <data name="ExamId.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="lblName.Text" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="lblAddPhoto.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 30</value>
+  </data>
+  <data name="&gt;&gt;llblChinese.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="picTime.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>AutoSize</value>
+  </data>
+  <data name="lblQuantity.Text" xml:space="preserve">
+    <value>Total quantity</value>
+  </data>
+  <data name="&gt;&gt;lblDate.Name" xml:space="preserve">
+    <value>lblDate</value>
+  </data>
+  <data name="timerEnd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 21</value>
+  </data>
+  <data name="picNum.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="lineOrderBottom.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left, Right</value>
+  </data>
+  <data name="&gt;&gt;timerEnd.Parent" xml:space="preserve">
+    <value>pnlPaper</value>
+  </data>
+  <data name="lblDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 25</value>
+  </data>
+  <data name="&gt;&gt;lblUploadPic.Name" xml:space="preserve">
+    <value>lblUploadPic</value>
+  </data>
+  <data name="lblTipUpload.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lblAddPhoto.Text" xml:space="preserve">
+    <value>Add a photo</value>
+  </data>
+  <data name="lblUploadPic.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 14px</value>
+  </data>
+  <data name="lblBack.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="picPassRate.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="PassRate.HeaderText" xml:space="preserve">
+    <value>Column10</value>
+  </data>
+  <data name="&gt;&gt;lineContainer.Type" xml:space="preserve">
+    <value>Microsoft.VisualBasic.PowerPacks.ShapeContainer, Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="llblChinese.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="pnlNav.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left, Right</value>
+  </data>
+  <data name="&gt;&gt;pnlUser.Name" xml:space="preserve">
+    <value>pnlUser</value>
+  </data>
+  <data name="lblTabExamList.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lineOrderBottom.Name" xml:space="preserve">
+    <value>lineOrderBottom</value>
+  </data>
+  <data name="lblExaminee.Location" type="System.Drawing.Point, System.Drawing">
+    <value>630, 13</value>
+  </data>
+  <data name="lblName.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="&gt;&gt;lblUserName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pnlSearch.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="FactQuantity.Width" type="System.Int32, mscorlib">
+    <value>90</value>
+  </data>
+  <data name="picNum.Size" type="System.Drawing.Size, System.Drawing">
+    <value>10, 15</value>
+  </data>
+  <data name="&gt;&gt;lblPassRate.Name" xml:space="preserve">
+    <value>lblPassRate</value>
+  </data>
+  <data name="&gt;&gt;PassRate.Name" xml:space="preserve">
+    <value>PassRate</value>
+  </data>
+  <data name="lblTipUpload.Location" type="System.Drawing.Point, System.Drawing">
+    <value>256, 202</value>
+  </data>
+  <data name="&gt;&gt;txtName.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;pnlSearch.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="llblChinese.Location" type="System.Drawing.Point, System.Drawing">
+    <value>904, 12</value>
+  </data>
+  <data name="&gt;&gt;lineContainer.Name" xml:space="preserve">
+    <value>lineContainer</value>
+  </data>
+  <data name="lblLogout.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;lblBack.Parent" xml:space="preserve">
+    <value>pnlUpload</value>
+  </data>
+  <data name="ExamId.Width" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;cboPageSize.Name" xml:space="preserve">
+    <value>cboPageSize</value>
+  </data>
+  <data name="&gt;&gt;pnlSearch.Parent" xml:space="preserve">
+    <value>pnlPaper</value>
+  </data>
+  <data name="&gt;&gt;shapeContainer1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;shapeContainer1.Type" xml:space="preserve">
+    <value>Microsoft.VisualBasic.PowerPacks.ShapeContainer, Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lineOrderTop.Y2" type="System.Int32, mscorlib">
+    <value>70</value>
+  </data>
+  <data name="pnlOrderTitle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 73</value>
+  </data>
+  <data name="timerEnd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>815, 34</value>
+  </data>
+  <data name="lineOrderBottom.X2" type="System.Int32, mscorlib">
+    <value>985</value>
+  </data>
+  <data name="lineOrderBottom.Y2" type="System.Int32, mscorlib">
+    <value>115</value>
+  </data>
+  <data name="&gt;&gt;PassRate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblLine.Size" type="System.Drawing.Size, System.Drawing">
+    <value>17, 12</value>
+  </data>
+  <data name="&gt;&gt;pnlUser.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="picPassRate.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left, Right</value>
+  </data>
+  <data name="&gt;&gt;bgwPicUpload.Name" xml:space="preserve">
+    <value>bgwPicUpload</value>
+  </data>
+  <data name="picAverage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>612, 13</value>
+  </data>
+  <data name="pnlPaper.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 90</value>
+  </data>
+  <data name="&gt;&gt;bgwExamList.Type" xml:space="preserve">
+    <value>System.ComponentModel.BackgroundWorker, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblNum.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblWorkNum.Location" type="System.Drawing.Point, System.Drawing">
+    <value>72, 192</value>
+  </data>
+  <data name="lblUploadPic.Location" type="System.Drawing.Point, System.Drawing">
+    <value>325, 343</value>
+  </data>
+  <data name="lblQualifiedNum.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 16</value>
+  </data>
+  <data name="&gt;&gt;lblAddPhoto.Parent" xml:space="preserve">
+    <value>pnlUpload</value>
+  </data>
+  <data name="picAverage.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;pnlUser.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblTabExamList.Text" xml:space="preserve">
+    <value>Exam List</value>
+  </data>
+  <data name="lblTabUser.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="picName.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="picSearch.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="lblUserName.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblPassRate.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left, Right</value>
+  </data>
+  <data name="lblExaminee.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblNum.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="timerEnd.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 12px</value>
+  </data>
+  <data name="&gt;&gt;picName.Name" xml:space="preserve">
+    <value>picName</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>UI.BaseForm, onlineExamSystem, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lblNum.Name" xml:space="preserve">
+    <value>lblNum</value>
+  </data>
+  <data name="lblExaminee.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="lblQualifiedNum.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left, Right</value>
+  </data>
+  <data name="lblNum.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 14px</value>
+  </data>
+  <data name="picAverage.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left, Right</value>
+  </data>
+  <data name="picName.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;lblTipMsg.Name" xml:space="preserve">
+    <value>lblTipMsg</value>
+  </data>
+  <data name="lblPassRate.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 14px</value>
+  </data>
+  <data name="lblQuantity.Location" type="System.Drawing.Point, System.Drawing">
+    <value>395, 13</value>
+  </data>
+  <data name="&gt;&gt;lblName.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblTabExamList.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 40</value>
+  </data>
+  <data name="lineOrderTop.X1" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="picSearch.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 21</value>
+  </data>
+  <data name="dgvPaperList.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left, Right</value>
+  </data>
+  <data name="&gt;&gt;lblTabUser.Parent" xml:space="preserve">
+    <value>pnlNav</value>
+  </data>
+  <data name="lblPassRate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 16</value>
+  </data>
+  <data name="lblTipMsg.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="lblDate.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="lblTipMsg.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 30</value>
+  </data>
+  <data name="&gt;&gt;lblTabUser.Name" xml:space="preserve">
+    <value>lblTabUser</value>
+  </data>
+  <data name="PassRate.Width" type="System.Int32, mscorlib">
+    <value>110</value>
+  </data>
+  <data name="&gt;&gt;txtPageNo.Name" xml:space="preserve">
+    <value>txtPageNo</value>
+  </data>
+  <data name="&gt;&gt;lblDate.Parent" xml:space="preserve">
+    <value>pnlPaper</value>
+  </data>
+  <data name="lblAverageScore.Location" type="System.Drawing.Point, System.Drawing">
+    <value>512, 13</value>
+  </data>
+  <data name="lblUploadPic.Text" xml:space="preserve">
+    <value>Set as my avatar</value>
+  </data>
+  <data name="lblTipUpload.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 14px</value>
+  </data>
+  <data name="&gt;&gt;pnlPaper.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblSystem.Name" xml:space="preserve">
+    <value>lblSystem</value>
+  </data>
+  <data name="&gt;&gt;pnlTime.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="lblTabExamList.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 0</value>
+  </data>
+  <data name="lineContainer.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="pnlNav.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 28</value>
+  </data>
+  <data name="&gt;&gt;pnlOrderTitle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblSystem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblTabUser.Location" type="System.Drawing.Point, System.Drawing">
+    <value>790, 0</value>
+  </data>
+  <data name="llblChinese.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 16</value>
+  </data>
+  <data name="&gt;&gt;lblTipUpload.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="picNum.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>AutoSize</value>
+  </data>
+  <data name="ExamName.HeaderText" xml:space="preserve">
+    <value>Column3</value>
+  </data>
+  <data name="lblQuantity.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 14px</value>
+  </data>
+  <data name="lblWorkNum.Text" xml:space="preserve">
+    <value>YT00678</value>
+  </data>
+  <data name="QualifiedNum.Width" type="System.Int32, mscorlib">
+    <value>140</value>
+  </data>
+  <data name="lblName.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 14px</value>
+  </data>
+  <data name="timerEnd.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="lblAverageScore.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 14px</value>
+  </data>
+  <data name="&gt;&gt;lblTabUser.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblExaminee.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;lblAverageScore.Parent" xml:space="preserve">
+    <value>pnlOrderTitle</value>
+  </data>
+  <data name="picUserIcon.Location" type="System.Drawing.Point, System.Drawing">
+    <value>35, 20</value>
+  </data>
+  <data name="&gt;&gt;picPassRate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtPageNo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pnlPaper.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="picPassRate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>10, 15</value>
+  </data>
+  <data name="lblNum.Text" xml:space="preserve">
+    <value>NUM</value>
+  </data>
+  <data name="&gt;&gt;picPassRate.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="lblPassRate.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblBack.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="lblWorkNum.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 15</value>
+  </data>
+  <data name="lblAddPhoto.Location" type="System.Drawing.Point, System.Drawing">
+    <value>155, 343</value>
+  </data>
+  <data name="lineUser.X2" type="System.Int32, mscorlib">
+    <value>200</value>
+  </data>
+  <data name="lblQuantity.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblUploadPic.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;lineContainer.Parent" xml:space="preserve">
+    <value>pnlPaper</value>
+  </data>
+  <data name="picNum.Location" type="System.Drawing.Point, System.Drawing">
+    <value>233, 13</value>
+  </data>
+  <data name="&gt;&gt;lblAverageScore.Name" xml:space="preserve">
+    <value>lblAverageScore</value>
+  </data>
+  <data name="&gt;&gt;lblExaminee.Parent" xml:space="preserve">
+    <value>pnlOrderTitle</value>
+  </data>
+  <data name="picPassRate.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1024, 768</value>
+  </data>
+  <data name="&gt;&gt;cboPageSize.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblLogout.Text" xml:space="preserve">
+    <value>Logout</value>
+  </data>
+  <data name="&gt;&gt;lblUploadPic.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lblPassRate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;picUserIcon.Name" xml:space="preserve">
+    <value>picUserIcon</value>
+  </data>
+  <data name="&gt;&gt;shapeContainer1.Name" xml:space="preserve">
+    <value>shapeContainer1</value>
+  </data>
+  <data name="lineOrderTop.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left, Right</value>
+  </data>
+  <data name="pnlSearch.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 30</value>
+  </data>
+  <data name="&gt;&gt;lblName.Name" xml:space="preserve">
+    <value>lblName</value>
+  </data>
+  <data name="picUpload.Location" type="System.Drawing.Point, System.Drawing">
+    <value>200, 130</value>
+  </data>
+  <data name="lblTabExamList.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="&gt;&gt;pnlTime.Type" xml:space="preserve">
+    <value>UI.AdvancedLabel, onlineExamSystem, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="lblQuantity.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 16</value>
+  </data>
+  <data name="lblDate.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 12px</value>
+  </data>
+  <data name="timerStart.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 21</value>
+  </data>
+  <data name="&gt;&gt;pnlNav.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="picPassRate.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>AutoSize</value>
+  </data>
+  <data name="lblTabUser.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="pnlPaper.Size" type="System.Drawing.Size, System.Drawing">
+    <value>985, 660</value>
+  </data>
+  <data name="&gt;&gt;picPassRate.Name" xml:space="preserve">
+    <value>picPassRate</value>
+  </data>
+  <data name="&gt;&gt;lblTipUpload.Parent" xml:space="preserve">
+    <value>pnlUpload</value>
+  </data>
+  <data name="dgvPaperList.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 117</value>
+  </data>
+  <data name="&gt;&gt;lblQuantity.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>FormTeacher</value>
+  </data>
+  <data name="lblQuantity.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="&gt;&gt;ExamId.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtName.Name" xml:space="preserve">
+    <value>txtName</value>
+  </data>
+  <data name="pnlUser.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;picName.Parent" xml:space="preserve">
+    <value>pnlOrderTitle</value>
+  </data>
+  <data name="&gt;&gt;rownum.Name" xml:space="preserve">
+    <value>rownum</value>
+  </data>
+  <data name="&gt;&gt;lblTabExamList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlOrderTitle.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lblQualifiedNum.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="lblTabUser.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="llblChinese.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lblQuantity.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Average.HeaderText" xml:space="preserve">
+    <value>Column7</value>
+  </data>
+  <data name="lineOrderBottom.Y1" type="System.Int32, mscorlib">
+    <value>115</value>
+  </data>
+  <data name="txtName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>37, 38</value>
+  </data>
+  <data name="lblAverageScore.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="txtName.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 12px</value>
+  </data>
+  <data name="&gt;&gt;lblTime.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;QualifiedNum.Name" xml:space="preserve">
+    <value>QualifiedNum</value>
+  </data>
+  <data name="&gt;&gt;lineContainer.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="ExamName.ToolTipText" xml:space="preserve">
+    <value>name</value>
+  </data>
+  <data name="&gt;&gt;lblUploadPic.Type" xml:space="preserve">
+    <value>UI.AdvancedLabel, onlineExamSystem, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;lblQualifiedNum.Parent" xml:space="preserve">
+    <value>pnlOrderTitle</value>
+  </data>
+  <data name="lineOrderBottom.X1" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;picTime.Name" xml:space="preserve">
+    <value>picTime</value>
+  </data>
+  <data name="lblExaminee.Text" xml:space="preserve">
+    <value>Examinee count</value>
+  </data>
+  <data name="pnlUpload.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="lblTime.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;timerStart.Parent" xml:space="preserve">
+    <value>pnlPaper</value>
+  </data>
+  <data name="&gt;&gt;timerStart.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;FactQuantity.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;picNum.Name" xml:space="preserve">
+    <value>picNum</value>
+  </data>
+  <data name="lblLogout.Location" type="System.Drawing.Point, System.Drawing">
+    <value>947, 12</value>
+  </data>
+  <data name="pnlTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>285, 30</value>
+  </data>
+  <data name="&gt;&gt;picSearch.Name" xml:space="preserve">
+    <value>picSearch</value>
+  </data>
+  <data name="lblAverageScore.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left, Right</value>
+  </data>
+  <data name="lblLogout.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 16</value>
+  </data>
+  <data name="&gt;&gt;lineOrderTop.Name" xml:space="preserve">
+    <value>lineOrderTop</value>
+  </data>
+  <data name="&gt;&gt;lblExaminee.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlPaper.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="timerStart.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 12px</value>
+  </data>
+  <data name="lblAddPhoto.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 14px</value>
+  </data>
+  <data name="lblQualifiedNum.Location" type="System.Drawing.Point, System.Drawing">
+    <value>753, 13</value>
+  </data>
+  <data name="QualifiedNum.HeaderText" xml:space="preserve">
+    <value>Column9</value>
+  </data>
+  <data name="lblTipUpload.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="pnlTime.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="&gt;&gt;FactQuantity.Name" xml:space="preserve">
+    <value>FactQuantity</value>
+  </data>
+  <data name="&gt;&gt;lblLogout.Parent" xml:space="preserve">
+    <value>pnlNav</value>
+  </data>
+  <data name="picName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>10, 15</value>
+  </data>
+  <data name="lblTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 16</value>
+  </data>
+  <data name="lineOrderBottom.BorderColor" type="System.Drawing.Color, System.Drawing">
+    <value>46, 67, 88</value>
+  </data>
+  <data name="llblChinese.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;lblAverageScore.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblUploadPic.Parent" xml:space="preserve">
+    <value>pnlUpload</value>
+  </data>
+  <data name="&gt;&gt;picAverage.Name" xml:space="preserve">
+    <value>picAverage</value>
+  </data>
+  <data name="&gt;&gt;lblSystem.Parent" xml:space="preserve">
+    <value>pnlHeader</value>
+  </data>
+  <data name="&gt;&gt;pnlPaper.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="picNum.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="lblDate.Text" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="shapeContainer1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="&gt;&gt;pnlTime.Name" xml:space="preserve">
+    <value>pnlTime</value>
+  </data>
+  <data name="&gt;&gt;pnlSearch.Name" xml:space="preserve">
+    <value>pnlSearch</value>
+  </data>
+  <data name="&gt;&gt;lblWorkNum.Name" xml:space="preserve">
+    <value>lblWorkNum</value>
+  </data>
+  <data name="&gt;&gt;lblLogout.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblTabUser.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblLogout.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="lblTipMsg.Location" type="System.Drawing.Point, System.Drawing">
+    <value>200, 65</value>
+  </data>
+  <data name="picAverage.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>AutoSize</value>
+  </data>
+  <data name="&gt;&gt;lblName.Parent" xml:space="preserve">
+    <value>pnlOrderTitle</value>
+  </data>
+  <data name="&gt;&gt;ofdPic.Name" xml:space="preserve">
+    <value>ofdPic</value>
+  </data>
+  <data name="lblAverageScore.Text" xml:space="preserve">
+    <value>Average score</value>
+  </data>
+  <data name="pnlUser.Size" type="System.Drawing.Size, System.Drawing">
+    <value>985, 660</value>
+  </data>
+  <data name="lblName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>87, 13</value>
+  </data>
+  <data name="&gt;&gt;num.Name" xml:space="preserve">
+    <value>num</value>
+  </data>
+  <data name="lblTabExamList.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;ExamineeCount.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblNum.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 16</value>
+  </data>
+  <data name="&gt;&gt;pnlUpload.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblWorkNum.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="num.HeaderText" xml:space="preserve">
+    <value>Column4</value>
+  </data>
+  <data name="&gt;&gt;num.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;timerEnd.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="picTime.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="lblPassRate.Text" xml:space="preserve">
+    <value>Pass rate</value>
+  </data>
+  <data name="lineOrderTop.BorderColor" type="System.Drawing.Color, System.Drawing">
+    <value>46, 67, 88</value>
+  </data>
+  <data name="lblNum.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="picName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>131, 13</value>
+  </data>
+  <data name="&gt;&gt;lblLine.Name" xml:space="preserve">
+    <value>lblLine</value>
+  </data>
+  <data name="&gt;&gt;picPassRate.Parent" xml:space="preserve">
+    <value>pnlOrderTitle</value>
+  </data>
+  <data name="lblTipMsg.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 12px</value>
+  </data>
+  <data name="&gt;&gt;picUserIcon.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="timerStart.CalendarFont" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 12px</value>
+  </data>
+  <data name="pnlNav.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1024, 40</value>
+  </data>
+  <data name="&gt;&gt;lblLine.Parent" xml:space="preserve">
+    <value>pnlPaper</value>
+  </data>
+  <data name="lblUploadPic.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 30</value>
+  </data>
+  <data name="pnlOrderTitle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>985, 40</value>
+  </data>
+  <data name="lblWorkNum.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lblExaminee.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 16</value>
+  </data>
+  <data name="&gt;&gt;lblQualifiedNum.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;ExamName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblNum.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="&gt;&gt;lblAddPhoto.Type" xml:space="preserve">
+    <value>UI.AdvancedLabel, onlineExamSystem, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;picUserIcon.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblUserName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 15</value>
+  </data>
+  <data name="&gt;&gt;pnlNav.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;picName.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="pnlUser.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="&gt;&gt;lblTime.Parent" xml:space="preserve">
+    <value>pnlOrderTitle</value>
+  </data>
+  <data name="&gt;&gt;timerEnd.Name" xml:space="preserve">
+    <value>timerEnd</value>
+  </data>
+  <data name="ExamName.Width" type="System.Int32, mscorlib">
+    <value>150</value>
+  </data>
+  <data name="lblTime.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;picNum.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lineOrderBottom.Type" xml:space="preserve">
+    <value>Microsoft.VisualBasic.PowerPacks.LineShape, Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="&gt;&gt;lblTabExamList.Parent" xml:space="preserve">
+    <value>pnlNav</value>
+  </data>
+  <data name="shapeContainer1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;pnlNav.Name" xml:space="preserve">
+    <value>pnlNav</value>
+  </data>
+  <data name="pnlUpload.Location" type="System.Drawing.Point, System.Drawing">
+    <value>302, 55</value>
+  </data>
+  <data name="&gt;&gt;lblPassRate.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;lblPassRate.Parent" xml:space="preserve">
+    <value>pnlOrderTitle</value>
+  </data>
+  <data name="lblUserName.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;txtName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlNav.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;picTime.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="lineContainer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="picPassRate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>961, 13</value>
+  </data>
+  <data name="lblBack.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lblWorkNum.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="llblChinese.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 14px</value>
+  </data>
+  <data name="lblLine.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="picTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>10, 15</value>
+  </data>
+  <data name="&gt;&gt;timerStart.Name" xml:space="preserve">
+    <value>timerStart</value>
+  </data>
+  <data name="&gt;&gt;pnlUpload.Parent" xml:space="preserve">
+    <value>pnlUser</value>
+  </data>
+  <data name="dgvPaperList.Size" type="System.Drawing.Size, System.Drawing">
+    <value>985, 400</value>
+  </data>
+  <data name="ExamineeCount.Width" type="System.Int32, mscorlib">
+    <value>105</value>
+  </data>
+  <data name="&gt;&gt;lblTabExamList.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="txtName.Text" xml:space="preserve">
+    <value>Please input the keyword</value>
+  </data>
+  <data name="&gt;&gt;lblDate.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lblTabExamList.Name" xml:space="preserve">
+    <value>lblTabExamList</value>
+  </data>
+  <data name="&gt;&gt;lblQualifiedNum.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblTipUpload.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="timerStart.Location" type="System.Drawing.Point, System.Drawing">
+    <value>682, 34</value>
+  </data>
+  <data name="&gt;&gt;ExamId.Name" xml:space="preserve">
+    <value>ExamId</value>
+  </data>
+  <data name="lineUser.X1" type="System.Int32, mscorlib">
+    <value>200</value>
+  </data>
+  <data name="dgvPaperList.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="&gt;&gt;llblChinese.Name" xml:space="preserve">
+    <value>llblChinese</value>
+  </data>
+  <data name="&gt;&gt;lblWorkNum.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="picAverage.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;lineUser.Name" xml:space="preserve">
+    <value>lineUser</value>
+  </data>
+  <data name="pnlUpload.Size" type="System.Drawing.Size, System.Drawing">
+    <value>600, 500</value>
+  </data>
+  <data name="&gt;&gt;dgvPaperList.Parent" xml:space="preserve">
+    <value>pnlPaper</value>
+  </data>
+  <data name="&gt;&gt;picUpload.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblNum.Parent" xml:space="preserve">
+    <value>pnlOrderTitle</value>
+  </data>
+  <data name="&gt;&gt;bgwPicUpload.Type" xml:space="preserve">
+    <value>System.ComponentModel.BackgroundWorker, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblAverageScore.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;lblLogout.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lineOrderTop.Y1" type="System.Int32, mscorlib">
+    <value>70</value>
+  </data>
+  <data name="&gt;&gt;picUpload.Name" xml:space="preserve">
+    <value>picUpload</value>
+  </data>
+  <data name="lblLogout.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="picUpload.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;picAverage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="llblChinese.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lblAddPhoto.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;pnlPaper.Name" xml:space="preserve">
+    <value>pnlPaper</value>
+  </data>
+  <data name="lblTabUser.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;shapeContainer1.Parent" xml:space="preserve">
+    <value>pnlUser</value>
+  </data>
+  <data name="EffectiveTime.HeaderText" xml:space="preserve">
+    <value>Column5</value>
+  </data>
+  <metadata name="bgwExamList.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>87, 17</value>
+  </metadata>
+  <metadata name="lineOrderTop.Location" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 70</value>
+  </metadata>
+  <metadata name="ExamName.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="ExamId.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lineOrderTop.Size" type="System.Drawing.Size, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>985, 0</value>
+  </metadata>
+  <metadata name="QualifiedNum.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="rownum.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="num.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lineOrderBottom.Location" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 115</value>
+  </metadata>
+  <metadata name="PassRate.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="EffectiveTime.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lineUser.Bounds" type="System.Drawing.Rectangle, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>200, 0, 0, 660</value>
+  </metadata>
+  <metadata name="lineOrderTop.Bounds" type="System.Drawing.Rectangle, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 70, 985, 0</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>51</value>
+  </metadata>
+  <metadata name="ofdPic.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="ExamineeCount.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lineOrderBottom.Bounds" type="System.Drawing.Rectangle, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 115, 985, 0</value>
+  </metadata>
+  <metadata name="FactQuantity.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="lineUser.Location" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>200, 0</value>
+  </metadata>
+  <metadata name="Average.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="bgwPicUpload.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>207, 17</value>
+  </metadata>
+  <metadata name="lineOrderBottom.Size" type="System.Drawing.Size, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>985, 0</value>
+  </metadata>
+  <metadata name="lineUser.Size" type="System.Drawing.Size, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 660</value>
+  </metadata>
+</root>

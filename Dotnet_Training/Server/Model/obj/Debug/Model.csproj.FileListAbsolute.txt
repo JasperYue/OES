@@ -1,0 +1,15 @@
+D:\Project\YZDEV20161017\onlineExamSystem\Model\bin\Debug\Model.dll
+D:\Project\YZDEV20161017\onlineExamSystem\Model\bin\Debug\Model.pdb
+D:\Project\YZDEV20161017\onlineExamSystem\Model\obj\Debug\ResolveAssemblyReference.cache
+D:\Project\YZDEV20161017\onlineExamSystem\Model\obj\Debug\Model.dll
+D:\Project\YZDEV20161017\onlineExamSystem\Model\obj\Debug\Model.pdb
+D:\Project\YZDEV20161017\Server\Model\bin\Debug\Model.dll
+D:\Project\YZDEV20161017\Server\Model\bin\Debug\Model.pdb
+D:\Project\YZDEV20161017\Server\Model\obj\Debug\ResolveAssemblyReference.cache
+D:\Project\YZDEV20161017\Server\Model\obj\Debug\Model.dll
+D:\Project\YZDEV20161017\Server\Model\obj\Debug\Model.pdb
+D:\Project\DotNet\YZDEV20161017\Server\Model\bin\Debug\Model.dll
+D:\Project\DotNet\YZDEV20161017\Server\Model\bin\Debug\Model.pdb
+D:\Project\DotNet\YZDEV20161017\Server\Model\obj\Debug\ResolveAssemblyReference.cache
+D:\Project\DotNet\YZDEV20161017\Server\Model\obj\Debug\Model.dll
+D:\Project\DotNet\YZDEV20161017\Server\Model\obj\Debug\Model.pdb

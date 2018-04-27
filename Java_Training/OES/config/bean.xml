@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+    <bean id="userController" class="com.augmentum.controller.UserController" scope="singleton">
+        <property name="userServiceImpl" ref="userServiceImpl"></property>
+    </bean>
+    <bean id="userServiceImpl" class="com.augmentum.service.impl.UserServiceImpl" scope="singleton">
+        <property name="userDaoImpl" ref="userDaoImpl"></property>
+    </bean>
+    <bean id="userDaoImpl" class="com.augmentum.dao.impl.UserDaoImpl" scope="singleton">
+    </bean>
+    
+    <bean id="questionController" class="com.augmentum.controller.QuestionController" scope="singleton">
+        <property name="questionServiceImpl" ref="questionServiceImpl"></property>
+    </bean>
+    <bean id="questionServiceImpl" class="com.augmentum.service.impl.QuestionServiceImpl" scope="singleton">
+        <property name="questionDaoImpl" ref="questionDaoImpl"></property>
+    </bean>
+    <bean id="questionDaoImpl" class="com.augmentum.dao.impl.QuestionDaoImpl" scope="singleton">
+    </bean>
+    
+    <bean id="examController" class="com.augmentum.controller.ExamController" scope="singleton">
+        <property name="examServiceImpl" ref="examServiceImpl"></property>
+    </bean>
+    <bean id="examServiceImpl" class="com.augmentum.service.impl.ExamServiceImpl" scope="singleton">
+        <property name="questionDaoImpl" ref="questionDaoImpl"></property>
+        <property name="examDaoImpl" ref="examDaoImpl"></property>
+    </bean>
+    <bean id="examDaoImpl" class="com.augmentum.dao.impl.ExamDaoImpl" scope="singleton">
+    </bean>
+</beans>
